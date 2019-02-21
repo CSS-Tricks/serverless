@@ -6,11 +6,13 @@ import styles from "./header.module.scss";
 
 const Header = ({ siteTitle }) => (
   <header className={styles.root}>
-    <div>
-      <h1>
-        <Link to="/">{siteTitle}</Link>
+    <Link to="/">
+      <h1 className={styles.siteTitle}>
+        <span>The Power of</span>
+        <strong>Serverless</strong>
+        <span>for Front-End Developers</span>
       </h1>
-    </div>
+    </Link>
   </header>
 );
 
