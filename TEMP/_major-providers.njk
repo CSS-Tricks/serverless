@@ -1,0 +1,76 @@
+{{ card.tool(
+  'Google Firebase', 
+  'https://firebase.google.com/', 
+  '/images/firebase.png', 
+  'Google Firebase Logo', 
+  ['Auth', 'Realtime Database', 'Media Storage', 'Cloud Functions'], 
+  'Google Firebase is very powerful while being very easy to use. For example, you can run cloud functions, but you don\'t even need to for most data storage and retrieval or auth. It might be expensive to scale on though.')
+}}
+
+{{ card.tool(
+  'Google Cloud Platform', 
+  'https://cloud.google.com/', 
+  '/images/google-cloud-platform.png', 
+  'Google Cloud Platform Logo', 
+  ['Everything'], 
+  'More of a major infastructure provider in vein of Amazon Web Services than a toolkit for building out an app like Firebase is.')
+}}
+
+{{ card.tool(
+  'Amazon Web Services', 
+  'https://aws.amazon.com/', 
+  '/images/aws.png', 
+  'Amazon Web Services Logo', 
+  ['Everything'], 
+  'Lambda, API Gateway, S3, and Cognito (auth) are probably the most relevant things to front-end developers. <a href="https://hackernoon.com/aws-appsync-up-and-running-560a42d96ba7">AppSync</a> is a bit like Firebase. There are frameworks that help you deploy to Lambda, like <a href="https://claudiajs.com/">Claudia</a> and <a href="https://ffleet.io/">Functional Fleet</a>.')
+}}
+
+{{ card.tool(
+  'Microsoft Azure', 
+  'https://azure.microsoft.com/', 
+  '/images/microsoft-azure.png', 
+  'Microsoft Azure Logo', 
+  ['Everything'], 
+  'A major infrastructure provider with solutions for about just everything, and generally considered the cheapest. For working with cloud functions, there is an online editor, but it also allows GitHub sync and <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions">integrates directly with VS Code</a>. Data storage is through Cosmos DB.')
+}}
+
+{{ card.tool(
+  'StdLib', 
+  'https://stdlib.com/', 
+  '/images/stdlib.png', 
+  'StdLib Logo', 
+  ['Cloud Functions'], 
+  'StdLib is based on Function as a Service ("server-less") architecture, popularized by AWS Lambda. You can use StdLib to build modular, scalable APIs for yourself and other developers in minutes without having to manage servers, gateways, domains, write documentation, or build SDKs. They also offer <a href="https://code.xyz/">Code.xyz</a>, and online code editor for working with the APIs.')
+}}
+
+{{ card.tool(
+  'Webtask', 
+  'https://webtask.io/', 
+  '/images/webtask.png', 
+  'Webtask Logo', 
+  ['Cloud Functions', 'Basic JSON data store'], 
+  'An in-browser editor for creating and testing cloud functions. Seems like the nicest experience for this particular job. It\'s kinda of an elaborate demonstration of <a href="https://auth0.com/extend/">Auth0 Extend</a>, which is essentially a way to take Webtask and put it in your own app.')
+}}
+
+{{ card.tool(
+  'IBM Cloud Functions', 
+  'https://console.bluemix.net/openwhisk/', 
+  '/images/ibm-cloud.png', 
+  'IBM Cloud Functions Logo', 
+  ['Cloud Functions'], 
+  'Based on <a href="https://openwhisk.apache.org/">Apache OpenWhisk</a>.')
+}}
+
+{{ card.tool(
+  'Backendless', 
+  'https://backendless.com/', 
+  '/images/backendless.png', 
+  'Backendless Logo', 
+  ['Realtime Database', 'Auth'], 
+  'All-in-one kind of service similar to Firebase, including the realtime database. Has a PRO version you can host yourself, if you\'re, ya know, into running servers.')
+}}
+
+<div class="idea">
+  <p>There is a bunch more like <a href="https://www.kinvey.com/">Kinvey</a>, <a href="https://syncano.io/#/">Syncano</a>, <a href="http://hood.ie/">Hoodie</a>, <a href="https://paraio.com/">Para</a>, <a href="https://stamplay.com/">Stamplay</a>, and <a href="https://dadi.cloud/en/">Dadi</a>. They are all different of course, from how Hoodie is aiming to be offline data storage, to how you'll pay for Dadi's decentralized services with it's own crypto currency.</p>
+  <p>Juan Anibal Micheli maintains <a href="https://github.com/anaibol/awesome-serverless">Awesome Serverless</a>, another (pretty massive) list of services and resources).</p>
+</div>

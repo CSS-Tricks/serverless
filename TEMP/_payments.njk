@@ -1,0 +1,30 @@
+{{ card.tool(
+  'Stripe', 
+  'https://stripe.com/checkout', 
+  '/images/stripe.png', 
+  'Stripe Logo', 
+  ['Payments'],  
+  'Probably the most beloved payment service out there. There are payment services built on top of Stripe to make it easier, like <a href="https://plasso.com/">Plasso</a>.')
+}}
+
+{{ card.tool(
+  'PayPal', 
+  'https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/buy_now_step_1/', 
+  '/images/paypal.png', 
+  'PayPal Logo', 
+  ['Payments'],  
+  'The most relevant PayPal service is probably their Buy Now buttons, which send buyers to PayPal to check out, and then back to the website.')
+}}
+
+{{ card.tool(
+  'Braintree', 
+  'https://www.braintreepayments.com/', 
+  '/images/braintree.png', 
+  'Braintree Logo', 
+  ['Payments'],  
+  'Braintree is owned by PayPal, so it is the one other payment service that can take PayPal. The appeal of Braintree is that it makes taking multiple forms of payments (e.g. credit cards <em>and</em> PayPal <em>and</em> Apple Pay, for example) much easier, and through just one set of APIs.')
+}}
+
+<div class="idea">
+  <p>There are lots of other services that integrate with these. For example, you could use a service like <a href="https://ti.to/">Tito</a> to manage an event which takes payments ultimate through Stripe or PayPal. <a href="https://plasso.com/">Plasso</a> or <a href="https://www.moonclerk.com/"></a> for recurring payments and memberships. Or <a href="https://gumroad.com/">Gumroad</a> for selling digital products. </p>
+</div>
