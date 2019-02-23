@@ -4,6 +4,7 @@ module.exports = {
     description: `The Power of Serverless for Front-End Developers`,
     author: `@css`
   },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -13,6 +14,14 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content`,
+        name: "markdown-pages"
+      }
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`
     // this (optional) plugin enables Progressive Web App + Offline functionality
