@@ -6,6 +6,8 @@ const ServicesNav = () => {
     <nav>
       <Link to="services/auth">Auth</Link>
       <Link to="services/cmss">CMSs</Link>
+      <Link to="services/notifications">Notifications</Link>
+      <Link to="services/ssgs">Static Site Generators</Link>
     </nav>
   );
 };

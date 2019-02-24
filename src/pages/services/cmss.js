@@ -17,6 +17,9 @@ export default ({ children }) => (
               frontmatter {
                 title
                 path
+                url
+                logo
+                tags
               }
               html
             }
@@ -30,9 +33,11 @@ export default ({ children }) => (
         <main className={styles.grid}>
           {data.allMarkdownRemark.edges.map(({ node }, i) => (
             <Card
+              logo={node.frontmatter.logo}
               title={node.frontmatter.title}
               key={node.frontmatter.title}
               html={node.html}
+              url={node.frontmatter.url}
             />
           ))}
         </main>

@@ -6,13 +6,12 @@ import ServicesNav from "../../pages/services/nav";
 import Card from "../../components/card/card";
 
 import styles from "../page.module.scss";
-import { notDeepEqual } from "assert";
 
 export default ({ children }) => (
   <StaticQuery
     query={graphql`
-      query AuthQuery {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/auth/" } }) {
+      query SsgsQuery {
+        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/ssgs/" } }) {
           edges {
             node {
               frontmatter {
@@ -32,18 +31,15 @@ export default ({ children }) => (
       <Layout>
         <ServicesNav />
         <main className={styles.grid}>
-          {data.allMarkdownRemark.edges.map(({ node }, i) => {
-            console.log(node);
-            return (
-              <Card
-                logo={node.frontmatter.logo}
-                title={node.frontmatter.title}
-                key={node.frontmatter.title}
-                html={node.html}
-                url={node.frontmatter.url}
-              />
-            );
-          })}
+          {data.allMarkdownRemark.edges.map(({ node }, i) => (
+            <Card
+              logo={node.frontmatter.logo}
+              title={node.frontmatter.title}
+              key={node.frontmatter.title}
+              html={node.html}
+              url={node.frontmatter.url}
+            />
+          ))}
         </main>
       </Layout>
     )}
