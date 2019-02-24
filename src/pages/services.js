@@ -1,9 +1,8 @@
 import React from "react";
 
 import Layout from "../components/layout";
+import ServicesNav from "../pages/services/nav";
 import SEO from "../components/seo";
-import AuthServices from "../pages/services/auth";
-import CMSs from "../pages/services/cmss";
 
 const ServicesPage = props => {
   return (
@@ -11,8 +10,7 @@ const ServicesPage = props => {
       <Layout>
         <SEO title="Services" />
 
-        <AuthServices />
-        <CMSs />
+        <ServicesNav />
       </Layout>
     </>
   );

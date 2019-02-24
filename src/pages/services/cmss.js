@@ -1,6 +1,9 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 
+import Layout from "../../components/layout";
+import ServicesNav from "../../pages/services/nav";
+
 export default ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -10,7 +13,6 @@ export default ({ children }) => (
             node {
               frontmatter {
                 title
-                date
                 path
               }
               html
@@ -20,14 +22,15 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <Layout>
+        <ServicesNav />
         {data.allMarkdownRemark.edges.map(({ node }, i) => (
           <div className="card" key={node.frontmatter.title}>
             <h1>{node.frontmatter.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: node.html }} />
           </div>
         ))}
-      </>
+      </Layout>
     )}
   />
 );

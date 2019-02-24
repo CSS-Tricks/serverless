@@ -1,7 +1,5 @@
 ---
-path: "/"
-date: "2017-11-07"
-title: "The Power of Serverless"
+title: "Homepage"
 ---
 
 **Serverless.** It's kind of a phenomenon. Let's get one thing out of the way: it still involves servers, so that word _serverless_ might feel a bit disingenuous. It's actually a new way to pay for and work with servers that, in many cases, is _cheaper_ and _easier_ than buying and managing your own servers.
