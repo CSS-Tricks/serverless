@@ -1,14 +1,9 @@
-{% set body_class = "resources" %}
-{% import "template-parts/_cards.njk" as card %} 
+https://www.simform.com/aws-lambda-vs-azure-functions-vs-google-functions/
 
-{% extends "_layout.njk" %}
-
-{% block content %}
-
-<main> 
+https://zeit.co/blog/serverless-ssr
   
-  <div class="card-grid">
-  
+https://blog.cloudflare.com/serverlist-1st-edition/
+
   {{ 
     card.resource(
       'Serverless', 
@@ -498,9 +493,4 @@
       ['tutorial', 'aws']
     )
   }}
-    
-  </div>
-  
-</main>
-
-{% endblock %}
+   
