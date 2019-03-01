@@ -1,8 +1,7 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
-import SEO from "../components/seo";
 
-import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 export default ({ children }) => (
   <StaticQuery
@@ -27,16 +26,14 @@ export default ({ children }) => (
       const content = data.allMarkdownRemark.edges[0].node;
       return (
         <>
-          <Layout>
-            <SEO
-              title="What is Serverless?"
-              keywords={[`serverless`, `cloud`, `cloud functions`]}
-            />
-            <div
-              className="blog-post-content"
-              dangerouslySetInnerHTML={{ __html: content.html }}
-            />
-          </Layout>
+          <SEO
+            title="What is Serverless?"
+            keywords={[`serverless`, `cloud`, `cloud functions`]}
+          />
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: content.html }}
+          />
         </>
       );
     }}
