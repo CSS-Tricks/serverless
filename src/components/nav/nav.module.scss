@@ -3,6 +3,7 @@
   top: 0;
   align-self: start;
   > ul {
+    background: #4a5574;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -10,10 +11,10 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 1px;
     > li {
       flex: 1;
-      background: red;
+      background: #16234b;
       overflow: hidden;
       &[data-active="true"] {
         > a:first-child {
@@ -37,6 +38,7 @@
         transition: 0.5s;
         font-weight: 800;
         font-size: 20px;
+        text-transform: uppercase;
       }
       > a:not(:first-child) {
         display: block;

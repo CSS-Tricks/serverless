@@ -1,7 +1,30 @@
 .root {
-  padding: 1rem;
+  background: #3e67d9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.logoHeader {
+  display: block;
+  background: white;
+  height: 140px;
+  padding: 2rem;
 }
 
 .logoImage {
-  max-width: 100px;
+  max-width: 80px;
+  max-height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cardContent {
+  padding: 1rem;
+  h3 {
+    margin: 0;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }

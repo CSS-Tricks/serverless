@@ -6,20 +6,22 @@ import styles from "./card.module.scss";
 const Card = props => {
   return (
     <div className={styles.root}>
-      <a href={props.url}>
+      <a href={props.url} className={styles.logoHeader}>
         <img
           className={styles.logoImage}
           src={withPrefix(`/${props.logo}`)}
           alt={`Logo for {props.title}`}
         />
       </a>
-      <h1>
-        <a href={props.url}>{props.title}</a>
-      </h1>
-      <div
-        className="content"
-        dangerouslySetInnerHTML={{ __html: props.html }}
-      />
+      <div className={styles.cardContent}>
+        <h3>
+          <a href={props.url}>{props.title}</a>
+        </h3>
+        <div
+          className="content"
+          dangerouslySetInnerHTML={{ __html: props.html }}
+        />
+      </div>
     </div>
   );
 };
