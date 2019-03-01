@@ -14,6 +14,17 @@
     > li {
       flex: 1;
       background: red;
+      overflow: hidden;
+      &[data-active="true"] {
+        > a:first-child {
+          height: 20%;
+          & ~ a {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0);
+          }
+        }
+      }
       > a:first-child {
         display: block;
         width: 100%;
@@ -23,16 +34,9 @@
         justify-content: center;
         color: white;
         text-decoration: none;
-        transition: 1s;
+        transition: 0.5s;
         font-weight: 800;
         font-size: 20px;
-        &[aria-current] {
-          height: 20%;
-          & ~ a {
-            opacity: 1;
-            visibility: visible;
-          }
-        }
       }
       > a:not(:first-child) {
         display: block;
@@ -41,7 +45,21 @@
         padding: 0.15rem 1rem;
         opacity: 0;
         visibility: hidden;
-        transition: 0.2s;
+        transition: 1s;
+        transform: translateX(-20px);
+        white-space: nowrap;
+        &:nth-child(2) {
+          transition-delay: 0.1s;
+        }
+        &:nth-child(3) {
+          transition-delay: 0.15s;
+        }
+        &:nth-child(4) {
+          transition-delay: 0.2s;
+        }
+        &:nth-child(5) {
+          transition-delay: 0.25s;
+        }
       }
     }
   }

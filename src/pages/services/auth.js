@@ -1,7 +1,6 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 
-import Layout from "../../components/layout";
 import Card from "../../components/card/card";
 
 import styles from "../page.module.scss";
@@ -27,22 +26,20 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <Layout>
-        <main className={styles.grid}>
-          {data.allMarkdownRemark.edges.map(({ node }, i) => {
-            console.log(node);
-            return (
-              <Card
-                logo={node.frontmatter.logo}
-                title={node.frontmatter.title}
-                key={node.frontmatter.title}
-                html={node.html}
-                url={node.frontmatter.url}
-              />
-            );
-          })}
-        </main>
-      </Layout>
+      <main className={styles.grid}>
+        {data.allMarkdownRemark.edges.map(({ node }, i) => {
+          console.log(node);
+          return (
+            <Card
+              logo={node.frontmatter.logo}
+              title={node.frontmatter.title}
+              key={node.frontmatter.title}
+              html={node.html}
+              url={node.frontmatter.url}
+            />
+          );
+        })}
+      </main>
     )}
   />
 );

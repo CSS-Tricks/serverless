@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
   height: 5px;
 }
@@ -20,7 +20,7 @@ body {
 }
 ::-webkit-scrollbar-track {
   background: transparent;
-}
+} */
 
 [style*="--aspect-ratio"] > :first-child {
   width: 100%;
