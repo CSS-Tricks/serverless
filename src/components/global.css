@@ -12,9 +12,11 @@ html {
 }
 body {
   margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 10px;
   height: 5px;
 }
@@ -23,7 +25,7 @@ body {
 }
 ::-webkit-scrollbar-track {
   background: transparent;
-} */
+}
 
 [style*="--aspect-ratio"] > :first-child {
   width: 100%;
@@ -48,8 +50,10 @@ body {
   }
 }
 
-h1,
-h2 {
+h1 {
   font-family: "Shrikhand", cursive;
   font-weight: 400;
+}
+p {
+  margin: 0 0 1rem 0;
 }

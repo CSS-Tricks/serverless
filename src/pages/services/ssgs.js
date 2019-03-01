@@ -30,7 +30,13 @@ export default ({ children }) => (
     render={data => (
       <>
         <SEO title="Static Site Generators" />
-        <PageHeader title="Static Site Generators" />
+        <PageHeader title="Services">
+          <h2>Static Site Generators</h2>
+          <p>
+            Rather than having a database in production, these tools build the
+            site into flat files.
+          </p>
+        </PageHeader>
         <main className={styles.grid}>
           {data.allMarkdownRemark.edges.map(({ node }, i) => (
             <Card

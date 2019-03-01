@@ -30,7 +30,10 @@ export default ({ children }) => (
     render={data => (
       <>
         <SEO title="Auth" />
-        <PageHeader title="Auth" />
+        <PageHeader title="Services">
+          <h2>Auth</h2>
+          <p>Helping with the issue of user accounts and logging in and out.</p>
+        </PageHeader>
         <main className={styles.grid}>
           {data.allMarkdownRemark.edges.map(({ node }, i) => {
             return (

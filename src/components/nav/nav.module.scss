@@ -18,7 +18,7 @@
       overflow: hidden;
       &[data-active="true"] {
         > a:first-child {
-          height: 20%;
+          height: 30%;
           & ~ a {
             opacity: 1;
             visibility: visible;
@@ -45,7 +45,7 @@
         display: block;
         text-decoration: none;
         color: white;
-        padding: 0.15rem 1rem;
+        padding: 0.25rem 1rem;
         opacity: 0;
         visibility: hidden;
         transition: 0.5s;

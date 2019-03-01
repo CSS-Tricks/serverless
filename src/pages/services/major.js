@@ -30,7 +30,13 @@ export default ({ children }) => (
     render={data => (
       <>
         <SEO title="Major Services" />
-        <PageHeader title="Services" />
+        <PageHeader title="Services">
+          <h2>The Major Providers</h2>
+          <p>
+            The biggest names in serverless, providing wide swaths of
+            functionality.
+          </p>
+        </PageHeader>
         <main className={styles.grid}>
           {data.allMarkdownRemark.edges.map(({ node }, i) => {
             return (

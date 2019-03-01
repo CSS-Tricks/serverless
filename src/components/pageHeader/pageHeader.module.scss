@@ -1,6 +1,15 @@
 .root {
+  padding: 2rem;
   h1 {
-    font-size: 100px;
+    font-size: 60px;
+    &::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 5px;
+      background: #4668d2;
+      border-radius: 100px;
+    }
   }
 }
 
@@ -8,10 +17,21 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
   img {
     margin-right: 1rem;
   }
   strong {
     color: #ea9e56;
+  }
+}
+
+.subtitleArea {
+  h2 {
+    margin: 0;
+  }
+  p {
+    color: #ced6eb;
   }
 }
