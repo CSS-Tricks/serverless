@@ -3,3 +3,15 @@
     font-size: 100px;
   }
 }
+
+.logoArea {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  img {
+    margin-right: 1rem;
+  }
+  strong {
+    color: #ea9e56;
+  }
+}

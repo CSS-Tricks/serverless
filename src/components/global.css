@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Shrikhand|Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Shrikhand|Nunito:400,700");
 
 * {
   box-sizing: border-box;
 }
 html {
-  font-family: "Varela Round", sans-serif;
-  font-size: calc(12px + 0.28vw);
+  font-family: "Nunito", sans-serif;
+  font-size: calc(11px + 0.28vw);
   line-height: 1.5;
   background: #0e1839;
   color: white;

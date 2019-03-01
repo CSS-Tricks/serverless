@@ -4,3 +4,38 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 1rem;
 }
+
+.homepageWrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.titleArea {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepageTitle {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 1px;
+  strong {
+    display: block;
+    font-family: "Shrikhand", cursive;
+    font-weight: 400;
+    font-size: 90px;
+    text-transform: none;
+  }
+}
+
+.homeFooter {
+  padding: 3rem;
+  text-align: center;
+  h3 {
+    margin: 0;
+  }
+}

@@ -10,8 +10,8 @@ import PageHeader from "../../components/pageHeader/pageHeader";
 export default ({ children }) => (
   <StaticQuery
     query={graphql`
-      query AuthQuery {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/auth/" } }) {
+      query MajorQuery {
+        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/major/" } }) {
           edges {
             node {
               frontmatter {
@@ -29,8 +29,8 @@ export default ({ children }) => (
     `}
     render={data => (
       <>
-        <SEO title="Auth" />
-        <PageHeader title="Auth" />
+        <SEO title="Major Services" />
+        <PageHeader title="Services" />
         <main className={styles.grid}>
           {data.allMarkdownRemark.edges.map(({ node }, i) => {
             return (

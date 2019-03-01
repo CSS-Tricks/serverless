@@ -5,17 +5,18 @@
 }
 
 .logoHeader {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: white;
   height: 140px;
   padding: 2rem;
 }
 
 .logoImage {
-  max-width: 80px;
+  max-width: 120px;
   max-height: 80px;
   display: block;
-  margin: 0 auto;
 }
 
 .cardContent {

@@ -9,7 +9,8 @@ const Nav = location => {
     <nav className={styles.root}>
       <ul>
         <li data-active={loc.pathname.includes("/services/") ? "true" : ""}>
-          <Link to="/services/">Services</Link>
+          <Link to="/services/major">Services</Link>
+          <Link to="/services/major">Major Providers</Link>
           <Link to="services/auth">Auth</Link>
           <Link to="services/cmss">CMSs</Link>
           <Link to="services/notifications">Notifications</Link>
