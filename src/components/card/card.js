@@ -18,7 +18,7 @@ const Card = props => {
           <a href={props.url}>{props.title}</a>
         </h3>
         <div
-          className="content"
+          className={styles.textCardContent}
           dangerouslySetInnerHTML={{ __html: props.html }}
         />
       </div>

@@ -11,12 +11,14 @@ export default ({ children }) => {
         title="The Power of Serverless for Front-End Developers"
         keywords={[`serverless`, `cloud`, `cloud functions`]}
       />
-      <main className={styles.homepageWrap}>
-        <img
-          className={styles.logo}
-          src={withPrefix(`/logo/css-tricks.svg`)}
-          alt="CSS-Tricks Presents"
-        />
+      <div className={styles.homepageWrap}>
+        <header className={styles.presentedBy}>
+          <img
+            className={styles.logo}
+            src={withPrefix(`/logo/css-tricks.svg`)}
+            alt="CSS-Tricks Presents"
+          />
+        </header>
         <div class={styles.titleArea}>
           <h1 class={styles.homepageTitle}>
             The Power of <strong>Serverless</strong> for Front-End Developers
@@ -27,7 +29,7 @@ export default ({ children }) => {
           <h3>What is Serverless?</h3> Somebody else's computers.{" "}
           <Link to="/about/">Find out more.</Link>
         </footer>
-      </main>
+      </div>
     </>
   );
 };

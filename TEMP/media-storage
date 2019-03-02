@@ -1,0 +1,30 @@
+Cloudinary
+https://cloudinary.com/
+/images/cloudinary.png
+['Images', 'Video']
+Cloudinary does fancy image/video stuff like manipulation and optimization, but will also directly host for you, making it a good Serverless fit.
+
+Amazon S3
+https://aws.amazon.com/s3/
+/images/aws.png
+AWS Logo
+['File storage']
+The classic file store.
+
+Filestack
+https://www.filestack.com/'
+/images/filestack.png'
+['File storage']
+Offers an all-JavaScript file picker that integrates with other serices. The host the uploaded files.
+
+Kloudless
+https://kloudless.com/'
+/images/kloudless.png'
+['File storage']
+Integrates multiple file storage solutions with one API.
+
+Uploadcare
+https://uploadcare.com/
+/images/uploadcare.png
+['File storage']
+Full featured file uploader and file storage.

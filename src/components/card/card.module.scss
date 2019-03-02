@@ -30,3 +30,16 @@
     }
   }
 }
+
+.textCardContent {
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    &:hover,
+    &:focus {
+      border-bottom-color: #0f1837;
+    }
+  }
+}
