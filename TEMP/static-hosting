@@ -4,12 +4,6 @@ https://codepen.io/pro/projects/
 ['Hosting', 'Code Editor', 'File Storage', 'Preprocessing'], 
 The one and only. Pens are great for quick demos with bits of HTML, CSS, and JavaScript. CodePen Projects gives you a complete file system of your own. That is where this site <a href="https://codepen.io/chriscoyier/project/editor/ZepgLg">is built.</a>
 
-Netlify
-https://www.netlify.com/
-/images/netlify.png
-['Hosting + CDN', 'Cloud Functions', 'Git']
-Netlify offers essentially very fancy static file hosting. They have many bonus features like form handling and a CLI. Here\'s two videos on using Netlify. <a href="https://www.youtube.com/watch?v=jW9cPKFSUrw&t=141s">Part 1: Setting Up, Deploying, and Poking Around</a> & <a href="https://www.youtube.com/watch?v=6E_odMmKP6g&t=11s">Part 2: Forms & API, Notifications, and Configuration</a>.
-
 GitHub Pages
 https://pages.github.com/
 /images/github.png

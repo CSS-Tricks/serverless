@@ -13,23 +13,20 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1px;
     > li {
-      flex: 1;
+      flex: 1 1 auto;
       background: #16234b;
       overflow: hidden;
       &[data-active="true"] {
-        > a:first-child {
-          height: 30%;
-          & ~ a {
-            opacity: 1;
-            visibility: visible;
-            transform: translateX(0);
-          }
+        [data-subnav] {
+          max-height: 180px;
+          opacity: 1;
+          visibility: visible;
         }
       }
       > a:first-child {
         display: block;
         width: 100%;
-        height: 100%;
+        // height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -41,42 +38,21 @@
         text-transform: uppercase;
         padding: 1rem;
       }
-      > a:not(:first-child) {
-        display: block;
-        text-decoration: none;
-        color: white;
-        padding: 0.25rem 1rem;
+      [data-subnav] {
+        max-height: 0;
         opacity: 0;
         visibility: hidden;
         transition: 0.5s;
-        transform: translateX(-20px);
-        white-space: nowrap;
-        &[aria-current="page"] {
-          background: #7d2cab;
-        }
-        &:nth-child(2) {
-          transition-delay: 0.1s;
-        }
-        &:nth-child(3) {
-          transition-delay: 0.15s;
-        }
-        &:nth-child(4) {
-          transition-delay: 0.2s;
-        }
-        &:nth-child(5) {
-          transition-delay: 0.25s;
-        }
-        &:nth-child(6) {
-          transition-delay: 0.3s;
-        }
-        &:nth-child(7) {
-          transition-delay: 0.35s;
-        }
-        &:nth-child(8) {
-          transition-delay: 0.4s;
-        }
-        &:nth-child(9) {
-          transition-delay: 0.45s;
+        overflow: hidden;
+        > a {
+          display: block;
+          text-decoration: none;
+          color: white;
+          padding: 0.25rem 1rem;
+          white-space: nowrap;
+          &[aria-current="page"] {
+            background: #7d2cab;
+          }
         }
       }
     }
