@@ -1,7 +1,7 @@
 .root {
   padding: 2rem;
   h1 {
-    font-size: 60px;
+    font-size: 72px;
     &::after {
       content: "";
       display: block;
@@ -21,6 +21,8 @@
   font-size: 13px;
   img {
     margin-right: 1rem;
+    width: 80px;
+    height: 80px;
   }
   strong {
     color: #ea9e56;
