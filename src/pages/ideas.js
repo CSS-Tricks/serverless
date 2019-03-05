@@ -61,6 +61,13 @@ const IdeasPage = () => (
       <a href="https://css-tricks.com/front-end-developers-guide-graphql/">A Front End Developer’s Guide to GraphQL</a><br><a href="https://www.twilio.com/blog/2017/06/build-serverless-api-amazon-web-services-api-gateway.html">How to Build a Serverless API with Amazon Web Services’ API Gateway</a>
 
       */}
+      {/*
+      Social Media Card Creation
+
+      https://zeit.co/blog/serverless-ssr
+      https://css-tricks.com/social-cards-as-a-service/
+
+      */}
     </div>
   </>
 );
