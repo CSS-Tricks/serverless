@@ -1,5 +1,5 @@
 ---
-path: "services/realtime/cloudsh"
+path: "services/search/cloudsh"
 title: "CloudSh Search"
 url: "https://cloudsh.com/"
 logo: "/images/cloudsh.png"
