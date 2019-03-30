@@ -7,7 +7,7 @@ import SEO from "../../components/seo";
 import Card from "../../components/card/card";
 import PageHeader from "../../components/pageHeader/pageHeader";
 
-export default ({ children }) => (
+export default () => (
   <StaticQuery
     query={graphql`
       query AuthQuery {
