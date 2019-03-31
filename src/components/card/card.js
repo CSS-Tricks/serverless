@@ -20,6 +20,7 @@ const Card = props => {
         <h3>
           <a href={props.url}>{props.title}</a>
         </h3>
+        {props.author && <p>by {props.author}</p>}
         <div
           className={styles.textCardContent}
           dangerouslySetInnerHTML={{ __html: props.html }}

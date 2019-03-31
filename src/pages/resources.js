@@ -57,11 +57,18 @@ export default () => (
 
           <main className={styles.grid}>
             {data.allFile.edges.map(({ node }, i) => {
-              const { title, url } = node.childMarkdownRemark.frontmatter;
+              const {
+                title,
+                url,
+                author,
+                tags
+              } = node.childMarkdownRemark.frontmatter;
               return (
                 <Card
-                  title={title}
                   key={title}
+                  title={title}
+                  author={author}
+                  tags={tags}
                   html={node.childMarkdownRemark.html}
                   url={url}
                 />
