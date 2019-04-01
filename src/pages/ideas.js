@@ -4,6 +4,8 @@ import styles from "./page.module.scss";
 
 import SEO from "../components/seo";
 import PageHeader from "../components/pageHeader/pageHeader";
+import Idea from "../components/idea/idea";
+import ideas from "./ideas.json";
 
 const IdeasPage = () => (
   <>
@@ -14,15 +16,11 @@ const IdeasPage = () => (
     </PageHeader>
 
     <div className={styles.ideasWrap}>
-      {/*
-        A Blog
 
-        ["Auth", "Database", "Media Storage"]
+      {ideas.map((idea) => 
+        <Idea title={idea.title} tags={idea.tags} description={idea.description} />
+      )}
 
-        Static site builders are a perfect match for modern static file hosts, but there is another way you can build a serverless blog as well. You could store and manage the structured data as JSON stored in the cloud and build it as an SPA.
-
-        <a href="https://blog.codepen.io/2018/01/15/build-serverless-blog-codepen/">Here's a complete tutorial</a> on building a blog using mostly Firebase. A bonus feature could be having an <a href="https://cloudinary.com/documentation/upload_images">image uploader via Cloudinary</a>, a cloud function for Markdown processing, or <a href="https://github.com/serverless/examples/tree/master/aws-node-fetch-file-and-store-in-s3">storing and fetching files in S3</a> with Serverless.
-      */}
       {/*
       A Food Log 
 
