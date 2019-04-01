@@ -1,4 +1,8 @@
 .root {
+  --animationTiming: 0.5s;
+
+  --mainNavCollapsedHeight: 50px;
+
   position: sticky;
   top: 0;
   align-self: start;
@@ -8,42 +12,49 @@
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1px;
     > li {
-      flex: 1 1 auto;
+      height: calc(25vh - 1px);
       background: #16234b;
       overflow: hidden;
+      margin-bottom: 1px;
+      transition: 0.25s;
       &[data-active="true"] {
+        height: calc(50vh - 1px);
         [data-subnav] {
-          max-height: 180px;
+          max-height: calc(100% - var(--mainNavCollapsedHeight));
           opacity: 1;
           visibility: visible;
+          margin-bottom: 1rem;
+          overflow: auto;
         }
       }
       > a:first-child {
         display: block;
         width: 100%;
-        // height: 100%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
         text-decoration: none;
-        transition: 0.5s;
+        transition: var(--animationTiming);
         font-weight: 800;
         font-size: 20px;
         text-transform: uppercase;
         padding: 1rem;
       }
+      &[data-active="true"] {
+        > a:first-child {
+          height: var(--mainNavCollapsedHeight);
+        }
+      }
       [data-subnav] {
         max-height: 0;
         opacity: 0;
         visibility: hidden;
-        transition: 0.5s;
+        transition: var(--animationTiming);
         overflow: hidden;
+        margin-bottom: 0;
         > a {
           display: block;
           text-decoration: none;
