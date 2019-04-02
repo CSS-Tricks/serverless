@@ -13,22 +13,16 @@
     padding: 0;
     min-height: 100vh;
     > li {
-      height: calc(25vh - 1px);
+      height: calc(32vh - 1px);
       background: #16234b;
       overflow: hidden;
       margin-bottom: 1px;
       transition: 0.25s;
       &[data-active="true"] {
-        height: calc(50vh - 1px);
-        [data-subnav] {
-          max-height: calc(100% - var(--mainNavCollapsedHeight));
-          opacity: 1;
-          visibility: visible;
-          margin-bottom: 1rem;
-          overflow: auto;
-        }
+        height: calc(36vh - 1px);
+        background: #2b407e;
       }
-      > a:first-child {
+      > a {
         display: block;
         width: 100%;
         height: 100%;
@@ -42,29 +36,6 @@
         font-size: 20px;
         text-transform: uppercase;
         padding: 1rem;
-      }
-      &[data-active="true"] {
-        > a:first-child {
-          height: var(--mainNavCollapsedHeight);
-        }
-      }
-      [data-subnav] {
-        max-height: 0;
-        opacity: 0;
-        visibility: hidden;
-        transition: var(--animationTiming);
-        overflow: hidden;
-        margin-bottom: 0;
-        > a {
-          display: block;
-          text-decoration: none;
-          color: white;
-          padding: 0.25rem 1rem;
-          white-space: nowrap;
-          &[aria-current="page"] {
-            background: #7d2cab;
-          }
-        }
       }
     }
   }

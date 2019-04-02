@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import styles from "../../pages/page.module.scss";
 
@@ -14,6 +15,17 @@ export default props => {
       <PageHeader title={pageHeader}>
         <h2>{pageSubHeader}</h2>
         <p>{intro}</p>
+        <div data-subnav>
+          <Link to="/services/major">Major Providers</Link>
+          <Link to="services/auth">Auth</Link>
+          <Link to="services/cmss">CMSs</Link>
+          <Link to="services/notifications">Notifications</Link>
+          <Link to="services/ssgs">Static Site Generators</Link>
+          <Link to="services/hosting">Hosting</Link>
+          <Link to="services/media">Media</Link>
+          <Link to="services/monitoring">Monitoring</Link>
+        </div>
+
       </PageHeader>
       <main className={styles.grid}>
         {services.map(({ node }, i) => {

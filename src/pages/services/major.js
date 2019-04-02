@@ -1,11 +1,7 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 
-import styles from "../page.module.scss";
-
-import SEO from "../../components/seo";
-import Card from "../../components/card/card";
-import PageHeader from "../../components/pageHeader/pageHeader";
+import ServicePage from "../../components/service/service";
 
 export default ({ children }) => (
   <StaticQuery
@@ -27,30 +23,7 @@ export default ({ children }) => (
         }
       }
     `}
-    render={data => (
-      <>
-        <SEO title="Major Services" />
-        <PageHeader title="Services">
-          <h2>The Major Providers</h2>
-          <p>
-            The biggest names in serverless, providing wide swaths of
-            functionality.
-          </p>
-        </PageHeader>
-        <main className={styles.grid}>
-          {data.allMarkdownRemark.edges.map(({ node }, i) => {
-            return (
-              <Card
-                logo={node.frontmatter.logo}
-                title={node.frontmatter.title}
-                key={node.frontmatter.title}
-                html={node.html}
-                url={node.frontmatter.url}
-              />
-            );
-          })}
-        </main>
-      </>
-    )}
+    render={data => <ServicePage pageTitle="Services | Major Services" pageHeader="Services" pageSubHeader="The Major Providers" intro="The biggest names in serverless, providing wide swaths of
+    functionality." services={data.allMarkdownRemark.edges} />}
   />
 );

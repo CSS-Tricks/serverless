@@ -23,6 +23,14 @@ export default () => (
         }
       }
     `}
-    render={data => <ServicePage pageTitle="Services | Auth" pageHeader="Services" pageSubHeader="Auth" intro="Services that help you build authentication services (logging in and out with permissions)." services={data.allMarkdownRemark.edges} />}
+    render={data => (
+      <ServicePage
+        pageTitle="Services | Auth"
+        pageHeader="Services"
+        pageSubHeader="Auth"
+        intro="Services that help you build authentication services (logging in and out with permissions)."
+        services={data.allMarkdownRemark.edges}
+      />
+    )}
   />
 );
