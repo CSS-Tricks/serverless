@@ -15,12 +15,12 @@ const IdeasPage = () => (
       <p>That's a great way to learn. Here are some ideas.</p>
     </PageHeader>
 
-    <div className={styles.ideasWrap}>
+    <div className={styles.grid}>
 
       {ideas.map((idea) => 
         <Idea title={idea.title} tags={idea.tags} description={idea.description} />
       )}
-      
+
     </div>
   </>
 );

@@ -1,0 +1,33 @@
+.idea {
+  background: #4666d2;
+  border-radius: 8px;
+}
+
+.ideaTags {
+  padding: 0.5rem 1rem;
+}
+.tagWrap {
+  filter: drop-shadow(0px 10px 5px rgba(black, 0.3));
+  > span {
+    display: inline-block;
+    margin-right: 0.5rem;
+    background: white;
+    color: #222;
+    padding: 0.2rem 0.75rem 0.2rem 1.1rem;
+    clip-path: polygon(10px 0%, 100% 0%, 100% 100%, 10px 100%, 0 50%);
+    transform: rotate(3deg);
+    position: relative;
+  }
+}
+
+.ideaTitle {
+  background: white;
+  color: #222;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.ideaDescription {
+  padding: 2rem;
+}
