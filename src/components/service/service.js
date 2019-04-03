@@ -16,15 +16,33 @@ export default props => {
         <h2>{pageSubHeader}</h2>
         <p>{intro}</p>
         <div data-subnav>
-          <Link to="/services/major">Major Providers</Link>
-          <Link to="services/auth">Auth</Link>
-          <Link to="services/functions">Functions</Link>
-          <Link to="services/cmss">CMSs</Link>
-          <Link to="services/notifications">Notifications</Link>
-          <Link to="services/ssgs">Static Site Generators</Link>
-          <Link to="services/hosting">Hosting</Link>
-          <Link to="services/media">Media</Link>
-          <Link to="services/monitoring">Monitoring</Link>
+          <Link to="/services/major" className={styles.button}>
+            Major Providers
+          </Link>
+          <Link to="services/auth" className={styles.button}>
+            Auth
+          </Link>
+          <Link to="services/functions" className={styles.button}>
+            Functions
+          </Link>
+          <Link to="services/cmss" className={styles.button}>
+            CMSs
+          </Link>
+          <Link to="services/notifications" className={styles.button}>
+            Notifications
+          </Link>
+          <Link to="services/ssgs" className={styles.button}>
+            Static Site Generators
+          </Link>
+          <Link to="services/hosting" className={styles.button}>
+            Hosting
+          </Link>
+          <Link to="services/media" className={styles.button}>
+            Media
+          </Link>
+          <Link to="services/monitoring" className={styles.button}>
+            Monitoring
+          </Link>
         </div>
       </PageHeader>
       <main className={styles.grid}>

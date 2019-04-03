@@ -55,7 +55,10 @@ export default () => {
                 <nav>
                   {allTags.map((tag, i) => {
                     return (
-                      <button onClick={() => setCurrentFilter(tag)}>
+                      <button
+                        className={`${styles.button} button-${tag}`}
+                        onClick={() => setCurrentFilter(tag)}
+                      >
                         {tag}
                       </button>
                     );

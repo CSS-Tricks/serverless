@@ -55,11 +55,16 @@
   $tags: "how-to", "realtime", "explain", "compare", "google-cloud", "firebase",
     "lambda", "react", "push-notifications", "video", "blog", "auth",
     "cloud-functions", "vue", "azure", "stripe", "calculator", "email",
-    "graphql", "architecture";
+    "graphql", "architecture", "node", "api", "express", "static-site-generator",
+    "cms", "s3", "github", "openwhisk", "newsletter", "cloudflare", "podcast",
+    "api-gateway", "monitoring", "twilio", "webtask", "media", "cloudinary";
 
   @each $tag in $tags {
     [data-filter="filter-#{$tag}"] .#{$tag} {
       display: block;
+    }
+    [data-filter="filter-#{$tag}"] .button-#{$tag} {
+      background: #4666d2;
     }
   }
 }
