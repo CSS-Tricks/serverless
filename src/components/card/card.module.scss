@@ -43,3 +43,23 @@
     }
   }
 }
+
+:global {
+  .resource {
+    display: none;
+    [data-filter="filter-"] & {
+      display: block;
+    }
+  }
+
+  $tags: "how-to", "realtime", "explain", "compare", "google-cloud", "firebase",
+    "lambda", "react", "push-notifications", "video", "blog", "auth",
+    "cloud-functions", "vue", "azure", "stripe", "calculator", "email",
+    "graphql", "architecture";
+
+  @each $tag in $tags {
+    [data-filter="filter-#{$tag}"] .#{$tag} {
+      display: block;
+    }
+  }
+}

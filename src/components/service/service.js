@@ -18,6 +18,7 @@ export default props => {
         <div data-subnav>
           <Link to="/services/major">Major Providers</Link>
           <Link to="services/auth">Auth</Link>
+          <Link to="services/functions">Functions</Link>
           <Link to="services/cmss">CMSs</Link>
           <Link to="services/notifications">Notifications</Link>
           <Link to="services/ssgs">Static Site Generators</Link>
@@ -25,7 +26,6 @@ export default props => {
           <Link to="services/media">Media</Link>
           <Link to="services/monitoring">Monitoring</Link>
         </div>
-
       </PageHeader>
       <main className={styles.grid}>
         {services.map(({ node }, i) => {
