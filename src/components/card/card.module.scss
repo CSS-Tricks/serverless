@@ -57,7 +57,7 @@
     "cloud-functions", "vue", "azure", "stripe", "calculator", "email",
     "graphql", "architecture", "node", "api", "express", "static-site-generator",
     "cms", "s3", "github", "openwhisk", "newsletter", "cloudflare", "podcast",
-    "api-gateway", "monitoring", "twilio", "webtask", "media", "cloudinary";
+    "api-gateway", "monitoring", "twilio", "webtask", "media", "cloudinary", "notifications", "sms", "hugo", "rest", "appsync", "database";
 
   @each $tag in $tags {
     [data-filter="filter-#{$tag}"] .#{$tag} {

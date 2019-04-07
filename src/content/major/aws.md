@@ -5,6 +5,7 @@ url: "https://aws.amazon.com/"
 logo: "/images/aws.png"
 ---
 
-Lambda, API Gateway, S3, and Cognito (auth) are probably the most relevant things to
-front-end developers. <a href="https://hackernoon.com/aws-appsync-up-and-running-560a42d96ba7">AppSync</a> is a bit like Firebase. There are frameworks that help you deploy to Lambda, like <a href="https://claudiajs.com/">Claudia</a>,
-<a href="https://ffleet.io/">Functional Fleet</a>, and <a href="https://serverless.com/">Serverless</a>.
+<a href="https://aws.amazon.com/lambda/">Lambda</a> (cloud functions), <a href="https://aws.amazon.com/s3/">S3</a> (file storage), <a href="https://aws.amazon.com/appsync/">AppSync</a> (realtime GraphQL), and Cognito (auth) are probably the most relevant things to front-end developers. 
+
+There are frameworks that help you deploy to Lambda, like <a href="https://claudiajs.com/">Claudia</a>, <a href="https://ffleet.io/">Functional Fleet</a>, and <a href="https://serverless.com/">Serverless</a>, and <a href="https://arc.codes/">Architect</a>.
+
