@@ -51,6 +51,9 @@ export default props => {
           </Link>{" "}
           <Link to="services/realtime" className={styles.button}>
             Realtime
+          </Link>{" "}
+          <Link to="services/data" className={styles.button}>
+            Data Storage
           </Link>
         </div>
       </PageHeader>

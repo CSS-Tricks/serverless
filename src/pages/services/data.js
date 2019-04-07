@@ -3,13 +3,11 @@ import { StaticQuery, graphql } from "gatsby";
 
 import ServicePage from "../../components/service/service";
 
-export default () => (
+export default ({ children }) => (
   <StaticQuery
     query={graphql`
-      query paymentsQuery {
-        allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/\/payments\//" } }
-        ) {
+      query dataQuery {
+        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/\/data\//" } }) {
           edges {
             node {
               frontmatter {
@@ -27,10 +25,10 @@ export default () => (
     `}
     render={data => (
       <ServicePage
-        pageTitle="Services | Payments"
+        pageTitle="Services | Data Storage"
         pageHeader="Services"
-        pageSubHeader="Payments"
-        intro="You'll need cloud functions to work with their APIs, but these services are perfectly well suited for that."
+        pageSubHeader="Data Storage"
+        intro="Just because you've gone JAMstack doesn't mean you can't get data from a database or otherwise store and retrieve data."
         services={data.allMarkdownRemark.edges}
       />
     )}
