@@ -35,7 +35,8 @@ export default () => {
         let allTags = [];
 
         data.allFile.edges.forEach(({ node }) => {
-          allTags.push(node.childMarkdownRemark.frontmatter.tags);
+          const tag = node.childMarkdownRemark.frontmatter.tags;
+          if (tag) allTags.push(tag);
         });
 
         allTags = flatten(allTags);
@@ -57,6 +58,7 @@ export default () => {
                   {allTags.map((tag, i) => {
                     return (
                       <button
+                        key={tag}
                         className={`${styles.button} button-${tag}`}
                         onClick={() => setCurrentFilter(tag)}
                       >
