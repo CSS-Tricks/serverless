@@ -48,6 +48,9 @@
 }
 
 .button {
+  font-family: inherit;
+  font-size: 1rem;
+  display: inline-block;
   background: linear-gradient(to bottom, #4666d2, #182248);
   color: white;
   text-decoration: none;
