@@ -19,11 +19,11 @@ export default props => {
           <Link to="/services/major" className={styles.button}>
             Major Providers
           </Link>{" "}
+          <Link to="services/functions" className={styles.button}>
+            Cloud Functions
+          </Link>{" "}
           <Link to="services/auth" className={styles.button}>
             Auth
-          </Link>{" "}
-          <Link to="services/functions" className={styles.button}>
-            Functions
           </Link>{" "}
           <Link to="services/forms" className={styles.button}>
             Forms
