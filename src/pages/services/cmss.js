@@ -7,7 +7,7 @@ export default ({ children }) => (
   <StaticQuery
     query={graphql`
       query cmsQuery {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/cmss/" } }) {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/cmss/"}}, sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {
