@@ -8,8 +8,8 @@ export default ({ children }) => (
     query={graphql`
       query functionsQuery {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/\/functions\//" } }
-        ) {
+          filter: { fileAbsolutePath: { regex: "/\/functions\//" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {

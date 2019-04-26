@@ -7,7 +7,9 @@ export default ({ children }) => (
   <StaticQuery
     query={graphql`
       query mediaQuery {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/media/" } }) {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/media/" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {

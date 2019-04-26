@@ -7,7 +7,9 @@ export default ({ children }) => (
   <StaticQuery
     query={graphql`
       query SsgsQuery {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/ssgs/" } }) {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/ssgs/" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {

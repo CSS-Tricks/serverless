@@ -7,7 +7,9 @@ export default () => (
   <StaticQuery
     query={graphql`
       query authQuery {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/auth/" } }) {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/auth/" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {

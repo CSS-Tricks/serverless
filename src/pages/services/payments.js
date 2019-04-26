@@ -8,8 +8,8 @@ export default () => (
     query={graphql`
       query paymentsQuery {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/\/payments\//" } }
-        ) {
+          filter: { fileAbsolutePath: { regex: "/\/payments\//" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {
