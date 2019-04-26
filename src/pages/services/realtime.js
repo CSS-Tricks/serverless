@@ -8,8 +8,8 @@ export default () => (
     query={graphql`
       query realtimeQuery {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/realtime/" } }
-        ) {
+          filter: { fileAbsolutePath: { regex: "/realtime/" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {

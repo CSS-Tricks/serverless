@@ -7,7 +7,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query formsQuery {
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/forms/" } }) {
+        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/forms/" } }, sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {

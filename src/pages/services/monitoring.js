@@ -8,8 +8,8 @@ export default ({ children }) => (
     query={graphql`
       query MonitoringQuery {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/monitoring/" } }
-        ) {
+          filter: { fileAbsolutePath: { regex: "/monitoring/" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {

@@ -8,8 +8,8 @@ export default ({ children }) => (
     query={graphql`
       query NotificationsQuery {
         allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/notifications/" } }
-        ) {
+          filter: { fileAbsolutePath: { regex: "/notifications/" } },
+          sort: {fields: frontmatter___title}) {
           edges {
             node {
               frontmatter {
