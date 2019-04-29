@@ -1,6 +1,5 @@
 .root {
   --animationTiming: 0.5s;
-
   --mainNavCollapsedHeight: 50px;
 
   position: sticky;
@@ -11,16 +10,36 @@
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: #4a5574;
     > li {
-      height: calc(32vh - 1px);
-      overflow: hidden;
-      margin-bottom: 1px;
+      height: calc(33.33vh);
       transition: 0.25s;
-      background: #16234b;
+      background-image: url(/img/texture.png);
+      background-color: #37236b;
+      background-blend-mode: screen;
+      position: relative;
       &[data-active="true"] {
         height: calc(36vh - 1px);
-        background: #2b407e;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 100%;
+        height: 20px;
+        background: url(/img/horizontal-dividers.svg);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: 100% 20px;
+        z-index: 1;
+      }
+      &:hover {
+        background-image: url(/img/texture.png),
+          linear-gradient(
+            135.29deg,
+            #e9910d -21.42%,
+            rgba(169, 0, 197, 0) 61.79%
+          );
       }
       > a {
         display: block;
@@ -38,12 +57,25 @@
         padding: 1rem;
       }
     }
+    &:hover {
+      > li {
+        > a {
+          opacity: 0.25;
+        }
+        &:hover {
+          a {
+            opacity: 1;
+          }
+        }
+      }
+    }
   }
+
   &::after {
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    left: -10px;
     width: 20px;
     height: 100%;
     background: url(/img/vertical-dividers.svg);
