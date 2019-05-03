@@ -11,14 +11,21 @@
     padding: 0;
     min-height: 100vh;
     > li {
-      height: calc(33.33vh);
+      height: calc(25vh);
       transition: 0.25s;
       background-image: url(/img/texture.png);
+      background-size: cover;
       background-color: #37236b;
       background-blend-mode: screen;
       position: relative;
+      overflow: hidden;
       &[data-active="true"] {
-        height: calc(36vh - 1px);
+        height: calc(50vh);
+        &[data-services] {
+          a {
+            height: 20%;
+          }
+        }
       }
       &::after {
         content: "";
@@ -56,16 +63,25 @@
         text-transform: uppercase;
         padding: 1rem;
       }
+      [data-subnav] {
+        a {
+          font-size: 1.1rem;
+          display: block;
+          padding: 2px 0;
+          text-align: center;
+          color: white;
+          text-decoration: none;
+          &[aria-current] {
+            color: #ffac29;
+          }
+        }
+      }
     }
     &:hover {
       > li {
-        > a {
-          opacity: 0.25;
-        }
+        opacity: 0.5;
         &:hover {
-          a {
-            opacity: 1;
-          }
+          opacity: 1;
         }
       }
     }
