@@ -20,8 +20,13 @@ const PageHeader = props => {
         </div>
       </div>
 
-      <h1>{props.title}</h1>
-      <div className={styles.subtitleArea}>{props.children}</div>
+      <div className={styles.h1wrap} data-title={props.title}>
+        <h1>{props.title}</h1>
+      </div>
+
+      <div className={styles.subtitleArea} data-title={props.title}>
+        {props.children}
+      </div>
     </header>
   );
 };

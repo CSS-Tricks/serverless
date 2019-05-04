@@ -14,6 +14,37 @@
   }
 }
 
+.h1wrap {
+  max-width: 400px;
+  h1 {
+    height: 0;
+    text-indent: -9999px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+  }
+  &[data-title="Services"] {
+    max-width: 200px;
+    h1 {
+      padding-top: calc(140 / 400 * 100%);
+
+      background-image: url(/img/services-title.svg);
+    }
+  }
+  &[data-title="Resources"] {
+    h1 {
+      padding-top: calc(130 / 482 * 100%);
+      background-image: url(/img/resources-title.svg);
+    }
+  }
+  &[data-title="Ideas"] {
+    h1 {
+      padding-top: calc(111 / 246 * 100%);
+      background-image: url(/img/ideas-title.svg);
+    }
+  }
+}
+
 .logoArea {
   display: flex;
   align-items: center;
@@ -36,5 +67,10 @@
   }
   p {
     color: #ced6eb;
+  }
+  &[data-title="Services"] {
+    h2 {
+      font-size: 3.3rem;
+    }
   }
 }

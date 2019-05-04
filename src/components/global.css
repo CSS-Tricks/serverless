@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Shrikhand|Nunito:400,700");
+@import url("https://hello.myfonts.net/count/394f01");
+
+@font-face {
+  font-family: "AlternateGothicPro-No1";
+  src: url("/webfonts/394F01_0_0.woff2") format("woff2");
+}
 
 * {
   box-sizing: border-box;
