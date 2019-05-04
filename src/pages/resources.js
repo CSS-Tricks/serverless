@@ -14,7 +14,7 @@ export default () => {
     <StaticQuery
       query={graphql`
         query ResourcesQuery {
-          allFile(filter: { absolutePath: { regex: "/\/resources\//" } }) {
+          allFile(filter: { absolutePath: { regex: "//resources//" } }) {
             edges {
               node {
                 childMarkdownRemark {

@@ -6,14 +6,13 @@ import styles from "./nav.module.scss";
 const Nav = location => {
   const loc = location.location;
 
-  let subpage = false;
-  subpage =
-    loc.pathname.includes("/services/") ||
-    loc.pathname.includes("/resources/") ||
-    loc.pathname.includes("/ideas/");
+  let subpage = "nothing";
+  if (loc.pathname.includes("/services/")) subpage = "services";
+  if (loc.pathname.includes("/resources/")) subpage = "resources";
+  if (loc.pathname.includes("/ideas/")) subpage = "ideas";
 
   return (
-    <nav className={styles.root} data-anything-active={subpage}>
+    <nav className={styles.root} data-active={subpage}>
       <ul>
         <li
           data-services
