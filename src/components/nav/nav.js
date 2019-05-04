@@ -5,8 +5,15 @@ import styles from "./nav.module.scss";
 
 const Nav = location => {
   const loc = location.location;
+
+  let subpage = false;
+  subpage =
+    loc.pathname.includes("/services/") ||
+    loc.pathname.includes("/resources/") ||
+    loc.pathname.includes("/ideas/");
+
   return (
-    <nav className={styles.root}>
+    <nav className={styles.root} data-anything-active={subpage}>
       <ul>
         <li
           data-services
@@ -55,10 +62,16 @@ const Nav = location => {
             </Link>
           </div>
         </li>
-        <li data-active={loc.pathname.includes("/resources/") ? "true" : ""}>
+        <li
+          data-active={loc.pathname.includes("/resources/") ? "true" : ""}
+          data-resources
+        >
           <Link to="/resources/">Resources</Link>
         </li>
-        <li data-active={loc.pathname.includes("/ideas/") ? "true" : ""}>
+        <li
+          data-active={loc.pathname.includes("/ideas/") ? "true" : ""}
+          data-ideas
+        >
           <Link to="/ideas/">Ideas</Link>
         </li>
       </ul>

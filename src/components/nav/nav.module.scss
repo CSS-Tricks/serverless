@@ -11,7 +11,7 @@
     padding: 0;
     min-height: 100vh;
     > li {
-      height: calc(25vh);
+      height: calc(12vh);
       transition: 0.25s;
       background-image: url(/img/texture.png);
       background-size: cover;
@@ -20,26 +20,37 @@
       position: relative;
       overflow: hidden;
       &[data-active="true"] {
-        height: calc(50vh);
+        height: calc(76vh);
+
         &[data-services] {
+          overflow: auto;
           a {
             height: 20%;
           }
         }
       }
-      &::after {
-        content: "";
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        width: 100%;
-        height: 20px;
-        background: url(/img/horizontal-dividers.svg);
-        background-position: top left;
-        background-repeat: no-repeat;
-        background-size: 100% 20px;
-        z-index: 1;
+      &[data-resources] {
+        &::before,
+        &::after {
+          left: 0;
+          width: 100%;
+          height: 20px;
+          background: url(/img/horizontal-dividers.svg);
+          background-position: top left;
+          background-repeat: no-repeat;
+          background-size: 100% 20px;
+          z-index: 1;
+          content: "";
+          position: absolute;
+        }
+        &::before {
+          top: -10px;
+        }
+        &::after {
+          bottom: -10px;
+        }
       }
+
       &:hover {
         background-image: url(/img/texture.png),
           linear-gradient(
@@ -99,5 +110,9 @@
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 20px 100%;
+  }
+
+  &[data-anything-active="false"] > ul > li {
+    height: calc(33.33vh);
   }
 }
