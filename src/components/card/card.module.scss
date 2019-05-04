@@ -1,14 +1,14 @@
 .root {
-  background: #3e67d9;
   border-radius: 5px;
   overflow: hidden;
+  background: white;
+  position: relative;
 }
 
 .logoHeader {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
   height: 140px;
   padding: 2rem;
 }
@@ -20,26 +20,57 @@
 }
 
 .cardContent {
-  padding: 1rem;
+  padding: 1.5rem;
+  color: #47356f;
   h3 {
     margin: 0 0 1rem 0;
-    font-size: 20px;
+    font-size: 1.5rem;
     a {
-      color: white;
+      color: #201f50;
       text-decoration: none;
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 2;
+      }
+      &::before {
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background: #ede8f8;
+        border-bottom-left-radius: 5px;
+      }
+      &::after {
+        top: 12px;
+        right: 12px;
+        mask: url(/img/arrow-up-right.svg);
+        mask-size: cover;
+        background: black;
+        width: 12px;
+        height: 12px;
+      }
+      &:hover,
+      &:focus {
+        &::before {
+          background: linear-gradient(to bottom left, #9253be, #f0954d);
+        }
+        &::after {
+          background: white;
+        }
+      }
     }
   }
 }
 
 .textCardContent {
   a {
-    text-decoration: none;
-    color: white;
+    color: #9058b5;
     font-weight: bold;
-    border-bottom: 1px solid white;
     &:hover,
     &:focus {
-      border-bottom-color: #0f1837;
+      text-decoration-color: rgba(#9058b5, 0.25);
     }
   }
 }
@@ -57,7 +88,8 @@
     "cloud-functions", "vue", "azure", "stripe", "calculator", "email",
     "graphql", "architecture", "node", "api", "express", "static-site-generator",
     "cms", "s3", "github", "openwhisk", "newsletter", "cloudflare", "podcast",
-    "api-gateway", "monitoring", "twilio", "webtask", "media", "cloudinary", "notifications", "sms", "hugo", "rest", "appsync", "database";
+    "api-gateway", "monitoring", "twilio", "webtask", "media", "cloudinary",
+    "notifications", "sms", "hugo", "rest", "appsync", "database";
 
   @each $tag in $tags {
     [data-filter="filter-#{$tag}"] .#{$tag} {

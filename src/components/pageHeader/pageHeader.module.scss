@@ -1,16 +1,8 @@
 .root {
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   h1 {
     font-size: 72px;
     font-weight: 400;
-    &::after {
-      content: "";
-      display: block;
-      width: 40px;
-      height: 5px;
-      background: #4668d2;
-      border-radius: 100px;
-    }
   }
 }
 
@@ -21,23 +13,25 @@
     text-indent: -9999px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    margin-left: -20px;
   }
   &[data-title="Services"] {
-    max-width: 200px;
+    max-width: 375px;
     h1 {
       padding-top: calc(140 / 400 * 100%);
-
       background-image: url(/img/services-title.svg);
     }
   }
   &[data-title="Resources"] {
+    max-width: 490px;
     h1 {
       padding-top: calc(130 / 482 * 100%);
       background-image: url(/img/resources-title.svg);
     }
   }
   &[data-title="Ideas"] {
+    max-width: 291px;
     h1 {
       padding-top: calc(111 / 246 * 100%);
       background-image: url(/img/ideas-title.svg);
@@ -63,14 +57,13 @@
 
 .subtitleArea {
   h2 {
+    font-family: "AlternateGothicPro-No1", system-ui, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
     margin: 0;
   }
   p {
-    color: #ced6eb;
-  }
-  &[data-title="Services"] {
-    h2 {
-      font-size: 3.3rem;
-    }
+    color: #c4b2ec;
   }
 }

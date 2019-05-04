@@ -1,5 +1,5 @@
 .grid {
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 1rem;
@@ -37,6 +37,7 @@
     height: 0;
     padding-top: calc(150 / 700 * 100%);
     background: url(/img/serverless-title.svg) no-repeat top center;
+    background-size: cover;
   }
 }
 
