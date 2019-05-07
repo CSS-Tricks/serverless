@@ -11,6 +11,7 @@ import PageHeader from "../components/pageHeader/pageHeader";
 
 export default () => {
   const [currentFilter, setCurrentFilter] = useState("all");
+  const [tagsOpen, setTagOpenState] = useState(false);
   return (
     <StaticQuery
       query={graphql`
@@ -55,8 +56,8 @@ export default () => {
                   whole ball of yarn.
                 </p>
 
-                <nav class={tagStyles.nav}>
-                  Topics:
+                <nav class={tagStyles.nav} data-open={tagsOpen}>
+                  Topics:{" "}
                   {allTags.map((tag, i) => {
                     return (
                       <button
@@ -68,6 +69,13 @@ export default () => {
                       </button>
                     );
                   })}
+                  <button
+                    className={tagStyles.more}
+                    data-open={tagsOpen}
+                    onClick={() => setTagOpenState(tagsOpen ? false : true)}
+                  >
+                    More
+                  </button>
                 </nav>
               </PageHeader>
 
