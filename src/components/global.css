@@ -10,7 +10,10 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Nunito", sans-serif;
+  --ff-rounded: "Nunito", sans-serif;
+  --ff-gothic: "AlternateGothicPro-No1", system-ui, sans-serif;
+
+  font-family: var(--ff-rounded);
   font-size: calc(11px + 0.28vw);
   line-height: 1.5;
   background: #130931;
@@ -56,10 +59,6 @@ body {
   }
 }
 
-h1 {
-  font-family: "Shrikhand", cursive;
-  font-weight: 400;
-}
 p {
   margin: 0 0 1rem 0;
 }

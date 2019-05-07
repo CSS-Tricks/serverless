@@ -3,13 +3,14 @@ import { StaticQuery, graphql } from "gatsby";
 import { uniq, flatten } from "lodash";
 
 import styles from "./page.module.scss";
+import tagStyles from "./tags.module.scss";
 
 import SEO from "../components/seo";
 import Card from "../components/card/card";
 import PageHeader from "../components/pageHeader/pageHeader";
 
 export default () => {
-  const [currentFilter, setCurrentFilter] = useState("");
+  const [currentFilter, setCurrentFilter] = useState("all");
   return (
     <StaticQuery
       query={graphql`
@@ -54,13 +55,14 @@ export default () => {
                   whole ball of yarn.
                 </p>
 
-                <nav>
+                <nav class={tagStyles.nav}>
+                  Topics:
                   {allTags.map((tag, i) => {
                     return (
                       <button
                         key={tag}
-                        className={`${styles.button} button-${tag}`}
                         onClick={() => setCurrentFilter(tag)}
+                        class={tagStyles.tag}
                       >
                         {tag}
                       </button>
@@ -77,17 +79,21 @@ export default () => {
                     author,
                     tags
                   } = node.childMarkdownRemark.frontmatter;
-                  return (
-                    <Card
-                      key={title}
-                      title={title}
-                      author={author}
-                      tags={tags}
-                      html={node.childMarkdownRemark.html}
-                      url={url}
-                      extraClasses="resource"
-                    />
-                  );
+                  if (tags.includes(currentFilter) || currentFilter === "all") {
+                    return (
+                      <Card
+                        key={title}
+                        title={title}
+                        author={author}
+                        tags={tags}
+                        html={node.childMarkdownRemark.html}
+                        url={url}
+                        extraClasses="resource"
+                      />
+                    );
+                  } else {
+                    return;
+                  }
                 })}
               </main>
             </div>

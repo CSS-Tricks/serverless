@@ -50,7 +50,7 @@
           );
       }
       > a {
-        font-family: "AlternateGothicPro-No1", system-ui, sans-serif;
+        font-family: var(--ff-gothic);
         font-size: 2rem;
         letter-spacing: 0.1rem;
         display: block;

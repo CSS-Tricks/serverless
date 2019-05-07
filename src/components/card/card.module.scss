@@ -23,8 +23,10 @@
   padding: 1.5rem;
   color: #47356f;
   h3 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
+    padding: 0 20px 0 0;
     font-size: 1.5rem;
+    line-height: 1.33;
     a {
       color: #201f50;
       text-decoration: none;
@@ -75,28 +77,6 @@
   }
 }
 
-:global {
-  .resource {
-    display: none;
-    [data-filter="filter-"] & {
-      display: block;
-    }
-  }
-
-  $tags: "how-to", "realtime", "explain", "compare", "google-cloud", "firebase",
-    "lambda", "react", "push-notifications", "video", "blog", "auth",
-    "cloud-functions", "vue", "azure", "stripe", "calculator", "email",
-    "graphql", "architecture", "node", "api", "express", "static-site-generator",
-    "cms", "s3", "github", "openwhisk", "newsletter", "cloudflare", "podcast",
-    "api-gateway", "monitoring", "twilio", "webtask", "media", "cloudinary",
-    "notifications", "sms", "hugo", "rest", "appsync", "database";
-
-  @each $tag in $tags {
-    [data-filter="filter-#{$tag}"] .#{$tag} {
-      display: block;
-    }
-    [data-filter="filter-#{$tag}"] .button-#{$tag} {
-      background: #4666d2;
-    }
-  }
+.by {
+  color: #797a96;
 }
