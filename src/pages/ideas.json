@@ -1,33 +1,33 @@
 [
   {
     "title": "A Blog",
-    "tags": ["Auth", "Database", "Media Storage"],
+    "topics": ["Auth", "Database", "Media Storage"],
     "description": "<p>Static site builders are a perfect match for modern static file hosts, but there is another way you can build a serverless blog as well. You could store and manage the structured data as JSON stored in the cloud and build it as an SPA.</p><p><a href='https://blog.codepen.io/2018/01/15/build-serverless-blog-codepen/'>Here's a complete tutorial</a> on building a blog using mostly Firebase. A bonus feature could be having an <a href='https://cloudinary.com/documentation/upload_images'>image uploader via Cloudinary</a>, a cloud function for Markdown processing, or <a href='https://github.com/serverless/examples/tree/master/aws-node-fetch-file-and-store-in-s3'>storing and fetching files in S3</a> with Serverless.</p>"
   },
 
   {
     "title": "A Food Log",
-    "tags": ["Auth", "Database"],
+    "topics": ["Auth", "Database"],
     "description": "<p>A web form could be used to log what you ate and the calories. Then you could chart the data and offer daily/weekly/monthly summaries.</p><p>Here's <a href='https://codepen.io/chriscoyier/project/editor/AyNRzq'>a barebones food log app</a> using Firebase on CodePen Projects.</p>"
   },
   {
     "title": "A Recipe Site",
-    "tags": ["Cloud Functions", "Notifications"],
+    "topics": ["Cloud Functions", "Notifications"],
     "description": "<p>What if a static site full of featured recipes offered a feature to let you send a text message of the complete recipe to your phone?</p><p>A cloud function to send an SMS message through <a href='https://www.twilio.com/'>Twilio</a> is a great way to wet your feet with serverless technology. The Twilio <a href='https://www.twilio.com/docs/libraries/node'>Node Helper Library</a> provides a simple example function you can put on something like <a href='https://webtask.io/'>Webtask</a> and call with <a href='https://codepen.io/chriscoyier/pen/OzjgPB/'>a simple form</a> or <a href='https://codepen.io/chriscoyier/pen/xPMpGM/'>through JavaScript</a>.</p>"
   },
   {
     "title": "A To-Do App ",
-    "tags": ["Database"],
+    "topics": ["Database"],
     "description": "<p>This classic app doesn't just have to be a demo.  Your version could be personalized to your needs, or compete on features and UX with all the others out there.</p><p><a href='http://todomvc.com/'>TodoMVC</a> has examples of how to build a to do app in loads of different JavaScript frameworks. Now it's your job to hook them up to a data store and add features.</p>"
   },
   {
     "title": "API Endpoints",
-    "tags": ["Database"],
+    "topics": ["Database"],
     "description": "<p>Imagine you have a database full of data you'd like to give people API access to. The functions to retrieve and format that data are a perfect fit for cloud functions. GraphQL is worth looking into here.</p><p><a href='https://css-tricks.com/front-end-developers-guide-graphql/'>A Front End Developer’s Guide to GraphQL</a><br><a href='https://www.twilio.com/blog/2017/06/build-serverless-api-amazon-web-services-api-gateway.html'>How to Build a Serverless API with Amazon Web Services’ API Gateway</a>.</p>"
   },
   {
     "title": "Social Media Card Creation",
-    "tags": ["Cloud Functions", "Media"],
+    "topics": ["Cloud Functions", "Media"],
     "description": "<p>Tweets and Facebook Posts tend to do better when accompanied by an image, the legend goes. Perhaps that doesn't have to be a manual graphic design process, but can be automated. You could use a serverless function to <a href='https://css-tricks.com/social-cards-as-a-service/'>turn a quote from an article's author into a beautiful graphic</a> just by hitting a URL.</p>"
   }
 ]

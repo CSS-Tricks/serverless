@@ -37,6 +37,15 @@ const Card = props => {
             ))}
           </div>
         )}
+        {props.topics && (
+          <div className={styles.topicsArea}>
+            Focus Areas
+            <br />
+            {props.topics.map(topic => (
+              <span>{topic}</span>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

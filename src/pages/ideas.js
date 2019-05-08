@@ -17,7 +17,7 @@ const IdeasPage = () => (
 
     <div className={styles.grid}>
       {ideas.map(idea => (
-        <Card title={idea.title} tags={idea.tags} html={idea.description} />
+        <Card title={idea.title} topics={idea.topics} html={idea.description} />
       ))}
     </div>
   </>
