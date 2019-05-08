@@ -16,10 +16,18 @@ const Card = props => {
         </a>
       )}
 
+      {props.icon && (
+        <img
+          className={styles.icon}
+          src={withPrefix(`/img/${props.icon}`)}
+          alt=""
+        />
+      )}
+
       <div className={styles.cardContent}>
         <h3>
           {props.url && <a href={props.url}>{props.title}</a>}
-          {!props.url && <span>{props.title}</span>}
+          {!props.url && <>{props.title}</>}
         </h3>
         {props.author && (
           <p>
@@ -39,10 +47,12 @@ const Card = props => {
         )}
         {props.topics && (
           <div className={styles.topicsArea}>
-            Focus Areas
-            <br />
+            <span className={styles.focus}>
+              <img src={withPrefix(`/img/focus.svg`)} alt="" />
+              Focus Areas
+            </span>
             {props.topics.map(topic => (
-              <span>{topic}</span>
+              <span className={styles.topic}>{topic}</span>
             ))}
           </div>
         )}

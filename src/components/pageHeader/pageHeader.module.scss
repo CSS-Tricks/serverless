@@ -7,33 +7,26 @@
 }
 
 .h1wrap {
-  max-width: 400px;
   h1 {
-    height: 0;
+    height: 130px;
     text-indent: -9999px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-left: -20px;
   }
   &[data-title="Services"] {
-    max-width: 375px;
     h1 {
-      padding-top: calc(140 / 400 * 100%);
       background-image: url(/img/services-title.svg);
     }
   }
   &[data-title="Resources"] {
-    max-width: 490px;
     h1 {
-      padding-top: calc(130 / 482 * 100%);
       background-image: url(/img/resources-title.svg);
     }
   }
   &[data-title="Ideas"] {
-    max-width: 291px;
     h1 {
-      padding-top: calc(111 / 246 * 100%);
       background-image: url(/img/ideas-title.svg);
     }
   }

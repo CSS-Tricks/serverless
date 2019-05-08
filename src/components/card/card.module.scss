@@ -3,6 +3,7 @@
   overflow: hidden;
   background: white;
   position: relative;
+  padding-bottom: 100px;
 }
 
 .logoHeader {
@@ -18,13 +19,15 @@
   max-height: 80px;
   display: block;
 }
+.icon {
+  width: 62px;
+  height: 62px;
+  margin: 1.5rem 0 0 1.5rem;
+}
 
 .cardContent {
   padding: 1.5rem;
   color: #47356f;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
   h3 {
     margin: 0 0 0.5rem 0;
     padding: 0 20px 0 0;
@@ -86,7 +89,10 @@
 
 .tagsArea {
   background: #f5f4f8;
-  margin: auto -1.5rem -1.5rem -1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 1.5rem;
   border-top: 1px solid #ddd8ec;
   > button {
@@ -101,7 +107,32 @@
 
 .topicsArea {
   background: #f5f4f8;
-  margin: auto -1.5rem -1.5rem -1.5rem;
   padding: 1.5rem;
   border-top: 1px solid #ddd8ec;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0.8rem;
+}
+.focus {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #201d50;
+  display: block;
+  margin: 0 0 0.1rem 0;
+  img {
+    vertical-align: middle;
+    margin: 0 0.2rem 0 0;
+    position: relative;
+    top: -2px;
+  }
+}
+.topic {
+  color: #6a5a8a;
+  &:not(:nth-child(2)) {
+    &::before {
+      content: " · ";
+    }
+  }
 }
