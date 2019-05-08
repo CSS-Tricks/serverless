@@ -4,7 +4,7 @@ import styles from "./page.module.scss";
 
 import SEO from "../components/seo";
 import PageHeader from "../components/pageHeader/pageHeader";
-import Idea from "../components/idea/idea";
+import Card from "../components/card/card";
 import ideas from "./ideas.json";
 
 const IdeasPage = () => (
@@ -16,11 +16,9 @@ const IdeasPage = () => (
     </PageHeader>
 
     <div className={styles.grid}>
-
-      {ideas.map((idea) => 
-        <Idea title={idea.title} tags={idea.tags} description={idea.description} />
-      )}
-
+      {ideas.map(idea => (
+        <Card title={idea.title} tags={idea.tags} html={idea.description} />
+      ))}
     </div>
   </>
 );

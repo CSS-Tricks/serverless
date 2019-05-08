@@ -12,6 +12,10 @@ import PageHeader from "../components/pageHeader/pageHeader";
 export default () => {
   const [currentFilter, setCurrentFilter] = useState("all");
   const [tagsOpen, setTagOpenState] = useState(false);
+  const onTagClick = tag => {
+    console.log(tag);
+    setCurrentFilter(tag);
+  };
   return (
     <StaticQuery
       query={graphql`
@@ -56,14 +60,14 @@ export default () => {
                   whole ball of yarn.
                 </p>
 
-                <nav class={tagStyles.nav} data-open={tagsOpen}>
+                <nav className={tagStyles.nav} data-open={tagsOpen}>
                   Topics:{" "}
                   {allTags.map((tag, i) => {
                     return (
                       <button
                         key={tag}
-                        onClick={() => setCurrentFilter(tag)}
-                        class={tagStyles.tag}
+                        onClick={() => onTagClick(tag)}
+                        className={tagStyles.tag}
                       >
                         {tag}
                       </button>
@@ -97,6 +101,7 @@ export default () => {
                         html={node.childMarkdownRemark.html}
                         url={url}
                         extraClasses="resource"
+                        tagChanger={onTagClick}
                       />
                     );
                   } else {

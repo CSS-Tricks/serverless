@@ -4,13 +4,8 @@ import { withPrefix } from "gatsby";
 import styles from "./card.module.scss";
 
 const Card = props => {
-  let classes = "";
-  if (props.tags) {
-    props.tags.forEach(tag => (classes += " " + tag));
-  }
-
   return (
-    <div className={`${classes} ${styles.root} ${props.extraClasses}`}>
+    <div className={`${styles.root} ${props.extraClasses}`}>
       {props.logo && (
         <a href={props.url} className={styles.logoHeader}>
           <img
@@ -23,7 +18,8 @@ const Card = props => {
 
       <div className={styles.cardContent}>
         <h3>
-          <a href={props.url}>{props.title}</a>
+          {props.url && <a href={props.url}>{props.title}</a>}
+          {!props.url && <span>{props.title}</span>}
         </h3>
         {props.author && (
           <p>
@@ -34,6 +30,13 @@ const Card = props => {
           className={styles.textCardContent}
           dangerouslySetInnerHTML={{ __html: props.html }}
         />
+        {props.tags && (
+          <div className={styles.tagsArea}>
+            {props.tags.map(tag => (
+              <button onClick={() => props.tagChanger(tag)}>{tag}</button>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

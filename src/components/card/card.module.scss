@@ -22,6 +22,9 @@
 .cardContent {
   padding: 1.5rem;
   color: #47356f;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   h3 {
     margin: 0 0 0.5rem 0;
     padding: 0 20px 0 0;
@@ -79,4 +82,19 @@
 
 .by {
   color: #797a96;
+}
+
+.tagsArea {
+  background: #f5f4f8;
+  margin: auto -1.5rem -1.5rem -1.5rem;
+  padding: 1.5rem;
+  border-top: 1px solid #ddd8ec;
+  > button {
+    outline: 0;
+    background: none;
+    border: 0;
+    text-transform: uppercase;
+    font-family: var(--ff-rounded);
+    margin: 0;
+  }
 }
