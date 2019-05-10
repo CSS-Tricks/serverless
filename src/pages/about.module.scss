@@ -2,4 +2,17 @@
   padding: 1rem;
   max-width: 600px;
   margin: 0 auto;
+  color: #c4b2ec;
+  > p:first-child {
+    font-size: 150%;
+  }
+}
+
+.title {
+  background-image: url(/img/what-is.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  text-indent: -9999px;
 }

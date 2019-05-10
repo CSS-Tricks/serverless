@@ -1,8 +1,11 @@
 .homeFooter {
+  margin: 5rem 0 0 0;
   padding: 3rem;
   text-align: center;
   p {
     color: #c4b2ec;
+    max-width: 500px;
+    margin: 0 auto 1rem;
   }
 }
 
@@ -19,7 +22,6 @@
   background: rgba(black, 0.2);
   display: inline-block;
   padding: 1rem 3rem;
-
   border-radius: 50px;
 }
 .findOut {
@@ -27,6 +29,32 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-
   display: inline-block;
+}
+
+.footerSep {
+  display: inline-block;
+  margin: 3rem 0;
+}
+
+.builtWith {
+  > * {
+    vertical-align: middle;
+  }
+}
+.gatsby {
+  display: inline-block;
+  background-image: url(/images/gatsby.svg);
+  width: 30px;
+  height: 30px;
+  text-indent: -9999px;
+  background-size: cover;
+}
+.netlify {
+  display: inline-block;
+  background-image: url(/images/netlify.png);
+  width: 30px;
+  height: 30px;
+  text-indent: -9999px;
+  background-size: cover;
 }

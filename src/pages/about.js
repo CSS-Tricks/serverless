@@ -34,7 +34,9 @@ export default ({ children }) => (
             title="What is Serverless?"
             keywords={[`serverless`, `cloud`, `cloud functions`]}
           />
-          <PageHeader />
+          <PageHeader>
+            <h1 className={styles.title}>What is serverless?</h1>
+          </PageHeader>
           <div
             className={styles.root}
             dangerouslySetInnerHTML={{ __html: content.html }}

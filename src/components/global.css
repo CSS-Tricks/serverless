@@ -14,7 +14,7 @@ html {
   --ff-gothic: "AlternateGothicPro-No1", system-ui, sans-serif;
 
   font-family: var(--ff-rounded);
-  font-size: calc(11px + 0.28vw);
+  font-size: calc(12px + 0.4vw);
   line-height: 1.5;
   background: #130931;
   color: white;
@@ -61,6 +61,13 @@ body {
 
 p {
   margin: 0 0 1rem 0;
+}
+a {
+  color: #9058b5;
+}
+a:hover,
+a:focus {
+  text-decoration-color: #e1d6eb;
 }
 
 .button {

@@ -17,7 +17,7 @@ const Footer = props => (
     )}
 
     <br />
-    <img src="/img/footer-sep.svg" alt="" />
+    <img src="/img/footer-sep.svg" alt="" className={styles.footerSep} />
     <p>
       I'm a serverless noob. Got a correction? Something to add?{" "}
       <a href="https://github.com/CSS-Tricks/serverless">
@@ -25,9 +25,16 @@ const Footer = props => (
       </a>{" "}
       where you can contribute or open an issue.
     </p>
-    <p>
-      Built with <a href="https://www.gatsbyjs.org/">Gatsby</a> and hosted on{" "}
-      <a href="https://www.netlify.com/">Netlify</a>.
+    <p className={styles.builtWith}>
+      Built with{" "}
+      <a className={styles.gatsby} href="https://www.gatsbyjs.org/">
+        Gatsby
+      </a>{" "}
+      and hosted on{" "}
+      <a className={styles.netlify} href="https://www.netlify.com/">
+        Netlify
+      </a>
+      .
     </p>
   </footer>
 );

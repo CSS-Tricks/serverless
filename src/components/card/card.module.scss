@@ -74,12 +74,7 @@
 
 .textCardContent {
   a {
-    color: #9058b5;
     font-weight: bold;
-    &:hover,
-    &:focus {
-      text-decoration-color: rgba(#9058b5, 0.25);
-    }
   }
 }
 
