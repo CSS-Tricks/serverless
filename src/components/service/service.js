@@ -1,7 +1,5 @@
 import React from "react";
 
-import styles from "../../pages/page.module.scss";
-
 import SEO from "../seo";
 import Card from "../card/card";
 import PageHeader from "../pageHeader/pageHeader";
@@ -16,7 +14,7 @@ export default props => {
         <h2>{pageSubHeader}</h2>
         <p>{intro}</p>
       </PageHeader>
-      <main className={styles.grid}>
+      <main className="grid">
         {services.map(({ node }, i) => {
           return (
             <Card

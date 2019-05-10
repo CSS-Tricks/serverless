@@ -1,10 +1,9 @@
 import React from "react";
 import { Link, withPrefix } from "gatsby";
 
-import styles from "./page.module.scss";
+import styles from "./index.module.scss";
 
 import SEO from "../components/seo";
-import Footer from "../components/footer/footer";
 
 export default ({ children }) => {
   return (
@@ -27,7 +26,9 @@ export default ({ children }) => {
           </h1>
         </div>
 
-        <Footer />
+        <footer className={styles.homeFooter}>
+          What is Serverless? <Link to="/about/">Find out →</Link>
+        </footer>
       </div>
     </>
   );

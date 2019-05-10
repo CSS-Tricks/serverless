@@ -62,3 +62,28 @@ body {
 p {
   margin: 0 0 1rem 0;
 }
+
+.button {
+  font-family: inherit;
+  font-size: 1rem;
+  display: inline-block;
+  background: linear-gradient(to bottom, #4666d2, #182248);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem 0.5rem 0;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  white-space: nowrap;
+}
+button[aria-current] {
+  background: #4666d2;
+}
+
+.grid {
+  padding: 0 2rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}

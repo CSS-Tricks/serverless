@@ -1,6 +1,5 @@
 import React from "react";
 
-import styles from "./page.module.scss";
 import ideas from "./ideas.json";
 
 import SEO from "../components/seo";
@@ -16,7 +15,7 @@ const IdeasPage = () => (
       <p>That's a great way to learn. Here are some ideas.</p>
     </PageHeader>
 
-    <div className={styles.grid}>
+    <div className="grid">
       {ideas.map(idea => (
         <Card
           icon={idea.icon}

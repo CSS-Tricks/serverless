@@ -21,14 +21,14 @@
   {
     "title": "A To-Do App",
     "icon": "todo.svg",
-    "topics": ["Database"],
+    "topics": ["Interactivity", "Database", "Auth"],
     "description": "<p>This classic app doesn't just have to be a demo.  Your version could be personalized to your needs, or compete on features and UX with all the others out there.</p><p><a href='http://todomvc.com/'>TodoMVC</a> has examples of how to build a to do app in loads of different JavaScript frameworks. Now it's your job to hook them up to a data store and add features.</p>"
   },
   {
     "title": "API Endpoints",
     "icon": "api.svg",
     "topics": ["Database"],
-    "description": "<p>Imagine you have a database full of data you'd like to give people API access to. The functions to retrieve and format that data are a perfect fit for cloud functions. GraphQL is worth looking into here.</p><p><a href='https://css-tricks.com/front-end-developers-guide-graphql/'>A Front End Developer’s Guide to GraphQL</a><br><a href='https://www.twilio.com/blog/2017/06/build-serverless-api-amazon-web-services-api-gateway.html'>How to Build a Serverless API with Amazon Web Services’ API Gateway</a>.</p>"
+    "description": "<p>Imagine you have a database full of data you'd like to give people API access to. The functions to retrieve and format that data are a perfect fit for cloud functions. GraphQL is worth looking into here.</p><p><a href='https://css-tricks.com/front-end-developers-guide-graphql/'>A Front End Developer’s Guide to GraphQL</a></p><p><a href='https://www.twilio.com/blog/2017/06/build-serverless-api-amazon-web-services-api-gateway.html'>How to Build a Serverless API with Amazon Web Services’ API Gateway</a>.</p>"
   },
   {
     "title": "Social Media Card Creation",

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { uniq, flatten } from "lodash";
 
-import styles from "./page.module.scss";
 import tagStyles from "./tags.module.scss";
 
 import SEO from "../components/seo";
@@ -83,7 +82,7 @@ export default () => {
                 </nav>
               </PageHeader>
 
-              <main className={styles.grid}>
+              <main className="grid">
                 {data.allFile.edges.map(({ node }, i) => {
                   const {
                     title,
