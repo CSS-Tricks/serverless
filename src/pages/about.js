@@ -40,7 +40,7 @@ export default ({ children }) => (
             dangerouslySetInnerHTML={{ __html: content.html }}
           />
 
-          <Footer />
+          <Footer noWhatIs="true" />
         </>
       );
     }}

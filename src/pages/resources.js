@@ -104,7 +104,7 @@ export default () => {
                       />
                     );
                   } else {
-                    return;
+                    return "";
                   }
                 })}
               </main>

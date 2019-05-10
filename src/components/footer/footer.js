@@ -3,14 +3,19 @@ import { Link } from "gatsby";
 
 import styles from "./footer.module.scss";
 
-const Footer = () => (
+const Footer = props => (
   <footer class={styles.homeFooter}>
-    <h3 class={styles.whatis}>Yeah, but what is serverless?</h3>
-    <div className={styles.findOutWrap}>
-      <Link to="/about/" className={styles.findOut}>
-        Find out →
-      </Link>
-    </div>
+    {!props.noWhatIs && (
+      <>
+        <h3 class={styles.whatis}>Yeah, but what is serverless?</h3>
+        <div className={styles.findOutWrap}>
+          <Link to="/about/" className={styles.findOut}>
+            Find out →
+          </Link>
+        </div>
+      </>
+    )}
+
     <br />
     <img src="/img/footer-sep.svg" alt="" />
     <p>
