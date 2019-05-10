@@ -1,7 +1,32 @@
 .homeFooter {
   padding: 3rem;
   text-align: center;
-  h3 {
-    margin: 0;
+  p {
+    color: #c4b2ec;
   }
+}
+
+.whatis {
+  background-image: url(/img/what-is.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100px;
+  text-indent: -9999px;
+  margin: 0 0 2em 0;
+}
+.findOutWrap {
+  background: rgba(black, 0.2);
+  display: inline-block;
+  padding: 1rem 3rem;
+
+  border-radius: 50px;
+}
+.findOut {
+  background: linear-gradient(to right, #8c4ec5, #e68f40);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+
+  display: inline-block;
 }
