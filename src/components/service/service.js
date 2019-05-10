@@ -5,6 +5,7 @@ import styles from "../../pages/page.module.scss";
 import SEO from "../seo";
 import Card from "../card/card";
 import PageHeader from "../pageHeader/pageHeader";
+import Footer from "../footer/footer";
 
 export default props => {
   const { pageTitle, pageHeader, pageSubHeader, intro, services } = props;
@@ -28,6 +29,8 @@ export default props => {
           );
         })}
       </main>
+
+      <Footer />
     </>
   );
 };

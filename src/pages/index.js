@@ -1,8 +1,10 @@
 import React from "react";
-import SEO from "../components/seo";
 import { Link, withPrefix } from "gatsby";
 
 import styles from "./page.module.scss";
+
+import SEO from "../components/seo";
+import Footer from "../components/footer/footer";
 
 export default ({ children }) => {
   return (
@@ -25,10 +27,7 @@ export default ({ children }) => {
           </h1>
         </div>
 
-        <footer class={styles.homeFooter}>
-          <h3>What is Serverless?</h3> Somebody else's computers.{" "}
-          <Link to="/about/">Find out more.</Link>
-        </footer>
+        <Footer />
       </div>
     </>
   );

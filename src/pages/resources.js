@@ -6,14 +6,14 @@ import styles from "./page.module.scss";
 import tagStyles from "./tags.module.scss";
 
 import SEO from "../components/seo";
-import Card from "../components/card/card";
 import PageHeader from "../components/pageHeader/pageHeader";
+import Card from "../components/card/card";
+import Footer from "../components/footer/footer";
 
 export default () => {
   const [currentFilter, setCurrentFilter] = useState("all");
   const [tagsOpen, setTagOpenState] = useState(false);
   const onTagClick = tag => {
-    console.log(tag);
     setCurrentFilter(tag);
   };
   return (
@@ -109,6 +109,8 @@ export default () => {
                   }
                 })}
               </main>
+
+              <Footer />
             </div>
           </>
         );

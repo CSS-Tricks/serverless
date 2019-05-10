@@ -1,11 +1,12 @@
 import React from "react";
 
 import styles from "./page.module.scss";
+import ideas from "./ideas.json";
 
 import SEO from "../components/seo";
 import PageHeader from "../components/pageHeader/pageHeader";
 import Card from "../components/card/card";
-import ideas from "./ideas.json";
+import Footer from "../components/footer/footer";
 
 const IdeasPage = () => (
   <>
@@ -25,6 +26,8 @@ const IdeasPage = () => (
         />
       ))}
     </div>
+
+    <Footer />
   </>
 );
 

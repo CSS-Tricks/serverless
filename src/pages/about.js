@@ -1,7 +1,11 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 
+import styles from "./about.module.scss";
+
 import SEO from "../components/seo";
+import PageHeader from "../components/pageHeader/pageHeader";
+import Footer from "../components/footer/footer";
 
 export default ({ children }) => (
   <StaticQuery
@@ -30,10 +34,13 @@ export default ({ children }) => (
             title="What is Serverless?"
             keywords={[`serverless`, `cloud`, `cloud functions`]}
           />
+          <PageHeader />
           <div
-            className="blog-post-content"
+            className={styles.root}
             dangerouslySetInnerHTML={{ __html: content.html }}
           />
+
+          <Footer />
         </>
       );
     }}

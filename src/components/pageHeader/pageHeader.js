@@ -21,7 +21,7 @@ const PageHeader = props => {
       </div>
 
       <div className={styles.h1wrap} data-title={props.title}>
-        <h1>{props.title}</h1>
+        {props.title && <h1>{props.title}</h1>}
       </div>
 
       <div className={styles.subtitleArea} data-title={props.title}>
