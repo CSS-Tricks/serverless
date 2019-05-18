@@ -5,6 +5,9 @@
   background-size: 13%, 55%, 90%;
   background-repeat: no-repeat;
   background-position: top 10% right 22%, top right, top center;
+  @media (max-width: 420px) {
+    background-position: top 30% right 10%, top 5% right, top center;
+  }
 }
 
 .nav {

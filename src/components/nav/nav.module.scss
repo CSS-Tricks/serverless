@@ -76,6 +76,10 @@
           &[aria-current] {
             color: #ffac29;
           }
+          @media (max-width: 420px) {
+            font-size: 0.9rem;
+            padding: 4px 0;
+          }
         }
       }
     }

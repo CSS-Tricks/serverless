@@ -20,7 +20,7 @@ html {
   background: #130931;
   color: white;
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   html {
     font-size: 11px;
   }
@@ -97,10 +97,15 @@ button[aria-current] {
 .grid {
   padding: 0 2rem 2rem 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1rem;
 }
-@media (max-width: 400px) {
+@media (max-width: 810px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(213px, 1fr));
+  }
+}
+@media (max-width: 420px) {
   .grid {
     grid-template-columns: 1fr;
   }

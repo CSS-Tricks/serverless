@@ -5,4 +5,7 @@
   background-size: 13%, 55%, 90%;
   background-repeat: no-repeat;
   background-position: top 40% right 42%, top right 10%, top center;
+  @media (max-width: 420px) {
+    background-position: top 40% right 42%, top 34% right 10%, top center;
+  }
 }

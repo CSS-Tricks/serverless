@@ -1,7 +1,7 @@
 .root {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
     grid-template-columns: 5fr 3fr;
   }
 }

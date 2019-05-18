@@ -13,7 +13,7 @@ const IdeasPage = () => (
     <SEO title="Ideas" />
     <PageHeader title="Ideas" className={styles.pageHeader}>
       <h2>Want to play with serverless technology?</h2>
-      <p>That's a great way to learn. Here are some ideas.</p>
+      <p>That's a great way to learn. Here are some&nbsp;ideas.</p>
     </PageHeader>
 
     <div className="grid">

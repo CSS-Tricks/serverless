@@ -15,4 +15,9 @@
   background-position: center;
   height: 200px;
   text-indent: -9999px;
+  @media (max-width: 420px) {
+    width: 200px;
+    height: 100px;
+    magin: 0 auto;
+  }
 }

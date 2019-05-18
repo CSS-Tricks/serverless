@@ -30,7 +30,7 @@
       background-image: url(/img/ideas-title.svg);
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
     h1 {
       height: 60px;
     }
@@ -52,7 +52,7 @@
   strong {
     color: #ea9e56;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
     font-size: 9px;
     img {
       width: 40px;
@@ -68,6 +68,7 @@
     font-size: 2.4rem;
     letter-spacing: 0.1rem;
     margin: 0;
+    line-height: 1;
   }
   p {
     color: #c4b2ec;
