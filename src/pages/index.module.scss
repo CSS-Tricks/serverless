@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("/img/mountain.png"),
+    url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558124521/cloud2_ozcydy.png"),
+    url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558124913/cloud1_gpju6f.png"),
+    url("/img/stars.svg"), url("/img/stars.svg");
+  background-position: bottom left, bottom right, bottom 20% right 0, top center,
+    top 30% left -20%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x;
+  background-size: 60%, 100%, 100%, 98%, 150%;
 }
 
 .homepageTitle {
@@ -12,7 +20,7 @@
   line-height: 1;
   text-align: center;
   letter-spacing: 1px;
-  width: 60vw;
+  width: 55vw;
   strong {
     display: block;
     text-indent: -9999px;
@@ -40,9 +48,9 @@
 
 .homeFooter {
   text-align: center;
-  padding: 2rem 3rem;
+  padding: 1rem 3rem;
   margin-bottom: 3rem;
-  background: rgba(black, 0.2);
+  background: rgba(rgb(22, 8, 59), 0.66);
   border-radius: 50px;
   a {
     background: linear-gradient(to right, #8c4ec5, #e68f40);

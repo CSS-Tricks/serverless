@@ -5,7 +5,7 @@ import styles from "./pageHeader.module.scss";
 
 const PageHeader = props => {
   return (
-    <header className={styles.root}>
+    <header className={`${styles.root} ${props.className}`}>
       <div className={styles.logoArea}>
         <Link to="/">
           <img

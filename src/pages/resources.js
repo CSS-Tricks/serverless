@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { uniq, flatten } from "lodash";
 
-import tagStyles from "./tags.module.scss";
+import styles from "./resources.module.scss";
 
 import SEO from "../components/seo";
 import PageHeader from "../components/pageHeader/pageHeader";
@@ -53,27 +53,27 @@ export default () => {
             <SEO title="Resources" />
 
             <div data-filter={`filter-${currentFilter}`}>
-              <PageHeader title="Resources">
+              <PageHeader title="Resources" className={styles.pageHeader}>
                 <p>
                   Articles about things related to Serverless, JAMstack, and the
                   whole ball of yarn.
                 </p>
 
-                <nav className={tagStyles.nav} data-open={tagsOpen}>
+                <nav className={styles.nav} data-open={tagsOpen}>
                   Topics:{" "}
                   {allTags.map((tag, i) => {
                     return (
                       <button
                         key={tag}
                         onClick={() => onTagClick(tag)}
-                        className={tagStyles.tag}
+                        className={styles.tag}
                       >
                         {tag}
                       </button>
                     );
                   })}
                   <button
-                    className={tagStyles.more}
+                    className={styles.more}
                     data-open={tagsOpen}
                     onClick={() => setTagOpenState(tagsOpen ? false : true)}
                   >

@@ -1,15 +1,26 @@
+.pageHeader {
+  background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto,w_600/v1558187394/rocket_akopq6.png"),
+    url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto,w_1200/v1558187112/cloud4_gi3gqj.png"),
+    url("/img/stars.svg");
+  background-size: 13%, 55%, 90%;
+  background-repeat: no-repeat;
+  background-position: top 10% right 22%, top right, top center;
+}
+
 .nav {
   font-family: var(--ff-gothic);
   text-transform: uppercase;
   font-size: 2rem;
   overflow: hidden;
   line-height: 1;
-
+  max-height: 500px;
+  transition: max-height 0.2s;
   position: relative;
   padding: 0 120px 40px 0;
+  margin-bottom: 1rem;
 
   &[data-open="false"] {
-    height: 40px;
+    max-height: 54px;
     &::after {
       content: "";
       position: absolute;
@@ -19,9 +30,6 @@
       height: 10px;
       background: linear-gradient(to top, #110b2e, rgba(#110b2e, 0));
     }
-  }
-
-  &[data-open="true"] {
   }
 }
 

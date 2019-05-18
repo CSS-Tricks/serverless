@@ -1,5 +1,7 @@
 import React from "react";
 
+import styles from "./service.module.scss";
+
 import SEO from "../seo";
 import Card from "../card/card";
 import PageHeader from "../pageHeader/pageHeader";
@@ -10,7 +12,7 @@ export default props => {
   return (
     <>
       <SEO title={pageTitle} />
-      <PageHeader title={pageHeader}>
+      <PageHeader title={pageHeader} className={styles.pageHeader}>
         <h2>{pageSubHeader}</h2>
         <p>{intro}</p>
       </PageHeader>
