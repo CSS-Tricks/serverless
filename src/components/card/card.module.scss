@@ -5,13 +5,18 @@
   position: relative;
   padding-bottom: 100px;
 }
+:global {
+  .service-card {
+    padding-bottom: 0;
+  }
+}
 
 .logoHeader {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 140px;
-  padding: 2rem;
+  padding: 2.7rem 2rem 1.3rem 2rem;
 }
 
 .logoImage {

@@ -16,7 +16,7 @@ export default props => {
         <h2>{pageSubHeader}</h2>
         <p>{intro}</p>
       </PageHeader>
-      <main className="grid">
+      <div className="grid">
         {services.map(({ node }, i) => {
           return (
             <Card
@@ -25,10 +25,11 @@ export default props => {
               key={node.frontmatter.title}
               html={node.html}
               url={node.frontmatter.url}
+              extraClasses="service-card"
             />
           );
         })}
-      </main>
+      </div>
 
       <Footer />
     </>

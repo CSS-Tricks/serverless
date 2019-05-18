@@ -30,6 +30,11 @@
       background-image: url(/img/ideas-title.svg);
     }
   }
+  @media (max-width: 400px) {
+    h1 {
+      height: 60px;
+    }
+  }
 }
 
 .logoArea {
@@ -46,6 +51,13 @@
   }
   strong {
     color: #ea9e56;
+  }
+  @media (max-width: 400px) {
+    font-size: 9px;
+    img {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 

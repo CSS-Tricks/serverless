@@ -35,9 +35,11 @@
 .footerSep {
   display: inline-block;
   margin: 3rem 0;
+  max-width: 100%;
 }
 
 .builtWith {
+  white-space: nowrap;
   > * {
     vertical-align: middle;
   }

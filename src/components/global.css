@@ -4,6 +4,7 @@
 @font-face {
   font-family: "AlternateGothicPro-No1";
   src: url("/webfonts/394F01_0_0.woff2") format("woff2");
+  font-display: optional;
 }
 
 * {
@@ -18,6 +19,11 @@ html {
   line-height: 1.5;
   background: #130931;
   color: white;
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 11px;
+  }
 }
 body {
   margin: 0;
@@ -91,6 +97,11 @@ button[aria-current] {
 .grid {
   padding: 0 2rem 2rem 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 1rem;
+}
+@media (max-width: 400px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
