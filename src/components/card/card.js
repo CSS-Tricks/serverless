@@ -41,7 +41,9 @@ const Card = props => {
         {props.tags && (
           <div className={styles.tagsArea}>
             {props.tags.map(tag => (
-              <button onClick={() => props.tagChanger(tag)}>{tag}</button>
+              <button key={tag} onClick={() => props.tagChanger(tag)}>
+                {tag}
+              </button>
             ))}
           </div>
         )}

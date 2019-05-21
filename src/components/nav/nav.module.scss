@@ -4,68 +4,49 @@
   --animationTiming: 0.5s;
   --mainNavCollapsedHeight: 50px;
 
-  position: sticky;
-  top: 0;
-  align-self: start;
   > ul {
     list-style: none;
     margin: 0;
-    padding: 0;
-    min-height: 100vh;
+    padding: 0 0 1rem 0;
+    position: relative;
     > li {
-      height: calc(12vh);
-      transition: 0.25s;
       background-image: url(/img/texture.png);
       background-size: cover;
       background-color: #37236b;
       background-blend-mode: screen;
       position: relative;
       overflow: hidden;
-      &[data-resources] {
-        &::before,
-        &::after {
-          left: 0;
-          width: 100%;
-          height: 20px;
-          background: url(/img/horizontal-dividers.svg);
-          background-position: top left;
-          background-repeat: no-repeat;
-          background-size: 100% 20px;
-          z-index: 1000;
-          content: "";
-          position: absolute;
-        }
-        &::before {
-          top: -10px;
-        }
-        &::after {
-          bottom: -10px;
-        }
+      &[data-services] {
+        background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_800/v1558127391/satellite_wezm7k.png"),
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558446566/moon2_qkahpp.png");
+        background-position: top 8% right -8%, bottom 15% left 8%;
+        background-repeat: no-repeat;
+        background-size: 100px, 40px;
       }
-
-      &:hover {
-        background-image: url(/img/texture.png),
-          linear-gradient(
-            135.29deg,
-            #e9910d -21.42%,
-            rgba(169, 0, 197, 0) 61.79%
-          );
+      &[data-resources] {
+        background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447058/angle-rocket_q7ogzm.png"),
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447057/cloud-small_szm500.png");
+        background-position: top 13% right -8%, bottom 10% left -10%;
+        background-repeat: no-repeat;
+        background-size: 90px;
+      }
+      &[data-ideas] {
+        background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star1_jivq8a.png"),
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png");
+        background-position: top 65% left 2%, bottom 60% right 20%;
+        background-repeat: no-repeat;
+        background-size: 50px, 40px;
       }
       > a {
         font-family: var(--ff-gothic);
         font-size: 2rem;
-        letter-spacing: 0.1rem;
-        display: block;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        text-decoration: none;
-        transition: var(--animationTiming);
         text-transform: uppercase;
         padding: 1rem;
+        letter-spacing: 0.1rem;
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-shadow: 0 0 2px black;
       }
       [data-subnav] {
         a {
@@ -78,64 +59,194 @@
           &[aria-current] {
             color: #ffac29;
           }
-          @include breakpoint(baby-bear) {
-            font-size: 0.9rem;
-            padding: 4px 0;
+        }
+      }
+    }
+    &::after,
+    > li[data-resources]::after,
+    > li[data-ideas]::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: calc(100% - 20px);
+      width: 100%;
+      height: 20px;
+      background: url(/img/horizontal-dividers.svg);
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: 100% 20px;
+      z-index: 1000;
+    }
+    > li[data-resources]::after {
+      top: calc(100% - 10px);
+    }
+    > li[data-ideas]::after {
+      top: -10px;
+    }
+  }
+
+  @include breakpoint(nav-break) {
+    display: none;
+
+    :global(body.menu-open) & {
+      display: block;
+      margin-top: 50px;
+    }
+
+    > ul {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      > li {
+        display: grid;
+        place-items: center;
+        &[data-services] {
+          padding-bottom: 1rem;
+          &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -10px;
+            width: 20px;
+            height: 100%;
+            background: url(/img/vertical-dividers.svg);
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            z-index: 1000;
+          }
+        }
+      }
+      > li[data-services] {
+        grid-row: 1 / span 2;
+        [data-subnav] {
+          display: none;
+        }
+      }
+    }
+    &[data-active="services"] {
+      > ul {
+        > li[data-services] {
+          [data-subnav] {
+            display: block;
           }
         }
       }
     }
-    &:hover {
+  }
+
+  @include breakpoint(reverso-nav-break) {
+    position: sticky;
+    top: 0;
+    align-self: start;
+    > ul {
+      min-height: 100vh;
       > li {
-        opacity: 0.5;
+        height: calc(12vh);
+        transition: 0.25s;
+        &[data-resources] {
+          &::before,
+          &::after {
+            left: 0;
+            width: 100%;
+            height: 20px;
+            background: url(/img/horizontal-dividers.svg);
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: 100% 20px;
+            z-index: 1000;
+            content: "";
+            position: absolute;
+          }
+          &::before {
+            top: -10px;
+          }
+          &::after {
+            bottom: -10px;
+          }
+        }
+        > * {
+          position: relative;
+        }
         &:hover {
-          opacity: 1;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(/img/texture.png),
+              linear-gradient(
+                135.29deg,
+                #e9910d -21.42%,
+                rgba(169, 0, 197, 0) 61.79%
+              );
+            background-size: cover;
+            pointer-events: none;
+          }
+        }
+        > a {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: var(--animationTiming);
+        }
+      }
+      &:hover {
+        > li {
+          opacity: 0.5;
+          &:hover {
+            opacity: 1;
+          }
         }
       }
     }
-  }
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -10px;
-    width: 20px;
-    height: 100%;
-    background: url(/img/vertical-dividers.svg);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 20px 100%;
-  }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -10px;
+      width: 20px;
+      height: 100%;
+      background: url(/img/vertical-dividers.svg);
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: 20px 100%;
+      z-index: 1000;
+    }
 
-  &[data-active="nothing"] > ul > li {
-    height: calc(33.33vh);
-  }
-  &[data-active="services"] {
-    > ul > li[data-services] {
-      height: 76vh;
-      > a {
-        height: 20%;
+    &[data-active="nothing"] > ul > li {
+      height: calc(33.33vh);
+    }
+    &[data-active="services"] {
+      > ul > li[data-services] {
+        height: 76vh;
+        > a {
+          height: 20%;
+        }
+      }
+      > ul > li {
+        height: 12vh;
       }
     }
-    > ul > li {
-      height: 12vh;
+    &[data-active="resources"] {
+      > ul > li[data-resources] {
+        height: 40vh;
+      }
+      > ul > li {
+        height: 30vh;
+      }
     }
-  }
-  &[data-active="resources"] {
-    > ul > li[data-resources] {
-      height: 40vh;
-    }
-    > ul > li {
-      height: 30vh;
-    }
-  }
-  &[data-active="ideas"] {
-    > ul > li[data-ideas] {
-      height: 40vh;
-    }
-    > ul > li {
-      height: 30vh;
+    &[data-active="ideas"] {
+      > ul > li[data-ideas] {
+        height: 40vh;
+      }
+      > ul > li {
+        height: 30vh;
+      }
     }
   }
 }

@@ -3,7 +3,14 @@
 .root {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  @include breakpoint(baby-bear) {
-    grid-template-columns: 5fr 3fr;
+  > nav {
+    grid-column: 2;
+  }
+  @include breakpoint(nav-break) {
+    grid-template-columns: 1fr;
+    > nav {
+      grid-column: 1;
+      grid-row: -1;
+    }
   }
 }

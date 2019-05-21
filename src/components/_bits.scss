@@ -19,4 +19,14 @@
       @content;
     }
   }
+  @if $point == nav-break {
+    @media (max-width: 770px) {
+      @content;
+    }
+  }
+  @if $point == reverso-nav-break {
+    @media (min-width: 770px) {
+      @content;
+    }
+  }
 }

@@ -18,6 +18,16 @@ const PageHeader = props => {
           The Power of <strong>Serverless</strong>
           <br /> for Front-End Developers
         </div>
+
+        <button
+          className={styles.menuButton}
+          onClick={() => {
+            document.body.classList.toggle("menu-open");
+          }}
+        >
+          <span className="screen-reader-text">Toggle Menu</span>
+          <img src="/img/menu-button.svg" alt="" className={styles.toggleImg} />
+        </button>
       </div>
 
       <div className={styles.h1wrap} data-title={props.title}>

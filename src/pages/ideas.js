@@ -21,6 +21,7 @@ const IdeasPage = () => (
         <Card
           icon={idea.icon}
           title={idea.title}
+          key={idea.title}
           topics={idea.topics}
           html={idea.description}
         />

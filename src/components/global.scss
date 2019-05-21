@@ -100,14 +100,16 @@ button[aria-current] {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1rem;
-}
-@media (max-width: 810px) {
-  .grid {
+  @media (max-width: 810px) {
     grid-template-columns: repeat(auto-fill, minmax(213px, 1fr));
   }
-}
-@include breakpoint(baby-bear) {
-  .grid {
+  @include breakpoint(baby-bear) {
     grid-template-columns: 1fr;
   }
+}
+
+.screen-reader,
+.screen-reader-text {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
 }

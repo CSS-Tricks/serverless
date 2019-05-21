@@ -4,10 +4,10 @@ import { Link } from "gatsby";
 import styles from "./footer.module.scss";
 
 const Footer = props => (
-  <footer class={styles.homeFooter}>
+  <footer className={styles.homeFooter}>
     {!props.noWhatIs && (
       <>
-        <h3 class={styles.whatis}>Yeah, but what is serverless?</h3>
+        <h3 className={styles.whatis}>Yeah, but what is serverless?</h3>
         <div className={styles.findOutWrap}>
           <Link to="/about/" className={styles.findOut}>
             Find out →

@@ -46,19 +46,53 @@
   letter-spacing: 1px;
   font-size: 13px;
   text-shadow: 0 0 1px black, 0 0 3px black;
-  img {
-    margin-right: 1rem;
-    width: 80px;
-    height: 80px;
-  }
   strong {
     color: #ea9e56;
   }
-  @include breakpoint(baby-bear) {
+  @include breakpoint(nav-break) {
     font-size: 9px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    z-index: 11;
+    background-color: #39256c;
+    background-image: url(/img/texture.png);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logo {
+  margin-right: 1rem;
+  width: 80px;
+  height: 80px;
+  @include breakpoint(nav-break) {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.toggleImg {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  margin: 0;
+}
+
+.menuButton {
+  border: 0;
+  background: none;
+  display: none;
+  @include breakpoint(nav-break) {
+    display: block;
+    margin-left: auto;
     img {
-      width: 40px;
-      height: 40px;
+      width: 38px;
+      height: 38px;
     }
   }
 }
