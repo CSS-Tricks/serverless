@@ -1,3 +1,5 @@
+@import "../components/bits";
+
 .root {
   padding: 1rem;
   max-width: 600px;
@@ -15,7 +17,7 @@
   background-position: center;
   height: 200px;
   text-indent: -9999px;
-  @media (max-width: 420px) {
+  @include breakpoint(baby-bear) {
     width: 200px;
     height: 100px;
     magin: 0 auto;

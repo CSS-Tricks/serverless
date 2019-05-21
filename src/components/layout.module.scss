@@ -1,7 +1,9 @@
+@import "bits";
+
 .root {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  @media (max-width: 420px) {
+  @include breakpoint(baby-bear) {
     grid-template-columns: 5fr 3fr;
   }
 }

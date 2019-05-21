@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
 import Nav from "./nav/nav";
-import "./global.css";
+import "./global.scss";
 import styles from "./layout.module.scss";
 
 const Layout = ({ location, children }) => {

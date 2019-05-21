@@ -1,3 +1,5 @@
+@import "../components/bits";
+
 .homepageWrap {
   min-height: 100vh;
   display: flex;
@@ -11,7 +13,7 @@
     top 30% left -20%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x;
   background-size: 60%, 100%, 100%, 98%, 150%;
-  @media (max-width: 420px) {
+  @include breakpoint(baby-bear) {
     background-position: bottom left, bottom right, bottom 5% right 0,
       top center, top 30% left -20%;
   }

@@ -1,3 +1,5 @@
+@import "../bits";
+
 .root {
   padding: 2rem 2rem 0 2rem;
   h1 {
@@ -30,7 +32,7 @@
       background-image: url(/img/ideas-title.svg);
     }
   }
-  @media (max-width: 420px) {
+  @include breakpoint(baby-bear) {
     h1 {
       height: 60px;
     }
@@ -52,7 +54,7 @@
   strong {
     color: #ea9e56;
   }
-  @media (max-width: 420px) {
+  @include breakpoint(baby-bear) {
     font-size: 9px;
     img {
       width: 40px;

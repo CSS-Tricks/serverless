@@ -1,10 +1,11 @@
+@import "bits";
 @import url("https://fonts.googleapis.com/css?family=Shrikhand|Nunito:400,700");
 @import url("https://hello.myfonts.net/count/394f01");
 
 @font-face {
   font-family: "AlternateGothicPro-No1";
   src: url("/webfonts/394F01_0_0.woff2") format("woff2");
-  font-display: optional;
+  font-display: swap;
 }
 
 * {
@@ -20,7 +21,7 @@ html {
   background: #130931;
   color: white;
 }
-@media (max-width: 420px) {
+@include breakpoint(baby-bear) {
   html {
     font-size: 11px;
   }
@@ -105,7 +106,7 @@ button[aria-current] {
     grid-template-columns: repeat(auto-fill, minmax(213px, 1fr));
   }
 }
-@media (max-width: 420px) {
+@include breakpoint(baby-bear) {
   .grid {
     grid-template-columns: 1fr;
   }

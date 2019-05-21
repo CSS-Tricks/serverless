@@ -1,3 +1,5 @@
+@import "../bits";
+
 .root {
   --animationTiming: 0.5s;
   --mainNavCollapsedHeight: 50px;
@@ -76,7 +78,7 @@
           &[aria-current] {
             color: #ffac29;
           }
-          @media (max-width: 420px) {
+          @include breakpoint(baby-bear) {
             font-size: 0.9rem;
             padding: 4px 0;
           }

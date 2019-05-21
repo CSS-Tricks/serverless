@@ -1,3 +1,5 @@
+@import "../bits";
+
 .pageHeader {
   background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_800/v1558127391/satellite_wezm7k.png"),
     url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558127158/cloud3_v43wo8.png"),
@@ -6,7 +8,7 @@
   background-size: 30%, 60%, 50%, 90%;
   background-position: top right 15%, top right -40px, top 85% right, top center;
   background-repeat: no-repeat;
-  @media (max-width: 420px) {
+  @include breakpoint(baby-bear) {
     background-position: top 40% right 5%, top -10% right -40px, top 60% right,
       top center;
   }
