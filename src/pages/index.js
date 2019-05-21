@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, withPrefix } from "gatsby";
 
 import styles from "./index.module.scss";
 
 import SEO from "../components/seo";
 
-export default ({ children }) => {
+const Index = () => {
+  useEffect(() => {
+    document.body.classList.add("homepage");
+    document.body.classList.add("menu-open");
+  });
   return (
     <>
       <SEO
@@ -20,8 +24,8 @@ export default ({ children }) => {
             alt="CSS-Tricks Presents"
           />
         </header>
-        <div class={styles.titleArea}>
-          <h1 class={styles.homepageTitle}>
+        <div className={styles.titleArea}>
+          <h1 className={styles.homepageTitle}>
             The Power of <strong>Serverless</strong> for Front-End Developers
           </h1>
         </div>
@@ -33,3 +37,5 @@ export default ({ children }) => {
     </>
   );
 };
+
+export default Index;

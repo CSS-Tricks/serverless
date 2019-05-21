@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { uniq, flatten } from "lodash";
 
@@ -15,6 +15,10 @@ export default () => {
   const onTagClick = tag => {
     setCurrentFilter(tag);
   };
+  useEffect(() => {
+    document.body.classList.remove("homepage");
+    document.body.classList.remove("menu-open");
+  });
   return (
     <StaticQuery
       query={graphql`

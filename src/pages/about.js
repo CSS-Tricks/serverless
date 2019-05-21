@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { StaticQuery, graphql } from "gatsby";
 
 import styles from "./about.module.scss";
@@ -7,44 +7,50 @@ import SEO from "../components/seo";
 import PageHeader from "../components/pageHeader/pageHeader";
 import Footer from "../components/footer/footer";
 
-export default ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query AboutPageQuery {
-        allMarkdownRemark(
-          limit: 10
-          filter: { frontmatter: { title: { eq: "Homepage" } } }
-        ) {
-          edges {
-            node {
-              frontmatter {
-                title
+export default () => {
+  useEffect(() => {
+    document.body.classList.remove("homepage");
+    document.body.classList.remove("menu-open");
+  });
+  return (
+    <StaticQuery
+      query={graphql`
+        query AboutPageQuery {
+          allMarkdownRemark(
+            limit: 10
+            filter: { frontmatter: { title: { eq: "Homepage" } } }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  title
+                }
+                html
               }
-              html
             }
           }
         }
-      }
-    `}
-    render={data => {
-      const content = data.allMarkdownRemark.edges[0].node;
-      return (
-        <>
-          <SEO
-            title="What is Serverless?"
-            keywords={[`serverless`, `cloud`, `cloud functions`]}
-          />
-          <PageHeader>
-            <h1 className={styles.title}>What is serverless?</h1>
-          </PageHeader>
-          <div
-            className={styles.root}
-            dangerouslySetInnerHTML={{ __html: content.html }}
-          />
+      `}
+      render={data => {
+        const content = data.allMarkdownRemark.edges[0].node;
+        return (
+          <>
+            <SEO
+              title="What is Serverless?"
+              keywords={[`serverless`, `cloud`, `cloud functions`]}
+            />
+            <PageHeader>
+              <h1 className={styles.title}>What is serverless?</h1>
+            </PageHeader>
+            <div
+              className={styles.root}
+              dangerouslySetInnerHTML={{ __html: content.html }}
+            />
 
-          <Footer noWhatIs="true" />
-        </>
-      );
-    }}
-  />
-);
+            <Footer noWhatIs="true" />
+          </>
+        );
+      }}
+    />
+  );
+};

@@ -11,6 +11,10 @@
     > nav {
       grid-column: 1;
       grid-row: -1;
+      :global(body.homepage) & {
+        margin-top: 0;
+        grid-row: 2;
+      }
     }
   }
 }

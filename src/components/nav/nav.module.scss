@@ -93,6 +93,12 @@
       margin-top: 50px;
     }
 
+    :global(body.homepage) & {
+      & ul::after {
+        top: -10px;
+      }
+    }
+
     > ul {
       display: grid;
       grid-template-columns: 50% 50%;
@@ -114,6 +120,10 @@
             background-size: 100%;
             z-index: 1000;
           }
+        }
+        a {
+          padding-top: 4rem;
+          padding-bottom: 4rem;
         }
       }
       > li[data-services] {
