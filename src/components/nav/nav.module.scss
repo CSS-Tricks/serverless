@@ -18,24 +18,29 @@
       overflow: hidden;
       &[data-services] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_800/v1558127391/satellite_wezm7k.png"),
-          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558446566/moon2_qkahpp.png");
-        background-position: top 8% right -8%, bottom 15% left 8%;
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558446566/moon2_qkahpp.png"),
+          url(/img/texture.png);
+        background-position: top 8% right -8%, bottom 15% left 8%, center center;
         background-repeat: no-repeat;
-        background-size: 100px, 40px;
+        background-size: 100px, 40px, cover;
       }
       &[data-resources] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447058/angle-rocket_q7ogzm.png"),
-          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447057/cloud-small_szm500.png");
-        background-position: top 13% right -8%, bottom 10% left -10%;
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447057/cloud-small_szm500.png"),
+          url(/img/texture.png);
+        background-position: top 13% right -8%, bottom 10% left -10%,
+          center center;
         background-repeat: no-repeat;
-        background-size: 90px;
+        background-size: 90px, 90px, cover;
       }
       &[data-ideas] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star1_jivq8a.png"),
-          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png");
-        background-position: top 65% left 2%, bottom 60% right 20%;
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png"),
+          url(/img/texture.png);
+        background-position: top 65% left 2%, bottom 60% right 20%,
+          center center;
         background-repeat: no-repeat;
-        background-size: 50px, 40px;
+        background-size: 50px, 40px, cover;
       }
       > a {
         font-family: var(--ff-gothic);
