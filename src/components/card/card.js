@@ -54,7 +54,9 @@ const Card = props => {
               Focus Areas
             </span>
             {props.topics.map(topic => (
-              <span className={styles.topic}>{topic}</span>
+              <span key={topic} className={styles.topic}>
+                {topic}
+              </span>
             ))}
           </div>
         )}
