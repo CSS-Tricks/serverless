@@ -28,10 +28,10 @@
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447058/angle-rocket_q7ogzm.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447057/cloud-small_szm500.png"),
           url(/img/texture.png);
-        background-position: top 13% right -8%, bottom 10% left -10%,
+        background-position: top 13% right -8%, bottom 20% left -10%,
           center center;
         background-repeat: no-repeat;
-        background-size: 90px, 90px, cover;
+        background-size: 90px, 110px, cover;
       }
       &[data-ideas] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star1_jivq8a.png"),
@@ -67,26 +67,23 @@
         }
       }
     }
-    &::after,
-    > li[data-resources]::after,
-    > li[data-ideas]::after {
+    > li::after,
+    > li::before {
       content: "";
       position: absolute;
       left: 0;
-      top: calc(100% - 20px);
+      top: -10px;
       width: 100%;
       height: 20px;
       background: url(/img/horizontal-dividers.svg);
-      background-position: top left;
+      background-position: to dp left;
       background-repeat: no-repeat;
       background-size: 100% 20px;
       z-index: 1000;
     }
-    > li[data-resources]::after {
-      top: calc(100% - 10px);
-    }
-    > li[data-ideas]::after {
-      top: -10px;
+    > li::after {
+      top: auto;
+      bottom: -10px;
     }
   }
 
@@ -110,12 +107,16 @@
       > li {
         display: grid;
         place-items: center;
+        &::before {
+          display: none;
+        }
         &[data-services] {
           padding-bottom: 1rem;
           &::after {
             content: "";
             position: absolute;
             top: 0;
+            left: auto;
             right: -10px;
             width: 20px;
             height: 100%;
@@ -130,6 +131,9 @@
           padding-top: 4rem;
           padding-bottom: 4rem;
         }
+      }
+      > li[data-resources] {
+        overflow: visible;
       }
       > li[data-services] {
         grid-row: 1 / span 2;
@@ -158,34 +162,11 @@
       > li {
         height: calc(12vh);
         transition: 0.25s;
-        &[data-resources] {
-          &::before,
-          &::after {
-            left: 0;
-            width: 100%;
-            height: 20px;
-            background: url(/img/horizontal-dividers.svg);
-            background-position: top left;
-            background-repeat: no-repeat;
-            background-size: 100% 20px;
-            z-index: 1000;
-            content: "";
-            position: absolute;
-          }
-          &::before {
-            top: -10px;
-          }
-          &::after {
-            bottom: -10px;
-          }
-        }
-        > * {
-          position: relative;
-        }
         &:hover {
           &::before {
             content: "";
             position: absolute;
+            z-index: 1;
             top: 0;
             left: 0;
             width: 100%;

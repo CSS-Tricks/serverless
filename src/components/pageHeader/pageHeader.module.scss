@@ -56,11 +56,24 @@
     left: 0;
     width: 100%;
     padding: 0.5rem;
-    z-index: 11;
+    z-index: 1500;
     background-color: #39256c;
     background-image: url(/img/texture.png);
     display: flex;
     align-items: center;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      height: 20px;
+      background: url(/img/horizontal-dividers.svg);
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: 100% 20px;
+      z-index: 1000;
+    }
   }
 }
 
@@ -87,6 +100,11 @@
   border: 0;
   background: none;
   display: none;
+  outline: 0;
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
   @include breakpoint(nav-break) {
     display: block;
     margin-left: auto;
