@@ -11,3 +11,26 @@
     background-position: top 40% right 42%, top 34% right 10%, top center;
   }
 }
+
+.ideasCardGrid {
+  > div:nth-child(even) {
+    background: #37236b;
+
+    > div {
+      color: #c4b2ec;
+      > h3 {
+        color: white;
+      }
+      > div:last-child {
+        border-top-color: #311f60;
+        background: #311f60;
+        > span:first-child {
+          color: white;
+        }
+        span {
+          color: #a794d0;
+        }
+      }
+    }
+  }
+}

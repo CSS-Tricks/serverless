@@ -21,7 +21,7 @@ const IdeasPage = () => {
         <p>That's a great way to learn. Here are some&nbsp;ideas.</p>
       </PageHeader>
 
-      <div className="grid">
+      <div className={`grid ${styles.ideasCardGrid}`}>
         {ideas.map(idea => (
           <Card
             icon={idea.icon}
