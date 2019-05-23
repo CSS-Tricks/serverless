@@ -39,14 +39,15 @@ export default () => {
               title="What is Serverless?"
               keywords={[`serverless`, `cloud`, `cloud functions`]}
             />
-            <PageHeader>
-              <h1 className={styles.title}>What is serverless?</h1>
-            </PageHeader>
-            <div
-              className={styles.root}
-              dangerouslySetInnerHTML={{ __html: content.html }}
-            />
-
+            <div className={styles.root}>
+              <PageHeader>
+                <h1 className={styles.title}>What is serverless?</h1>
+              </PageHeader>
+              <div
+                className={styles.textColumn}
+                dangerouslySetInnerHTML={{ __html: content.html }}
+              />
+            </div>
             <Footer noWhatIs="true" />
           </>
         );

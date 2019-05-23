@@ -17,3 +17,7 @@ Even [CodePen](https://codepen.io/) is a part of this brave new world. CodePen c
 Using "other people's computers" has rather settled in as the future of computing. "Containers" is a better word for it, meaning technology like [Docker](https://www.docker.com/). Have you ever worked on a project where when you committed code to [git](https://git-scm.com/) and tests ran against that code automatically? That likely happened in a container. Perhaps one powered by [Travis CI](https://travis-ci.org/), [GitHub Actions](https://github.com/features/actions), or your own [Continuous Integration setup](https://about.gitlab.com/product/continuous-integration/). You might think of that as just once slice of serverless. If those containers can do that, they are just executing some code we've written... why not have them to anything else computers can do?
 
 Since this serverless stuff is almost certainly the future, let's embrace it!
+
+<div class="iframe-wrap">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/2N_sUmpjzZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -14,6 +14,7 @@ export default () => {
   const [tagsOpen, setTagOpenState] = useState(false);
   const onTagClick = tag => {
     setCurrentFilter(tag);
+    // This isn't working QUITE right. clicking the same tag twice moves it up and down. Weird.
     document.documentElement.scrollTo({
       top: document.querySelector("#grid").getBoundingClientRect().top - 70,
       left: 0,
