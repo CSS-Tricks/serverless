@@ -5,9 +5,10 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.6.0",
+    "gatsby": "^2.7.0",
     "gatsby-cli": "^2.5.4",
     "gatsby-image": "^2.0.29",
+    "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-layout": "^1.0.12",
     "gatsby-plugin-manifest": "^2.0.18",
     "gatsby-plugin-offline": "^2.0.24",
