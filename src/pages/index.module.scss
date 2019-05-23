@@ -10,12 +10,12 @@
     url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558124913/cloud1_gpju6f.png"),
     url("/img/stars.svg"), url("/img/stars.svg");
   background-position: bottom left, bottom right, bottom 20% right 0, top center,
-    top 30% left -20%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x;
-  background-size: 60%, 100%, 100%, 98%, 150%;
+    top 15% left 38%;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, repeat-x;
+  background-size: 60%, 100%, 100%, 65%, 120%;
   @include breakpoint(baby-bear) {
     background-position: bottom left, bottom right, bottom 5% right 0,
-      top center, top 30% left -20%;
+      top center, top 20% left -20%;
   }
 }
 

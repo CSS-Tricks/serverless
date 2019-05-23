@@ -40,6 +40,10 @@ const Card = props => {
         />
         {props.tags && (
           <div className={styles.tagsArea}>
+            <span className={styles.topicWrap}>
+              <img src={withPrefix(`/img/topic.svg`)} alt="" />
+              Topics
+            </span>
             {props.tags.map(tag => (
               <button key={tag} onClick={() => props.tagChanger(tag)}>
                 {tag}

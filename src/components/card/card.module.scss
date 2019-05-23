@@ -104,6 +104,7 @@
     text-transform: uppercase;
     font-family: var(--ff-rounded);
     margin: 0;
+    padding: 0 0.5rem 0 0;
   }
 }
 
@@ -117,7 +118,8 @@
   width: 100%;
   font-size: 0.8rem;
 }
-.focus {
+.focus,
+.topicWrap {
   text-transform: uppercase;
   font-weight: bold;
   color: #201d50;
