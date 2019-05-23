@@ -2,7 +2,7 @@
 
 .root {
   padding: 1.2rem;
-  color: #c4b2ec;
+  color: #eee8f9;
   text-shadow: 0 1px 0 black;
   font-size: 1.2rem;
   // background-color: #251450;
@@ -13,6 +13,10 @@
   background-repeat: no-repeat;
   background-position: top 5% right 7%, top right -20%, top 60% left -5%;
   // background-blend-mode: normal, normal, multiply;
+  a {
+    color: #deabff;
+    font-weight: bold;
+  }
 }
 
 .textColumn {
