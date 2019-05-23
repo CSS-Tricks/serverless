@@ -191,7 +191,7 @@
       min-height: 100vh;
       > li {
         height: calc(12vh);
-        transition: background-position 0.15s, opacity 0.5s;
+        transition: background-position 0.15s, opacity 0.5s, height 0.3s;
         > a {
           width: 100%;
           height: 100%;

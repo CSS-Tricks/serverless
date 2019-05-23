@@ -1,7 +1,6 @@
 @import "bits";
 
 .root {
-  padding-top: 40px;
   display: grid;
   grid-template-columns: 3fr 1fr;
   > nav {
@@ -9,6 +8,7 @@
   }
   @include breakpoint(nav-break) {
     grid-template-columns: 1fr;
+    padding-top: 40px;
     > nav {
       grid-column: 1;
       grid-row: -1;
