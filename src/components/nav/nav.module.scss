@@ -7,40 +7,69 @@
   > ul {
     list-style: none;
     margin: 0;
-    padding: 0 0 1rem 0;
+    padding: 0;
     position: relative;
     > li {
-      background-image: url(/img/texture.png);
+      background-image: url(/img/texture2.png);
       background-size: cover;
       background-color: #37236b;
       background-blend-mode: screen;
       position: relative;
       overflow: hidden;
+      will-change: background-position;
       &[data-services] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_800/v1558127391/satellite_wezm7k.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558446566/moon2_qkahpp.png"),
-          url(/img/texture.png);
-        background-position: top 8% right -8%, bottom 15% left 8%, center center;
+          url(/img/texture2.png),
+          linear-gradient(
+            135.29deg,
+            #e9910d -21.42%,
+            rgba(169, 0, 197, 0) 61.79%
+          );
+        background-position: top 8% right -8%, bottom 15% left 8%, center center,
+          top -400px left 0;
         background-repeat: no-repeat;
-        background-size: 100px, 40px, cover;
+        background-size: 100px, 40px, cover, 100%;
+        &:hover {
+          background-position: top 8% right -8%, bottom 15% left 8%,
+            center center, top 0 left 0;
+        }
       }
       &[data-resources] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447058/angle-rocket_q7ogzm.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447057/cloud-small_szm500.png"),
-          url(/img/texture.png);
+          url(/img/texture2.png),
+          linear-gradient(
+            135.29deg,
+            #e9910d -21.42%,
+            rgba(169, 0, 197, 0) 61.79%
+          );
         background-position: top 13% right -8%, bottom 20% left -10%,
-          center center;
+          center center, top -400px left 0;
         background-repeat: no-repeat;
-        background-size: 90px, 110px, cover;
+        background-size: 90px, 110px, cover, 100%;
+        &:hover {
+          background-position: top 13% right -8%, bottom 20% left -10%,
+            center center, top 0 left 0;
+        }
       }
       &[data-ideas] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star1_jivq8a.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png"),
-          url(/img/texture.png);
+          url(/img/texture2.png),
+          linear-gradient(
+            135.29deg,
+            #e9910d -21.42%,
+            rgba(169, 0, 197, 0) 61.79%
+          );
         background-position: top 65% left 2%, bottom 60% right 20%,
-          center center;
+          center center, top -400px left 0;
         background-repeat: no-repeat;
-        background-size: 50px, 40px, cover;
+        background-size: 50px, 40px, cover, 100%;
+        &:hover {
+          background-position: top 65% left 2%, bottom 60% right 20%,
+            center center, top 0 left 0;
+        }
       }
       > a {
         font-family: var(--ff-gothic);
@@ -61,8 +90,12 @@
           text-align: center;
           color: white;
           text-decoration: none;
-          &[aria-current] {
+          &:hover,
+          &:focus {
             color: #ffac29;
+          }
+          &[aria-current] {
+            font-weight: bold;
           }
         }
       }
@@ -92,7 +125,7 @@
 
     :global(body.menu-open) & {
       display: block;
-      margin-top: 50px;
+      margin-top: 10px;
     }
 
     :global(body.homepage) & {
@@ -132,9 +165,6 @@
           padding-bottom: 4rem;
         }
       }
-      > li[data-resources] {
-        overflow: visible;
-      }
       > li[data-services] {
         grid-row: 1 / span 2;
         [data-subnav] {
@@ -161,26 +191,7 @@
       min-height: 100vh;
       > li {
         height: calc(12vh);
-        transition: 0.25s;
-        &:hover {
-          &::before {
-            content: "";
-            position: absolute;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url(/img/texture.png),
-              linear-gradient(
-                135.29deg,
-                #e9910d -21.42%,
-                rgba(169, 0, 197, 0) 61.79%
-              );
-            background-size: cover;
-            pointer-events: none;
-          }
-        }
+        transition: background-position 0.15s, opacity 0.5s;
         > a {
           width: 100%;
           height: 100%;
@@ -192,8 +203,10 @@
       }
       &:hover {
         > li {
-          opacity: 0.5;
+          opacity: 0.4;
+          filter: grayscale(80%);
           &:hover {
+            filter: grayscale(0);
             opacity: 1;
           }
         }

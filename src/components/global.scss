@@ -16,9 +16,10 @@ html {
   --ff-gothic: "AlternateGothicPro-No1", system-ui, sans-serif;
 
   font-family: var(--ff-rounded);
-  font-size: calc(12px + 0.4vw);
+  font-size: 16px;
   line-height: 1.5;
   background: #130931;
+  background: linear-gradient(180deg, #18083c 0%, #3d1f7b 100%);
   color: white;
 }
 @include breakpoint(baby-bear) {

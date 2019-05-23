@@ -14,6 +14,11 @@ export default () => {
   const [tagsOpen, setTagOpenState] = useState(false);
   const onTagClick = tag => {
     setCurrentFilter(tag);
+    document.documentElement.scrollTo({
+      top: document.querySelector("#grid").getBoundingClientRect().top - 70,
+      left: 0,
+      behavior: "smooth"
+    });
   };
   useEffect(() => {
     document.body.classList.remove("homepage");
@@ -86,7 +91,7 @@ export default () => {
                 </nav>
               </PageHeader>
 
-              <main className="grid">
+              <main className="grid" id="grid">
                 {data.allFile.edges.map(({ node }, i) => {
                   const {
                     title,
