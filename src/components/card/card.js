@@ -11,7 +11,7 @@ const Card = props => {
           <img
             className={styles.logoImage}
             src={withPrefix(`/${props.logo}`)}
-            alt={`Logo for {props.title}`}
+            alt={`Logo for ${props.title}`}
           />
         </a>
       )}
