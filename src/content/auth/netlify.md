@@ -1,7 +1,7 @@
 ---
 path: "services/auth/netlify"
 title: "Netlify Identity"
-url: https://www.netlify.com/docs/identity/'
+url: "https://www.netlify.com/docs/identity/"
 logo: "/images/netlify.png"
 ---
 
