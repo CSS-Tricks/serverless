@@ -5,4 +5,4 @@ url: "https://getpublii.com/"
 logo: "/images/publii.svg"
 ---
 
-HTML CMS for building Ultra-Fast and Secure Static Sites for Mac, Windows and Linux users. Publii works as dynamic but generates static websites.
+Publii is a CMS with a GUI for that generates static HTML output. Publii is built for any skill level and is perfect for blogs, portfolios and company websites.
