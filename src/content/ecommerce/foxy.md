@@ -1,5 +1,5 @@
 ---
-path: "services/payments/foxy"
+path: "services/ecommerce/foxy"
 title: "Foxy"
 url: "https://www.foxy.io/"
 logo: "/images/foxy.png"
