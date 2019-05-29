@@ -1,5 +1,5 @@
 ---
-path: "services/payments/gumroad"
+path: "services/ecommerce/gumroad"
 title: "Gumroad"
 url: "https://gumroad.com/"
 logo: "/images/gumroad.svg"

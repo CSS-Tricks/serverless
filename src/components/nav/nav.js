@@ -47,6 +47,9 @@ const Nav = location => {
             <Link to="/services/media" className={styles.button}>
               Media
             </Link>{" "}
+            <Link to="/services/ecommerce" className={styles.button}>
+              Ecommerce
+            </Link>{" "}
             <Link to="/services/payments" className={styles.button}>
               Payments
             </Link>{" "}
