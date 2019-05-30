@@ -90,35 +90,17 @@
   color: #797a96;
 }
 
-.tagsArea {
-  background: #f5f4f8;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 1.5rem;
-  border-top: 1px solid #ddd8ec;
-  > button {
-    outline: 0;
-    background: none;
-    border: 0;
-    text-transform: uppercase;
-    font-family: var(--ff-rounded);
-    margin: 0;
-    padding: 0 0.5rem 0 0;
-  }
-}
-
+.tagsArea,
 .topicsArea {
   background: #f5f4f8;
-  padding: 1.5rem;
-  border-top: 1px solid #ddd8ec;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  font-size: 0.8rem;
+  padding: 1.5rem;
+  border-top: 1px solid #ddd8ec;
 }
+
 .focus,
 .topicWrap {
   text-transform: uppercase;
@@ -126,18 +108,28 @@
   color: #201d50;
   display: block;
   margin: 0 0 0.1rem 0;
+  font-size: 14px;
   img {
     vertical-align: middle;
-    margin: 0 0.2rem 0 0;
+    margin: 0 0.4rem 0 0;
     position: relative;
-    top: -2px;
+    top: -1px;
   }
 }
 .topic {
+  outline: 0;
+  background: none;
+  border: 0;
+  font-family: var(--ff-rounded);
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
   color: #6a5a8a;
+  text-transform: capitalize;
   &:not(:nth-child(2)) {
     &::before {
-      content: " · ";
+      content: "·";
+      margin: 0 0.33rem;
     }
   }
 }

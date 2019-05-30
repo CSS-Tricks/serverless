@@ -24,14 +24,14 @@
           linear-gradient(
             135.29deg,
             #e9910d -21.42%,
-            rgba(169, 0, 197, 0) 61.79%
+            rgba(169, 0, 197, 0.3) 61.79%
           );
-        background-position: top 8% right -8%, bottom 15% left 8%, center center,
-          top -400px left 0;
+        background-position: top 3% right -8%, bottom 5% left 8%, center center,
+          top 100% left 0;
         background-repeat: no-repeat;
-        background-size: 100px, 40px, cover, 100%;
+        background-size: 140px, 120px, cover, 100% 200%;
         &:hover {
-          background-position: top 8% right -8%, bottom 15% left 8%,
+          background-position: top -3% right -12%, bottom 4% left -8%,
             center center, top 0 left 0;
         }
       }
@@ -42,33 +42,38 @@
           linear-gradient(
             135.29deg,
             #e9910d -21.42%,
-            rgba(169, 0, 197, 0) 61.79%
+            rgba(169, 0, 197, 0.3) 61.79%
           );
-        background-position: top 13% right -8%, bottom 20% left -10%,
-          center center, top -400px left 0;
+        background-position: top 75% right -8%, bottom 80% left -10%,
+          center center, top 100% left 0;
         background-repeat: no-repeat;
-        background-size: 90px, 110px, cover, 100%;
+        background-size: 175px, 110px, cover, 100% 200%;
         &:hover {
-          background-position: top 13% right -8%, bottom 20% left -10%,
+          background-position: top 13% right 5%, bottom 20% left -10%,
             center center, top 0 left 0;
+          background-size: 175px, 80px, cover, 100% 200%;
         }
       }
       &[data-ideas] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star1_jivq8a.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png"),
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star1_jivq8a.png"),
+          url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png"),
           url(/img/texture2.png),
           linear-gradient(
             135.29deg,
             #e9910d -21.42%,
-            rgba(169, 0, 197, 0) 61.79%
+            rgba(169, 0, 197, 0.3) 61.79%
           );
         background-position: top 65% left 2%, bottom 60% right 20%,
-          center center, top -400px left 0;
+          top 15% left 35%, bottom 10% right 10%, center center, top 100% left 0;
         background-repeat: no-repeat;
-        background-size: 50px, 40px, cover, 100%;
+        background-size: 50px, 40px, 80px, 40px, cover, 100% 200%;
         &:hover {
           background-position: top 65% left 2%, bottom 60% right 20%,
-            center center, top 0 left 0;
+            top 15% left 35%, bottom 10% right 10%, center center,
+            top 100% left 0;
+          background-size: 80px, 50px, 100px, 50px, cover, 100% 200%;
         }
       }
       > a {
@@ -191,7 +196,8 @@
       min-height: 100vh;
       > li {
         height: calc(12vh);
-        transition: background-position 0.15s, opacity 0.5s, height 0.3s;
+        transition: background-position 0.15s, background-size 0.15s,
+          opacity 0.5s, height 0.3s;
         > a {
           width: 100%;
           height: 100%;

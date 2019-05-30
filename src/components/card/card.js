@@ -45,7 +45,11 @@ const Card = props => {
               Topics
             </span>
             {props.tags.map(tag => (
-              <button key={tag} onClick={() => props.tagChanger(tag)}>
+              <button
+                className={styles.topic}
+                key={tag}
+                onClick={() => props.tagChanger(tag)}
+              >
                 {tag}
               </button>
             ))}
