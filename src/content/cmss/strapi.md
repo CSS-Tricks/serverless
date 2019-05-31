@@ -5,4 +5,4 @@ url: 'https://strapi.io/'
 logo: '/images/strapi.png'
 ---
 
-Strapi is the open source Headless CMS Front-End Developers love. Open Source, MIT licensed, self-hosted, customizable, RESTful or GraphQL, 100% JavaScript (built on Node.js) and extensible by design, you keep control and deliver faster. Building a Content API has never been easier.
+Strapi is an open source Headless CMS that is open source MIT licensed, self-hosted, customizable, has RESTful or GraphQL APIs, is 100% JavaScript (built on Node.js) and extensible by design.
