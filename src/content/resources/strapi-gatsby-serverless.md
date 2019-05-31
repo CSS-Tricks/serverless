@@ -11,7 +11,7 @@ tags:
         'cloudinary',
         'cms',
         'api',
-        'PostgreSQL',
+        'postgresql',
     ]
 ---
 
