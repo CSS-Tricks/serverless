@@ -1,7 +1,7 @@
 ---
 path: "services/functions/cloudflare-workers"
 title: "Cloudflare Workers"
-url: "https://www.cloudflare.com/products/cloudflare-workers/"
+url: "https://workers.cloudflare.com/"
 logo: "/images/cloudflare.svg"
 ---
 
