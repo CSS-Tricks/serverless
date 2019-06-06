@@ -1,8 +1,8 @@
 ---
-path: "services/cmss/netlify"
-title: "Netlify CMS"
-url: "https://www.netlifycms.org/"
-logo: "/images/netlify.png"
+path: "services/cmss/prismic"
+title: "Prismic"
+url: "https://prismic.io/"
+logo: "/images/prismic.png"
 ---
 
-This is a React SPA that works with any static site generator.
+An API based CMS with wide support of JS frameworks, built for flexible development and accessible end-user experience.
