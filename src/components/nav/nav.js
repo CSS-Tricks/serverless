@@ -62,6 +62,9 @@ const Nav = location => {
             <Link to="/services/data" className={styles.button}>
               Data Storage
             </Link>
+            <Link to="/services/search" className={styles.button}>
+              Search
+            </Link>
           </div>
         </li>
         <li
