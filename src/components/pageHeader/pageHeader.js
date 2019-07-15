@@ -22,6 +22,7 @@ const PageHeader = props => {
         <button
           className={styles.menuButton}
           onClick={() => {
+            window.scrollTo(0, 0);
             document.body.classList.toggle("menu-open");
           }}
         >
