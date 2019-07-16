@@ -8,7 +8,7 @@ public_folder: /images
 collections:
   - name: "resources"
     label: "Resources"
-    folder: "content/resources"
+    folder: "src/content/resources"
     create: true
     slug: "{{slug}}"
     editor:
