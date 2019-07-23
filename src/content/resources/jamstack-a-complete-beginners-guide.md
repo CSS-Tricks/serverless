@@ -1,7 +1,7 @@
 ---
 url: "https://buttercms.com/blog/what-is-jamstack"
 title: "JAMStack: A Complete Beginner's Guide"
-author: "ButterCMS"
+author: "Paweł Dąbrowski"
 tags: ["jamstack"]
 ---
 
