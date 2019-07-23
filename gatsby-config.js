@@ -22,6 +22,7 @@ module.exports = {
         component: require.resolve(`./src/components/layout.js`)
       }
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`
   ]
 };
