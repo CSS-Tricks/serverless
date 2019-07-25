@@ -39,3 +39,263 @@ collections:
         media_library:
           config:
             multiple: false
+
+  - name: "auth"
+    label: "Auth"
+    folder: "src/content/auth"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "forms"
+    label: "Forms"
+    folder: "src/content/forms"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "notifications"
+    label: "Notifications"
+    folder: "src/content/notifications"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "static-site-generators"
+    label: "Static Site Generators"
+    folder: "src/content/ssgs"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "content-management-systems"
+    label: "Content Management Systems"
+    folder: "src/content/cmss"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "hosting"
+    label: "Hosting"
+    folder: "src/content/hosting"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "media"
+    label: "Media"
+    folder: "src/content/media"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "ecommerce"
+    label: "eCommerce"
+    folder: "src/content/ecommerce"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "payments"
+    label: "Payments"
+    folder: "src/content/payments"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "realtime"
+    label: "Realtime"
+    folder: "src/content/realtime"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "monitoring"
+    label: "Monitoring"
+    folder: "src/content/monitoring"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "data-storage"
+    label: "Data Storage"
+    folder: "src/content/data"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+
+  - name: "search"
+    label: "Search"
+    folder: "src/content/search"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Logo"
+        name: "logo"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
