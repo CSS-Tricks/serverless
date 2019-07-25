@@ -32,10 +32,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "URL", name: "url", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Logo", name: "author", widget: "string" }
       - label: "Logo"
         name: "logo"
-        required: false
+        required: true
         widget: "image"
         media_library:
           config:
