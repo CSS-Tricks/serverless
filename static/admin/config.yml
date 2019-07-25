@@ -19,3 +19,24 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "cloud-functions"
+    label: "Cloud Functions"
+    folder: "src/content/functions"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Logo", name: "author", widget: "string" }
+      - label: "Logo"
+        name: "logo"
+        required: false
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
