@@ -4,4 +4,4 @@ title: Claudia
 url: 'https://claudiajs.com/'
 logo: /images/claudiajs.png
 ---
-Claudia isn't a cloud functions provider, it's a Node.js library to help deploy Node functions to AWS Rambda.
+Claudia isn't a cloud functions provider, it's a Node.js library to help deploy Node functions to AWS Lambda.
