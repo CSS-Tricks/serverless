@@ -2,7 +2,7 @@
 path: "services/data/aws-appsync"
 title: "AWS AppSync"
 url: "https://airtable.com/"
-logo: "/images/appsync.png"
+logo: "/images/appsync.jpg"
 ---
 
 Fully managed database agnostic GraphQL API service with first-class support for real-time and offline.
