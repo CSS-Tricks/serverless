@@ -12,7 +12,7 @@ export default () => {
       query={graphql`
         query authQuery {
           allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/auth/" } }
+            filter: { fileAbsolutePath: { regex: "/content/auth/" } }
             sort: { fields: frontmatter___title }
           ) {
             edges {
