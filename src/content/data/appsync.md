@@ -1,7 +1,7 @@
 ---
 path: "services/data/aws-appsync"
 title: "AWS AppSync"
-url: "https://airtable.com/"
+url: "https://aws.amazon.com/appsync/"
 logo: "/images/appsync.jpg"
 ---
 
