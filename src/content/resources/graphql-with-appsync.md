@@ -6,4 +6,3 @@ tags: ["graphql", "appsync"]
 ---
 
 In this tutorial, we’ll learn how to take advantage of AWS AppSync, a managed GraphQL service, to build a full-stack application without writing a single line of back-end code.
-

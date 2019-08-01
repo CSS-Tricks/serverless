@@ -2,7 +2,7 @@
 path: "services/data/aws-appsync"
 title: "AWS AppSync"
 url: "https://aws.amazon.com/appsync/"
-logo: "/images/appsync.jpg"
+logo: "/images/appsync.png"
 ---
 
 Fully managed database agnostic GraphQL API service with first-class support for real-time and offline.
