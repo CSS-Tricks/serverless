@@ -12,7 +12,7 @@ export default () => {
       query={graphql`
         query hostingQuery {
           allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/hosting/" } }
+            filter: { fileAbsolutePath: { regex: "//hosting//" } }
             sort: { fields: frontmatter___title }
           ) {
             edges {
