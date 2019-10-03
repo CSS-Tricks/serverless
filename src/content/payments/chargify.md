@@ -5,6 +5,4 @@ url: "https://chargify.com/"
 logo: "/images/chargify.svg"
 ---
 
-Managing your Revenue shouldn’t be a business blocker
-
-You need a Billing & Revenue Management Platform built specifically for modern SaaS to turn business blockers into business accelerators.
+A "Revenue Management Framework" to help with payments and be flexible, like run pricing experiments, handle discounts, personalize offers, and provide insight along the way.
