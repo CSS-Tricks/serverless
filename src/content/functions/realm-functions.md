@@ -5,4 +5,4 @@ url: "https://docs.realm.io/sync/#realm-functions"
 logo: "/images/realm.svg"
 ---
 
-Realm Functions is a powerful way to add server-side logic to your app through a simple web interface.
+Realm Functions is for adding server-side logic to your app through a web interface.
