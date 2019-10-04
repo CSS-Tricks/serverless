@@ -5,4 +5,4 @@ url: "https://filebase.com/"
 logo: "/images/filebase.png"
 ---
 
-S3-compatible object storage service that uses Sia on the backend
+Filebase provides S3-compatible object storage at a fraction of the price and it is backed by blockchain technology.
