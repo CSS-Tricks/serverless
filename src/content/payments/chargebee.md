@@ -5,6 +5,6 @@ url: "https://chargebee.com/"
 logo: "/images/chargebee.svg"
 ---
 
-The Subscription Management Platform that lets you Untangle Your Business from Spaghetti Billing
+Think of Chargebee as your off-the-shelf, plug-and-play billing solution delivered on the cloud.
 
-What if you never had to worry about your subscription billing operations again? Through the next decade of your growth! 
+With Chargebee, you can set recurring billing frequencies and get paid automatically by your customers. You can easily combine recurring, one-time, and usage-based pricing models.
