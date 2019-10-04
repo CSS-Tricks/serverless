@@ -5,4 +5,4 @@ url: "https://zero-bit.io/"
 logo: "/images/zerobit.svg"
 ---
 
-ZeroBit allows developers to easily store content on a secure and permenant cloud whit a simple API
+ZeroBit allows developers to easily store content on a secure and permenant cloud with an API.
