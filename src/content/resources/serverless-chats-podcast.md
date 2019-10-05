@@ -1,7 +1,7 @@
 ---
 title: "Serverless Chats"
 url: "https://www.serverlesschats.com/"
-author: "Various"
+author: "Jeremy Daly & Various Guests"
 tags: ["podcast"]
 ---
 
