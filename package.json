@@ -42,5 +42,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "@percy/script": "^1.0.2"
   }
 }
