@@ -2,7 +2,11 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
+version: 2.1
+
+orbs:
+  percy: percy/agent@0.1.2
+
 jobs:
   build:
     docker:
@@ -35,3 +39,18 @@ jobs:
 
       # run tests!
       - run: yarn test
+
+  run_tests:
+    parallelism: 3
+    steps:
+      - attach_workspace:
+          at: .
+      - run: echo "your tests run here"
+
+workflows:
+  test:
+    jobs:
+      - run_tests
+      - percy/finalize_all:
+          requires:
+            - run_tests
