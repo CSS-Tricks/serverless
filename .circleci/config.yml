@@ -1,20 +1,41 @@
 version: 2.1
 
-orbs:
-  percy: percy/agent@0.1.2
-
 jobs:
   run_tests:
-    parallelism: 3
+    docker:
+      # browsers are needed for Percy to snapshot sites
+      - image: circleci/node:lts-browsers
+
+    working_directory: ~/serverless
+
     steps:
-      - attach_workspace:
-          at: .
-      - run: echo "your tests run here"
+      - checkout
+
+      # download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      # install dependencies
+      - run: yarn install
+
+      # update dependency cache
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      # run the gatsby server in the background
+      - run:
+        command: yarn serve
+        background: true
+
+      # take snapshots
+      - run: yarn percy exec -- node snapshots.js
 
 workflows:
   test:
     jobs:
       - run_tests
-      - percy/finalize_all:
-          requires:
-            - run_tests
