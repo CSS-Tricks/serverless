@@ -29,8 +29,8 @@ jobs:
 
       # run the gatsby server in the background
       - run:
-        command: yarn serve
-        background: true
+          command: yarn serve
+          background: true
 
       # take snapshots
       - run: yarn percy exec -- node snapshots.js
