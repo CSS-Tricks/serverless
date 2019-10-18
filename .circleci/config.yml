@@ -29,7 +29,7 @@ jobs:
 
       # run the gatsby server in the background
       - run:
-          command: yarn run build && yarn run serve
+          command: yarn run serve
           background: true
 
       # take snapshots
