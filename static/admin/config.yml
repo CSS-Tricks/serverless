@@ -1,9 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
+  repo: css-tricks/serverless
+  open_authoring: true
 
 media_folder: static/img
 public_folder: /images
+publish_mode: editorial_workflow
 
 collections:
   - name: "resources"
