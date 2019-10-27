@@ -44,7 +44,7 @@ collections:
             multiple: false
 
   - name: "major-providers"
-    label: "Cloud Functions"
+    label: "Major Providers"
     folder: "src/content/major"
     create: true
     slug: "{{slug}}"
