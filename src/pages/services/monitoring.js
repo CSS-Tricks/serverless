@@ -25,6 +25,10 @@ export default () => {
                   tags
                 }
                 html
+                fields {
+                  collection
+                  slug
+                }
               }
             }
           }

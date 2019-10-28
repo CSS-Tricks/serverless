@@ -25,7 +25,12 @@ const Card = props => {
       )}
 
       <div className={styles.cardContent}>
-        <h3>
+        {props.cmsUrl &&
+          <h3 className={styles.cmsLink}>
+            <a href={props.cmsUrl} rel="noopener noreferrer" target="_blank" title="Edit on Netlify CMS" />
+          </h3>
+        }
+        <h3 className={styles.homePageLink}>
           {props.url && <a href={props.url}>{props.title}</a>}
           {!props.url && <>{props.title}</>}
         </h3>

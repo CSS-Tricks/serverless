@@ -40,6 +40,10 @@ export default () => {
                     tags
                   }
                   html
+                  fields {
+                    collection
+                    slug
+                  }
                 }
               }
             }
@@ -111,6 +115,7 @@ export default () => {
                         url={url}
                         extraClasses="resource"
                         tagChanger={onTagClick}
+                        cmsUrl={`/admin/#/collections/${node.childMarkdownRemark.fields.collection}/entries/${node.childMarkdownRemark.fields.slug}`}
                       />
                     );
                   } else {
