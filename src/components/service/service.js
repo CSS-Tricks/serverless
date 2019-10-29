@@ -26,6 +26,7 @@ export default props => {
               html={node.html}
               url={node.frontmatter.url}
               extraClasses="service-card"
+              cmsUrl={`/admin/#/collections/${node.fields.collection}/entries/${node.fields.slug}`}
             />
           );
         })}

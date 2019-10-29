@@ -25,7 +25,7 @@ const Card = props => {
       )}
 
       <div className={styles.cardContent}>
-        <h3>
+        <h3 className={styles.homePageLink}>
           {props.url && <a href={props.url}>{props.title}</a>}
           {!props.url && <>{props.title}</>}
         </h3>
@@ -69,6 +69,11 @@ const Card = props => {
           </div>
         )}
       </div>
+      {props.cmsUrl && (
+        <a className={styles.cmsLink} href={props.cmsUrl}>
+          Edit this!
+        </a>
+      )}
     </div>
   );
 };
