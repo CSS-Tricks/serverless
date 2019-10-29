@@ -18,6 +18,10 @@ PercyScript.run(async (page, percySnapshot) => {
   await page.goto("http://localhost:9000/services/major", {
     waitUntil: "networkidle0"
   });
-
+  await page.evaluate(() => {
+    document
+      .querySelector(".card-module--homePageLink--ZPUCK > a")
+      .setAttribute("data-focus", true);
+  });
   await percySnapshot("Services/Major");
 });
