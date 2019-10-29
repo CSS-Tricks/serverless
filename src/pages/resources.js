@@ -89,6 +89,7 @@ export default () => {
                   <button
                     className={styles.more}
                     data-open={tagsOpen}
+                    id="more-resources-button"
                     onClick={() => setTagOpenState(tagsOpen ? false : true)}
                   >
                     More
