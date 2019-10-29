@@ -71,7 +71,7 @@ const Card = props => {
       </div>
       {props.cmsUrl && (
         <a className={styles.cmsLink} href={props.cmsUrl}>
-          Edit this!
+          Edit this
         </a>
       )}
     </div>
