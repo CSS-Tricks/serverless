@@ -5,4 +5,9 @@ PercyScript.run(async (page, percySnapshot) => {
   // ensure the page has loaded before capturing a snapshot
   await page.waitFor("#gatsby-focus-wrapper");
   await percySnapshot("homepage");
+
+  await page.goto("http://localhost:9000/services/major");
+  // ensure the page has loaded before capturing a snapshot
+  await page.waitFor("#gatsby-focus-wrapper");
+  await percySnapshot("Services/Major");
 });
