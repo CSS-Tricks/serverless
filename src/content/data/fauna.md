@@ -1,10 +1,9 @@
 ---
-path: "services/auth/Faunadb"
-title: "FaunaDB"
-url: "https://fauna.com/"
-logo: "/images/fauna.png"
+path: services/auth/Faunadb
+title: FaunaDB
+url: 'https://fauna.com/'
+logo: /images/fauna.png
 ---
+FaunaDB is a serverless cloud database (for <abbr title="Online Transactional Processing">OLTP</abbr>) that gives you ubiquitous, low latency access to app data, without sacrificing data correctness and scale. With native support for GraphQL, FaunaDB offers a flexible data model spanning relational, document and graph models.
 
-FaunaDB delivers the strong consistency, relational access, and data security you need without sacrificing the global scale and interface flexibility you want. It was thought to be impossible until we built it.
-
-Runs everywhere you are: private cloud, multi-cloud, hybrid, or serverless. 
+FaunaDB is priced based on your usage, and offers a free tier.
