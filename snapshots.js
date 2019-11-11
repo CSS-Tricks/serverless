@@ -8,6 +8,10 @@ PercyScript.run(async (page, percySnapshot) => {
   await page.waitFor("#gatsby-focus-wrapper");
   await percySnapshot("homepage");
 
+  await page.goto("http://localhost:9000/services/major");
+  await page.waitFor("#gatsby-focus-wrapper");
+  await percySnapshot("Services Page");
+
   await page.goto("http://localhost:9000/resources");
   await percySnapshot("Resources with More Closed");
   await page.click("#more-resources-button");
