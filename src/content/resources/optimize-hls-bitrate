@@ -1,0 +1,8 @@
+---
+url: "https://blog.stackpath.com/optimize-hls-bitrate/"
+title: "Optimizing First-Frame Bitrate for HLS with Serverless Edge Compute"
+author: "Ammar Alzaatreh"
+tags: ["how-to"]
+---
+
+Learn how to combine serverless, edge computing, and HLS to deliver the right bitrate to the right device with the lowest possible latency and computational overhead.
