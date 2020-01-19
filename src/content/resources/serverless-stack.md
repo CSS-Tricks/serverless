@@ -5,4 +5,4 @@ author: "Anomaly Innovations"
 tags: ["architecture", "how-to", "react"]
 ---
 
-This starter kit adds a light layer on top of the Serverless framework, giving you the latest in modern JavaScript—ESNext (Webpack + Babel), testing (Jest), code linting (ESLint), and code formatting (Prettier)—plus the ease and power of Serverless.
+Serverless Stack is a completely free resource to help you build full-stack production ready Serverless applications. First, you'll learn how to build a note taking app using Serverless and React on AWS. Then you'll learn the best practices to run your app in production.
