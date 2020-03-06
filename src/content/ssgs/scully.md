@@ -5,4 +5,4 @@ url: "https://scully.io/"
 logo: "/images/scullyio.svg"
 ---
 
-Scully is an enterprise-ready SSG framework for Angular projects that makes Jamstack easy and wicked-fast sites possible for even the biggest projects.  
+Scully is an SSG toolchain for Angular projects, making it possible to build extremely fast Angular websites and apps with Angular.    
