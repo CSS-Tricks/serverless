@@ -29,7 +29,7 @@
     "gatsby"
   ],
   "engines": {
-    "node": "12.13.1"
+    "node": "12.14.1"
   },
   "license": "MIT",
   "scripts": {
