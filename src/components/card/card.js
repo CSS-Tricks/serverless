@@ -3,14 +3,14 @@ import { withPrefix } from "gatsby";
 
 import styles from "./card.module.scss";
 
-const Card = props => {
+const Card = (props) => {
   return (
     <div className={`${styles.root} ${props.extraClasses}`}>
       {props.logo && (
         <a href={props.url} className={styles.logoHeader}>
           <img
             className={styles.logoImage}
-            src={withPrefix(`/${props.logo}`)}
+            src={withPrefix(`${props.logo}`)}
             alt={`Logo for ${props.title}`}
           />
         </a>
@@ -44,7 +44,7 @@ const Card = props => {
               <img src={withPrefix(`/img/topic.svg`)} alt="" />
               Topics
             </span>
-            {props.tags.map(tag => (
+            {props.tags.map((tag) => (
               <button
                 className={styles.topic}
                 key={tag}
@@ -61,7 +61,7 @@ const Card = props => {
               <img src={withPrefix(`/img/focus.svg`)} alt="" />
               Focus Areas
             </span>
-            {props.topics.map(topic => (
+            {props.topics.map((topic) => (
               <span key={topic} className={styles.topic}>
                 {topic}
               </span>
