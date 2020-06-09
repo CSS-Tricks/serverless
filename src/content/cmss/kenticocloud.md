@@ -1,9 +1,8 @@
 ---
-path: "services/cmss/kenticocloud"
-title: "Kentico Cloud"
-url: "https://www.kenticocloud.com/"
-logo: "/images/kenticocloud.png"
-tags: ["cms, caas"]
+path: services/cmss/kenticokontent
+title: Kentico Kontent
+url: "https://www.kontent.ai/"
+logo: /images/kentio-kontent.svg
 ---
 
-Kentico Cloud is an API-first CMS. While running in the cloud it provides an extensible UI for managing content, CDN for data delivery and open-sourced SDKs for all popular platforms.
+A cloud-native headless CMS with SDKs for all popular platforms
