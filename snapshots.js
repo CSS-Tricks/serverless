@@ -20,7 +20,7 @@ PercyScript.run(async (page, percySnapshot) => {
 
   // Waiting for idle network
   await page.goto("http://localhost:9000/services/major", {
-    waitUntil: "networkidle0"
+    waitUntil: "networkidle0",
   });
   await page.evaluate(() => {
     document

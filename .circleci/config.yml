@@ -36,7 +36,7 @@ jobs:
           background: true
 
       # take snapshots
-      - run: npm run percy exec -- node snapshots.js
+      - run: npm run percy
 
 workflows:
   test:
