@@ -16,7 +16,7 @@
     "title": "A Recipe Site",
     "icon": "recipe.svg",
     "topics": ["Cloud Functions", "Notifications"],
-    "description": "<p>What if a static site full of featured recipes offered a feature to let you send a text message of the complete recipe to your phone?</p><p>A cloud function to send an SMS message through <a href='https://www.twilio.com/'>Twilio</a> is a great way to wet your feet with serverless technology. The Twilio <a href='https://www.twilio.com/docs/libraries/node'>Node Helper Library</a> provides a simple example function you can put on something like <a href='https://webtask.io/'>Webtask</a> and call with <a href='https://codepen.io/chriscoyier/pen/OzjgPB/'>a simple form</a> or <a href='https://codepen.io/chriscoyier/pen/xPMpGM/'>through JavaScript</a>.</p>"
+    "description": "<p>What if a static site full of featured recipes offered a feature to let you send a text message of the complete recipe to your phone?</p><p>A cloud function to send an SMS message through <a href='https://www.twilio.com/'>Twilio</a> is a great way to wet your feet with serverless technology. The Twilio <a href='https://www.twilio.com/docs/libraries/node'>Node Helper Library</a> provides a simple example function you can put on something like <a href='https://www.stackpath.com/products/serverless-scripting/'>StackPath</a> and call with a simple form or through JavaScript.</p>"
   },
   {
     "title": "A To-Do App",
