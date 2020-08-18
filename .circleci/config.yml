@@ -19,7 +19,7 @@ jobs:
             - v1-dependencies-
 
       # install dependencies
-      - run: yarn install
+      - run: npm install
 
       # update dependency cache
       - save_cache:
@@ -28,15 +28,15 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # build gatsby
-      - run: yarn build
+      - run: npm run build
 
       # run the gatsby server in the background
       - run:
-          command: yarn serve
+          command: npm run serve
           background: true
 
       # take snapshots
-      - run: yarn percy exec -- node snapshots.js
+      - run: npm run percy exec -- node snapshots.js
 
 workflows:
   test:
