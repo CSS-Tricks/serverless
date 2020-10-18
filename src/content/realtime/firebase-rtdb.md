@@ -1,7 +1,7 @@
 ---
 path: "services/realtime/firebase"
-title: "Google Firebase"
-url: "https://firebase.google.com/"
+title: "Firebase Realtime Database"
+url: "https://firebase.google.com/products/realtime-database"
 logo: "/images/firebase.png"
 ---
 

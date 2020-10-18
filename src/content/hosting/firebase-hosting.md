@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/firebase"
-title: "Firebase"
-url: "https://firebase.google.com/docs/hosting/"
+title: "Firebase Hosting"
+url: "https://firebase.google.com/products/hosting"
 logo: "/images/firebase.png"
 ---
 

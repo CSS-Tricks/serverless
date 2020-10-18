@@ -1,7 +1,7 @@
 ---
 path: "services/auth/firebase"
-title: "Google Firebase"
-url: "https://firebase.google.com/"
+title: "Firebase Authentication"
+url: "https://firebase.google.com/products/auth"
 logo: "/images/firebase.png"
 ---
 
