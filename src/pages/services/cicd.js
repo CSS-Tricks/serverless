@@ -10,9 +10,9 @@ export default () => {
   return (
     <StaticQuery
       query={graphql`
-        query MajorQuery {
+        query cicdQuery {
           allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/major/" } }
+            filter: { fileAbsolutePath: { regex: "//cicd//" } }
             sort: { fields: frontmatter___title }
           ) {
             edges {
@@ -36,10 +36,10 @@ export default () => {
       `}
       render={(data) => (
         <ServicePage
-          pageTitle="Services | Cloud Providers"
+          pageTitle="Services | Continuous Integration / Continuous Deployment (CI / CD)"
           pageHeader="Services"
-          pageSubHeader="The Cloud Providers"
-          intro="The services that have the actual infrastructure that all this Serverless stuff is built upon."
+          pageSubHeader="CI / CD"
+          intro="Services that help us run our build processes and deploy code based on Git happenings."
           services={data.allMarkdownRemark.edges}
         />
       )}

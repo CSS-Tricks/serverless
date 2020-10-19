@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import styles from "./nav.module.scss";
 
-const Nav = location => {
+const Nav = (location) => {
   const loc = location.location;
 
   let subpage = "nothing";
@@ -21,10 +21,13 @@ const Nav = location => {
           <Link to="/services/major">Services</Link>
           <div data-subnav>
             <Link to="/services/major" className={styles.button}>
-              Major Providers
+              Cloud Providers
             </Link>{" "}
             <Link to="/services/functions" className={styles.button}>
-              Cloud Functions
+              Functions
+            </Link>{" "}
+            <Link to="/services/cicd" className={styles.button}>
+              CI / CD
             </Link>{" "}
             <Link to="/services/auth" className={styles.button}>
               Auth

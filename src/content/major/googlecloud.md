@@ -5,4 +5,6 @@ url: "https://cloud.google.com/"
 logo: "/images/google-cloud-platform.png"
 ---
 
-More of a major infastructure provider in vein of Amazon Web Services than a toolkit for building out an app like Firebase is.
+Google has physical infrastructure in data centers around the globe and a long list of services you can build with.
+
+Google also has <a href="https://firebase.google.com/">Firebase</a> which it's own whole collection of products for building serverlessly.
