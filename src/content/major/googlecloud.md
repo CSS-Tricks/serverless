@@ -1,10 +1,10 @@
 ---
-path: "services/major/googlecloud"
-title: "Google Cloud Platform"
-url: "https://cloud.google.com/"
-logo: "/images/google-cloud-platform.png"
+path: services/major/googlecloud
+title: Google Cloud Platform
+url: https://cloud.google.com/
+logo: /images/google-cloud-platform.png
 ---
 
 Google has physical infrastructure in data centers around the globe and a long list of services you can build with.
 
-Google also has <a href="https://firebase.google.com/">Firebase</a> which it's own whole collection of products for building serverlessly.
+Google also has <a href="https://firebase.google.com/">Firebase</a> with its own whole collection of products for building serverlessly.
