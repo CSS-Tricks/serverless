@@ -4,6 +4,8 @@
   --animationTiming: 0.5s;
   --mainNavCollapsedHeight: 50px;
 
+  align-self: start;
+
   > ul {
     list-style: none;
     margin: 0;
@@ -88,6 +90,7 @@
         text-shadow: 0 0 2px black;
       }
       [data-subnav] {
+        padding-bottom: 1rem;
         a {
           font-size: 1.1rem;
           display: block;
@@ -149,7 +152,6 @@
           display: none;
         }
         &[data-services] {
-          padding-bottom: 1rem;
           &::after {
             content: "";
             position: absolute;
@@ -189,13 +191,9 @@
   }
 
   @include breakpoint(reverso-nav-break) {
-    position: sticky;
-    top: 0;
-    align-self: start;
+    position: relative;
     > ul {
-      min-height: 100vh;
       > li {
-        height: calc(12vh);
         transition: background-position 0.15s, background-size 0.15s,
           opacity 0.5s, height 0.3s;
         > a {
@@ -231,37 +229,6 @@
       background-repeat: no-repeat;
       background-size: 20px 100%;
       z-index: 1000;
-    }
-
-    &[data-active="nothing"] > ul > li {
-      height: calc(33.33vh);
-    }
-    &[data-active="services"] {
-      > ul > li[data-services] {
-        height: 76vh;
-        > a {
-          height: 20%;
-        }
-      }
-      > ul > li {
-        height: 12vh;
-      }
-    }
-    &[data-active="resources"] {
-      > ul > li[data-resources] {
-        height: 40vh;
-      }
-      > ul > li {
-        height: 30vh;
-      }
-    }
-    &[data-active="ideas"] {
-      > ul > li[data-ideas] {
-        height: 40vh;
-      }
-      > ul > li {
-        height: 30vh;
-      }
     }
   }
 }
