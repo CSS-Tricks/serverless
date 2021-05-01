@@ -1,6 +1,6 @@
 ---
 path: "services/ssgs/sveltekit"
-title: "Sapper"
+title: "SvelteKit"
 url: "https://kit.svelte.dev/"
 logo: "/images/svelte.png"
 ---
