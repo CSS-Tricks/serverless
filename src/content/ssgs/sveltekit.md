@@ -2,7 +2,7 @@
 path: "services/ssgs/sveltekit"
 title: "Sapper"
 url: "https://kit.svelte.dev/"
-logo: "/images/svelte.svg"
+logo: "/images/svelte.png"
 ---
 
 SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.
