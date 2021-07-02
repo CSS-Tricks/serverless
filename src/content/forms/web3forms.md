@@ -2,14 +2,6 @@
 path: services/forms/web3forms
 title: Web3Forms
 url: https://web3forms.com/
-logo: /images/icon-256.png
+logo: /images/web3forms.svg
 ---
-Contact Forms for Static Websites. Receive form submissions directly in your email inbox without any server or back-end code. Its free!
-
-Pricing: **Free**
-
-* Unlimited Forms
-* 1000 Monthly Submissions
-* Unlimited Domains
-* Advanced Spam Protection
-* All Basic Features
+Contact Forms for Static Websites. Receive form submissions directly in your email inbox without any server or back-end code. Web3Forms provides 1000 Monthly Submissions & Unlimited Forms for free.
