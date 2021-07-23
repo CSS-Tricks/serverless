@@ -2,6 +2,7 @@ backend:
   name: github
   branch: master
   repo: css-tricks/serverless
+  locale: 'ru'
   open_authoring: true
 
 media_folder: static/img
