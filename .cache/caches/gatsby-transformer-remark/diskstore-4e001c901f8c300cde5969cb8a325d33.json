@@ -1,0 +1,1 @@
+{"expireTime":9007200857864753000,"key":"transformer-remark-markdown-html-c225c3f93a15a88825a45acd91fced51--","val":"<p>I decided to build a tool of my own, but I didn't want to spin up VMs and configure expensive infrastructure to handle the load of a ton of redirects going through my servers. So, I decided to go serverless: the perfect task for Azure Functions to take on!</p>"}

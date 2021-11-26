@@ -1,55 +1,16 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^2.32.3",
-    "gatsby-cli": "^2.19.1",
-    "gatsby-image": "^2.2.4",
-    "gatsby-plugin-favicon": "^3.1.6",
-    "gatsby-plugin-layout": "^1.1.0",
-    "gatsby-plugin-manifest": "^2.2.1",
-    "gatsby-plugin-netlify-cms": "^4.1.6",
-    "gatsby-plugin-offline": "^2.2.1",
-    "gatsby-plugin-react-helmet": "^3.1.0",
-    "gatsby-plugin-sass": "^2.1.0",
-    "gatsby-source-filesystem": "^2.1.2",
-    "gatsby-transformer-remark": "^2.6.0",
-    "lodash": "^4.17.19",
-    "netlify-cms-app": "^2.12.14",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "redux": "^4.0.5"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "engines": {
-    "node": "12.18.0"
-  },
-  "license": "MIT",
+  "name": "Website for serverless.css-tricks.com",
+  "version": "0.0.1",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "percy": "percy exec -- node snapshots.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
-    "@percy/script": "^1.0.2",
-    "node-sass": "^4.14.1",
-    "sharp": "^0.25.4"
+    "@astrojs/renderer-react": "^0.3.0",
+    "astro": "^0.21.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
