@@ -12,12 +12,24 @@
   box-sizing: border-box;
 }
 html {
+  --font-mono: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
   --ff-rounded: "Nunito", sans-serif;
   --ff-gothic: "AlternateGothicPro-No1", system-ui, sans-serif;
 
+  --color-light: #f3f4f6;
+
   font-family: var(--ff-rounded);
-  font-size: 16px;
   line-height: 1.5;
+  font-size: 1rem;
+  --user-font-scale: 1rem - 16px;
+  font-size: clamp(
+    0.875rem,
+    0.4626rem + 1.0309vw + var(--user-font-scale),
+    1.125rem
+  );
   background: #130931;
   background: linear-gradient(180deg, #18083c 0%, #3d1f7b 100%);
   color: white;
@@ -26,11 +38,6 @@ html {
   html {
     font-size: 11px;
   }
-}
-body {
-  margin: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {

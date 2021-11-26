@@ -5,6 +5,7 @@ const { title } = Astro.props;
 <html>
   <head>
     <title>{title}</title>
+    <link rel="stylesheet" href={Astro.resolve('../styles/global.scss')} />
   </head>
   <body>
   <div class="root">

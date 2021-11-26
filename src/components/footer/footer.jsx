@@ -1,17 +1,14 @@
-import React from "react";
-import { Link } from "gatsby";
-
 import styles from "./footer.module.scss";
 
-const Footer = props => (
+const Footer = (props) => (
   <footer className={styles.homeFooter}>
     {!props.noWhatIs && (
       <>
         <h3 className={styles.whatis}>Yeah, but what is serverless?</h3>
         <div className={styles.findOutWrap}>
-          <Link to="/about/" className={styles.findOut}>
+          <a href="/about/" className={styles.findOut}>
             Find out →
-          </Link>
+          </a>
         </div>
       </>
     )}

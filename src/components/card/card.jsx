@@ -1,6 +1,3 @@
-import React from "react";
-import { withPrefix } from "gatsby";
-
 import styles from "./card.module.scss";
 
 const Card = (props) => {
@@ -10,18 +7,14 @@ const Card = (props) => {
         <a href={props.url} className={styles.logoHeader}>
           <img
             className={styles.logoImage}
-            src={withPrefix(`${props.logo}`)}
+            src={`${props.logo}`}
             alt={`Logo for ${props.title}`}
           />
         </a>
       )}
 
       {props.icon && (
-        <img
-          className={styles.icon}
-          src={withPrefix(`/img/${props.icon}`)}
-          alt=""
-        />
+        <img className={styles.icon} src={`/img/${props.icon}`} alt="" />
       )}
 
       <div className={styles.cardContent}>
@@ -41,7 +34,7 @@ const Card = (props) => {
         {props.tags && (
           <div className={styles.tagsArea}>
             <span className={styles.topicWrap}>
-              <img src={withPrefix(`/img/topic.svg`)} alt="" />
+              <img src={`/img/topic.svg`} alt="" />
               Topics
             </span>
             {props.tags.map((tag) => (
@@ -58,7 +51,7 @@ const Card = (props) => {
         {props.topics && (
           <div className={styles.topicsArea}>
             <span className={styles.focus}>
-              <img src={withPrefix(`/img/focus.svg`)} alt="" />
+              <img src={`/img/focus.svg`} alt="" />
               Focus Areas
             </span>
             {props.topics.map((topic) => (

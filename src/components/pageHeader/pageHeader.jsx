@@ -1,19 +1,16 @@
-import React from "react";
-import { Link, withPrefix } from "gatsby";
-
 import styles from "./pageHeader.module.scss";
 
-const PageHeader = props => {
+const PageHeader = (props) => {
   return (
     <header className={`${styles.root} ${props.className}`}>
       <div className={styles.logoArea}>
-        <Link to="/">
+        <a href="/">
           <img
             className={styles.logo}
-            src={withPrefix(`/logo/css-tricks.svg`)}
+            src="/logo/css-tricks.svg"
             alt="CSS-Tricks Presents"
           />
-        </Link>
+        </a>
         <div>
           The Power of <strong>Serverless</strong>
           <br /> for Front-End Developers
