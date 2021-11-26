@@ -1,19 +1,12 @@
 ---
-import BaseLayout from '../../layouts/layout.astro';
-import Card from '../../components/card/card.jsx';
-
-const data = Astro.fetchContent('../../content/major/*.md'); 
+import ServicePage from "../../components/servicePage/servicePage.astro";
 ---
 
-<BaseLayout title="Serverless - Major Providers">
-{data.map((post) => (
-  <Card
-    logo={post.logo}
-    title={post.title}
-    key={post.title}
-    html={post.content.html}
-    url={post.url}
-    extraClasses="service-card"
-  />
-))}
-</BaseLayout>
+<ServicePage
+  title="Major Providers"
+  service="major"
+  pageTitle="Services | Cloud Providers"
+  pageHeader="Services"
+  pageSubHeader="The Cloud Providers"
+  intro="The services that have the actual infrastructure that all this Serverless stuff is built upon."
+/>
