@@ -4,10 +4,7 @@ import Card from "../../components/card/card.jsx";
 import PageHeader from "../../components/pageHeader/pageHeader.jsx";
 
 const { service, title, pageHeader, pageSubHeader, intro } = Astro.props;
-
-const data = Astro.fetchContent("../../content/major/*.md");
-
-console.log(`cool`, service, data);
+const data = Astro.fetchContent(`../../content/${service}/*.md`);
 ---
 
 <BaseLayout {title}>

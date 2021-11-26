@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../layouts/layout.astro";
+const response = await fetch("../content/ideas.json");
+const data = await response.json();
+console.log(data);
+---
+
+<BaseLayout title="Serverless - Ideas">test</BaseLayout>
