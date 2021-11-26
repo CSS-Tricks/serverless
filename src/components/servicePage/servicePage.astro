@@ -3,11 +3,11 @@ import BaseLayout from "../../layouts/layout.astro";
 import Card from "../../components/card/card.jsx";
 import PageHeader from "../../components/pageHeader/pageHeader.jsx";
 
-const { service, title, pageHeader, pageSubHeader, intro } = Astro.props;
+const { service, pageTitle, pageHeader, pageSubHeader, intro } = Astro.props;
 const data = Astro.fetchContent(`../../content/${service}/*.md`);
 ---
 
-<BaseLayout {title}>
+<BaseLayout title={pageTitle}>
   <PageHeader title={pageHeader} class="pageHeader">
     <h2>{pageSubHeader}</h2>
     <p>{intro}</p>
