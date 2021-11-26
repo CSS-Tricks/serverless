@@ -1,5 +1,5 @@
 {
-  "name": "Website for serverless.css-tricks.com",
+  "name": "serverless.css-tricks.com",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",

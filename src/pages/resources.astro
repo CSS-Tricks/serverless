@@ -1,0 +1,148 @@
+---
+import BaseLayout from "../layouts/layout.astro";
+import PageHeader from "../components/pageHeader/pageHeader.jsx";
+import Card from "../components/card/card.jsx";
+
+const data = Astro.fetchContent("../content/resources/*.md");
+let tagBlaster = [];
+data.map((resource) => {
+  tagBlaster.push(resource.tags);
+});
+const flatTags = tagBlaster.flat();
+const tags = [...new Set(flatTags.map(JSON.stringify))].map(JSON.parse);
+
+console.log(tags);
+
+const tagsOpen = false;
+---
+
+<BaseLayout title="Serverless - Ideas">
+  <PageHeader title="Resources" class="pageHeader">
+    <p>
+      Articles about things related to Serverless, JAMstack, and the whole ball
+      of yarn.
+    </p>
+
+    <nav class="nav" data-open={tagsOpen}>
+      Topics:{" "}
+      {tags.map((tag, i) => {
+        return (
+          <button key={tag} onClick={() => onTagClick(tag)} class="tag">
+            {tag}
+          </button>
+        );
+      })}
+      <button
+        class="more"
+        data-open={tagsOpen}
+        id="more-resources-button"
+        onClick={() => {
+          console.log("clicked");
+        }}
+      >
+        More
+      </button>
+    </nav>
+  </PageHeader>
+
+  <div class="grid ideasCardGrid">
+    {data.map((resource) => (
+      <Card
+        key={resource.title}
+        title={resource.title}
+        author={resource.author}
+        tags={resource.tags}
+        html={resource.content.html}
+        url={resource.url}
+        extraClasses="resource"
+      />
+    ))}
+  </div>
+</BaseLayout>
+
+<script>
+  let tagsOpen = false;
+  function onTagClick() {
+    console.log("clicked");
+  }
+</script>
+
+<style lang="scss">
+  .pageHeader {
+    background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto,w_600/v1558187394/rocket_akopq6.png"),
+      url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto,w_1200/v1558187112/cloud4_gi3gqj.png"),
+      url("/img/stars.svg");
+    background-size: 13%, 55%, 90%;
+    background-repeat: no-repeat;
+    background-position: top 10% right 22%, top right, top center;
+    @media (max-width: 420px) {
+      background-position: top 30% right 10%, top 5% right, top center;
+    }
+  }
+
+  .nav {
+    font-family: var(--ff-gothic);
+    text-transform: uppercase;
+    font-size: 2rem;
+    overflow: hidden;
+    line-height: 1;
+    max-height: 500px;
+    transition: max-height 0.2s;
+    position: relative;
+    padding: 0 70px 40px 0;
+    margin-bottom: 1rem;
+
+    &[data-open="false"] {
+      max-height: 80px;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background: linear-gradient(to top, #110b2e, rgba(#110b2e, 0));
+      }
+    }
+  }
+
+  .tag {
+    background: none;
+    border: 0;
+    font-family: var(--ff-gothic);
+    color: #c4b3ec;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0;
+    margin-right: 1rem;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      color: white;
+    }
+  }
+
+  .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent url(/img/arrow-down.svg) right center no-repeat;
+    color: white;
+    border: 0;
+    font-family: var(--ff-gothic);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-right: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      outline: 0;
+    }
+
+    &[data-open="true"] {
+      transform: rotate(180deg);
+    }
+  }
+</style>
