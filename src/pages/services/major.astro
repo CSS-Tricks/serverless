@@ -1,0 +1,13 @@
+---
+const data = Astro.fetchContent('../../content/major/*.md'); 
+---
+
+<div>
+{data.slice(0, 3).map((post) => (
+  <article>
+    <h1>{post.title}</h1>
+    <p>{post.description}</p>
+    <a href={post.url}>Read more</a>
+  </article>
+))}
+</div>
