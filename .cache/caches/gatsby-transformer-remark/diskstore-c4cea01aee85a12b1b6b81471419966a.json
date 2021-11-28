@@ -1,1 +1,0 @@
-{"expireTime":9007200857864753000,"key":"transformer-remark-markdown-html-bd5fa6013d552d1f9257003eec9a7129--","val":"<p>While the content can be published to Firebase using its excellent CLI, a better approach is to have it fully automated. For doing this, first I set up a private repository on GitLab and make it as the remote origin for my local working repository.</p>"}
