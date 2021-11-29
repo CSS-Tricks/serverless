@@ -2,7 +2,7 @@
 path: "services/payments/chargebee"
 title: "Chargebee"
 url: "https://chargebee.com/"
-logo: "/images/chargebee.svg"
+logo: "chargebee.svg"
 ---
 
 Think of Chargebee as your off-the-shelf, plug-and-play billing solution delivered on the cloud.

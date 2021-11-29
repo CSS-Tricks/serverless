@@ -2,7 +2,7 @@
 path: "services/search/cloudsh"
 title: "CloudSh Search"
 url: "https://cloudsh.com/"
-logo: "/images/cloudsh.png"
+logo: "cloudsh.png"
 ---
 
 Powerful search for your website with a few lines of JavaScript. Works great with static sites!

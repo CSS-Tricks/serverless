@@ -1,6 +1,4 @@
 import styles from "./card.module.scss";
-import topic from "../images/topic.svg";
-import focus from "../images/focus.svg";
 
 const Card = (props) => {
   return (
@@ -9,18 +7,14 @@ const Card = (props) => {
         <a href={props.url} className={styles.logoHeader}>
           <img
             className={styles.logoImage}
-            src={`${props.logo}`}
+            src={`/logos/${props.logo}`}
             alt={`Logo for ${props.title}`}
           />
         </a>
       )}
 
       {props.icon && (
-        <img
-          className={styles.icon}
-          // src={Astro.resolve(`/img/${props.icon}`)}
-          alt=""
-        />
+        <img className={styles.icon} src={`/images/${props.icon}`} alt="" />
       )}
 
       <div className={styles.cardContent}>
@@ -40,7 +34,7 @@ const Card = (props) => {
         {props.tags && (
           <div className={styles.tagsArea}>
             <span className={styles.topicWrap}>
-              <img src={topic} alt="" />
+              <img src="/images/topic.svg" alt="" />
               Topics
             </span>
             {props.tags.map((tag) => (
@@ -57,7 +51,7 @@ const Card = (props) => {
         {props.topics && (
           <div className={styles.topicsArea}>
             <span className={styles.focus}>
-              <img src={focus} alt="" />
+              <img src="/images/focus.svg" alt="" />
               Focus Areas
             </span>
             {props.topics.map((topic) => (

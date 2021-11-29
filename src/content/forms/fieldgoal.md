@@ -2,7 +2,7 @@
 path: "services/forms/fieldgoal"
 title: "FieldGoal"
 url: "https://fieldgoal.io/"
-logo: "/images/fieldgoal.svg"
+logo: "fieldgoal.svg"
 ---
 
 Don't build a whole backend just for one stupid form.

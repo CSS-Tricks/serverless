@@ -2,7 +2,7 @@
 path: "services/realtime/pusher"
 title: "Pusher"
 url: "https://pusher.com/"
-logo: "/images/pusher.png"
+logo: "pusher.png"
 ---
 
 Realtime APIs

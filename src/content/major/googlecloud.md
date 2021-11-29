@@ -2,7 +2,7 @@
 path: services/major/googlecloud
 title: Google Cloud Platform
 url: https://cloud.google.com/
-logo: /images/google-cloud-platform.png
+logo: google-cloud-platform.png
 ---
 
 Google has physical infrastructure in data centers around the globe and a long list of services you can build with.

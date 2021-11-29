@@ -2,7 +2,7 @@
 path: "services/forms/form2chat"
 title: "Form2chat"
 url: "https://form2chat.io/"
-logo: "/images/form2chat.png"
+logo: "form2chat.png"
 ---
 
 Get your forms submissions directly to the chat platform of your choice - Telegram, Slack, Messenger or Viber are available. More is coming soon.

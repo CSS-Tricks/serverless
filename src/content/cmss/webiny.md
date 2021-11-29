@@ -2,7 +2,7 @@
 path: "services/cmss/webiny"
 title: "Webiny"
 url: "https://www.webiny.com/"
-logo: "/images/webiny.svg"
+logo: "webiny.svg"
 ---
 
 Developer-friendly Serverless CMS powered by GraphQL and React.

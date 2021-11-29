@@ -2,7 +2,7 @@
 path: "services/hosting/netlify"
 title: "Netlify"
 url: "https://www.netlify.com/"
-logo: "/images/netlify.png"
+logo: "netlify.png"
 ---
 
 Netlify offers essentially very fancy static file hosting that works through great integrations in your Git repos, or via CLI.

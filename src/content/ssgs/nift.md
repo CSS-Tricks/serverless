@@ -2,7 +2,7 @@
 path: "services/ssgs/nift"
 title: "Nift"
 url: "https://nift.dev/"
-logo: "/images/nift-bunny.svg"
+logo: "nift-bunny.svg"
 ---
 
 Nift is a cross-platform open source framework for managing and generating websites.

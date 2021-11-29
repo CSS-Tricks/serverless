@@ -2,7 +2,7 @@
 path: "services/media/kloudless"
 title: "Kloudless"
 url: "https://kloudless.com/"
-logo: "/images/kloudless.png"
+logo: "kloudless.png"
 ---
 
 Integrates multiple file storage solutions with one API.
