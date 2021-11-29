@@ -1,3 +1,5 @@
+import logo from "../images/css-tricks.svg";
+import menuButton from "../images/menu-button.svg";
 import styles from "./pageHeader.module.scss";
 
 const PageHeader = (props) => {
@@ -5,11 +7,7 @@ const PageHeader = (props) => {
     <header className={`${styles.root} ${props.className}`}>
       <div className={styles.logoArea}>
         <a href="/">
-          <img
-            className={styles.logo}
-            src="/logo/css-tricks.svg"
-            alt="CSS-Tricks Presents"
-          />
+          <img className={styles.logo} src={logo} alt="CSS-Tricks Presents" />
         </a>
         <div>
           The Power of <strong>Serverless</strong>
@@ -24,7 +22,7 @@ const PageHeader = (props) => {
           }}
         >
           <span className="screen-reader-text">Toggle Menu</span>
-          <img src="/img/menu-button.svg" alt="" className={styles.toggleImg} />
+          <img src={menuButton} alt="" className={styles.toggleImg} />
         </button>
       </div>
 

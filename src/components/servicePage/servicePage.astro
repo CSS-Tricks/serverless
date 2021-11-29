@@ -3,8 +3,7 @@ import BaseLayout from "../../layouts/layout.astro";
 import Card from "../../components/card/card.jsx";
 import PageHeader from "../../components/pageHeader/pageHeader.jsx";
 
-const { service, pageTitle, pageHeader, pageSubHeader, intro } = Astro.props;
-const data = Astro.fetchContent(`../../content/${service}/*.md`);
+const { data, pageTitle, pageHeader, pageSubHeader, intro } = Astro.props;
 ---
 
 <BaseLayout title={pageTitle}>
@@ -28,6 +27,8 @@ const data = Astro.fetchContent(`../../content/${service}/*.md`);
 </BaseLayout>
 
 <style lang="scss">
+  @use "../../styles/_bits.scss" as *;
+
   .pageHeader {
     background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_800/v1558127391/satellite_wezm7k.png"),
       url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558127158/cloud3_v43wo8.png"),
@@ -37,9 +38,9 @@ const data = Astro.fetchContent(`../../content/${service}/*.md`);
     background-position: top right 15%, top right -40px, top 85% right,
       top center;
     background-repeat: no-repeat;
-    @media (max-width: 770px) {
-      background-position: top 40% right 5%, top -10% right -40px, top 60% right,
-        top center;
-    }
+    // @include breakpoints(baby-bear) {
+    //   background-position: top 40% right 5%, top -10% right -40px, top 60% right,
+    //     top center;
+    // }
   }
 </style>
