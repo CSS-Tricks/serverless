@@ -1,9 +1,10 @@
 ---
 import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/cicd/*.md");
 ---
 
 <ServicePage
-  service="cicd"
+  {data}
   pageTitle="Services | Continuous Integration / Continuous Deployment (CI / CD)"
   pageHeader="Services"
   pageSubHeader="CI / CD"

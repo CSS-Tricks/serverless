@@ -1,13 +1,12 @@
 ---
 import BaseLayout from "../layouts/layout.astro";
-import logo from "../images/css-tricks.svg";
-const mountain = `url(@fs/${Astro.resolve("../images/mountain.png")})`;
 ---
 
 <BaseLayout title="Serverless">
   <div class="homepageWrap">
     <header class="presentedBy">
-      <img class="logo" src={logo} alt="CSS-Tricks Presents" />
+      <img class="logo" src="/images/css-tricks.svg" alt="CSS-Tricks Presents"
+      />
     </header>
     <div class="titleArea">
       <h1 class="homepageTitle">
@@ -21,7 +20,7 @@ const mountain = `url(@fs/${Astro.resolve("../images/mountain.png")})`;
   </div>
 </BaseLayout>
 
-<style lang="scss" define:vars={{ mountain }}>
+<style lang="scss">
   // @import "../bits";
 
   .homepageWrap {
@@ -29,10 +28,10 @@ const mountain = `url(@fs/${Astro.resolve("../images/mountain.png")})`;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: var(--mountain),
+    background-image: url(/images/mountain.png),
       url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558124521/cloud2_ozcydy.png"),
       url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558124913/cloud1_gpju6f.png"),
-      url("/img/stars.svg"), url("/img/stars.svg");
+      url("/images/stars.svg"), url("/img/stars.svg");
     background-position: bottom left, bottom right, bottom 20% right 0,
       top center, top 15% left 38%;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, repeat-x;
@@ -56,7 +55,7 @@ const mountain = `url(@fs/${Astro.resolve("../images/mountain.png")})`;
       text-indent: -9999px;
       height: 0;
       padding-top: calc(150 / 700 * 100%);
-      background: url(/img/serverless-title.svg) no-repeat top center;
+      background: url(/images/serverless-title.svg) no-repeat top center;
       background-size: cover;
     }
   }

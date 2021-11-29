@@ -1,9 +1,10 @@
 ---
 import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/media/*.md");
 ---
 
 <ServicePage
-  service="media"
+  {data}
   pageTitle="Services | Media Hosting"
   pageHeader="Services"
   pageSubHeader="Media Hosting"

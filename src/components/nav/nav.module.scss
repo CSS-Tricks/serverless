@@ -12,7 +12,7 @@
     padding: 0;
     position: relative;
     > li {
-      background-image: url(../../images/texture2.png);
+      background-image: url(/images/texture2.png);
       background-size: cover;
       background-color: #37236b;
       background-blend-mode: screen;
@@ -22,7 +22,7 @@
       &[data-services] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_800/v1558127391/satellite_wezm7k.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558446566/moon2_qkahpp.png"),
-          url(/img/texture2.png),
+          url(/images/texture2.png),
           linear-gradient(
             135.29deg,
             #e9910d -21.42%,
@@ -40,7 +40,7 @@
       &[data-resources] {
         background-image: url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447058/angle-rocket_q7ogzm.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447057/cloud-small_szm500.png"),
-          url(../../images/texture2.png),
+          url(/images/texture2.png),
           linear-gradient(
             135.29deg,
             #e9910d -21.42%,
@@ -61,7 +61,7 @@
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star1_jivq8a.png"),
           url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1558447509/star2_xw2ndh.png"),
-          url(../../images/texture2.png),
+          url(/images/texture2.png),
           linear-gradient(
             135.29deg,
             #e9910d -21.42%,
@@ -116,7 +116,7 @@
       top: -10px;
       width: 100%;
       height: 20px;
-      background: url(/img/horizontal-dividers.svg);
+      background: url(/images/horizontal-dividers.svg);
       background-position: to dp left;
       background-repeat: no-repeat;
       background-size: 100% 20px;
@@ -160,7 +160,7 @@
             right: -10px;
             width: 20px;
             height: 100%;
-            background: url(/img/vertical-dividers.svg);
+            background: url(/images/vertical-dividers.svg);
             background-position: top left;
             background-repeat: no-repeat;
             background-size: 100%;
@@ -224,7 +224,7 @@
       left: -10px;
       width: 20px;
       height: 100%;
-      background: url(/img/vertical-dividers.svg);
+      background: url(/images/vertical-dividers.svg);
       background-position: top left;
       background-repeat: no-repeat;
       background-size: 20px 100%;
