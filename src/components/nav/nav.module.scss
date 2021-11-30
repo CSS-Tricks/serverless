@@ -11,7 +11,11 @@
     margin: 0;
     padding: 0;
     position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     > li {
+      flex: 1 0 auto;
       background-image: url(/images/texture2.png);
       background-size: cover;
       background-color: #37236b;
@@ -32,6 +36,8 @@
           top 100% left 0;
         background-repeat: no-repeat;
         background-size: 140px, 120px, cover, 100% 200%;
+        a {
+        }
         &:hover {
           background-position: top -3% right -12%, bottom 4% left -8%,
             center center, top 0 left 0;
@@ -192,17 +198,23 @@
 
   @media (min-width: 770px) {
     position: relative;
+    overflow: auto;
     > ul {
       > li {
         transition: background-position 0.15s, background-size 0.15s,
           opacity 0.5s, height 0.3s;
         > a {
           width: 100%;
-          height: 100%;
           display: flex;
           align-items: center;
           justify-content: center;
           transition: var(--animationTiming);
+        }
+        &[data-resources],
+        &[data-ideas] {
+          > a {
+            height: 100%;
+          }
         }
       }
       &:hover {
@@ -230,5 +242,11 @@
       background-size: 20px 100%;
       z-index: 1000;
     }
+  }
+
+  @media (min-width: 770px) {
+    position: fixed;
+    right: 10px;
+    width: 300px;
   }
 }

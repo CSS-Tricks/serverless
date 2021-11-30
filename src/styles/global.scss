@@ -11,6 +11,13 @@
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+}
 html {
   --font-mono: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
     "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
