@@ -16,20 +16,14 @@ const PageHeader = (props) => {
           <br /> for Front-End Developers
         </div>
 
-        <button
-          className={styles.menuButton}
-          onClick={() => {
-            window.scrollTo(0, 0);
-            document.body.classList.toggle("menu-open");
-          }}
-        >
+        <a className={styles.menuButton} href="#nav">
           <span className="screen-reader-text">Toggle Menu</span>
           <img
             src="/images/menu-button.svg"
-            alt=""
+            alt="Jump to Menu Button"
             className={styles.toggleImg}
           />
-        </button>
+        </a>
       </div>
 
       <div className={styles.h1wrap} data-title={props.title}>

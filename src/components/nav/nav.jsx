@@ -1,22 +1,10 @@
-import React from "react";
 import styles from "./nav.module.scss";
 
 const Nav = () => {
-  // const loc = location.location;
-  const loc = "fart";
-
-  let subpage = "nothing";
-  // if (loc.pathname.includes("/services/")) subpage = "services";
-  // if (loc.pathname.includes("/resources/")) subpage = "resources";
-  // if (loc.pathname.includes("/ideas/")) subpage = "ideas";
-
   return (
-    <nav className={styles.root} data-active={subpage}>
+    <nav className={styles.root} id="nav">
       <ul>
-        <li
-          data-services
-          // data-active={loc.pathname.includes("/services/") ? "true" : ""}
-        >
+        <li data-services>
           <a href="/services/major">Services</a>
           <div data-subnav>
             <a href="/services/major" className={styles.button}>
@@ -69,16 +57,10 @@ const Nav = () => {
             </a>
           </div>
         </li>
-        <li
-          // data-active={loc.pathname.includes("/resources/") ? "true" : ""}
-          data-resources
-        >
+        <li data-resources>
           <a href="/resources/">Resources</a>
         </li>
-        <li
-          // data-active={loc.pathname.includes("/ideas/") ? "true" : ""}
-          data-ideas
-        >
+        <li data-ideas>
           <a href="/ideas/">Ideas</a>
         </li>
       </ul>
