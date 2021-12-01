@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/layout.astro";
 import PageHeader from "../components/pageHeader/pageHeader.jsx";
 import Card from "../components/card/card.jsx";
+import Footer from "../components/footer/footer.jsx";
 
 const data = Astro.fetchContent("../content/resources/*.md");
 let tagBlaster = [];
@@ -41,6 +42,8 @@ const tags = [...new Set(flatTags.map(JSON.stringify))].map(JSON.parse);
       />
     ))}
   </div>
+
+  <Footer />
 </BaseLayout>
 
 <script>

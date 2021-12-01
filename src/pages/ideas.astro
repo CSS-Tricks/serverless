@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/layout.astro";
 import ideas from "../content/ideas.json";
 import PageHeader from "../components/pageHeader/pageHeader.jsx";
 import Card from "../components/card/card.jsx";
+import Footer from "../components/footer/footer.jsx";
 ---
 
 <BaseLayout title="Serverless - Ideas">
@@ -22,6 +23,8 @@ import Card from "../components/card/card.jsx";
       />
     ))}
   </div>
+
+  <Footer />
 </BaseLayout>
 
 <style lang="scss">
