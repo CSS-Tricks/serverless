@@ -22,11 +22,7 @@ const tags = [...new Set(flatTags.map(JSON.stringify))].map(JSON.parse);
     <nav class="nav closed" id="tagList">
       Topics:{" "}
       {tags.map((tag, i) => {
-        return (
-          <button key={tag} onClick={() => onTagClick(tag)} class="tag">
-            {tag}
-          </button>
-        );
+        return <button class="tag">{tag}</button>;
       })}
       <button class="more" id="moreResourcesButton"> More </button>
     </nav>
@@ -50,6 +46,25 @@ const tags = [...new Set(flatTags.map(JSON.stringify))].map(JSON.parse);
 <script>
   moreResourcesButton.addEventListener("click", () => {
     tagList.classList.toggle("closed");
+  });
+
+  const cards = document.querySelectorAll(".card");
+  const tagButtons = document.querySelectorAll(
+    ".nav button:not(#moreResourcesButton), .card-tags button"
+  );
+  tagButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      let tagText = button.innerText.toLowerCase();
+      cards.forEach((card) => {
+        card.classList.add("hidden");
+      });
+      const cardsToShow = document.querySelectorAll(
+        ".card[data-tags*='" + tagText + "']"
+      );
+      cardsToShow.forEach((card) => {
+        card.classList.remove("hidden");
+      });
+    });
   });
 </script>
 

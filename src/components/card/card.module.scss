@@ -12,6 +12,9 @@
   .service-card {
     padding-bottom: 20px;
   }
+  .hidden {
+    display: none;
+  }
 }
 
 .logoHeader {
@@ -78,33 +81,6 @@
   }
 }
 
-.cmsLink {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-top-left-radius: 5px;
-  background: #ece9f7;
-  text-decoration: none;
-  font-size: 0.9rem;
-  padding: 0.33rem 1rem;
-  &::after {
-    content: "";
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    background: #4caa9f;
-    mask: url(/images/netlify-cms.png);
-    mask-size: cover;
-    position: relative;
-    top: 2px;
-    margin-left: 0.25rem;
-  }
-  &:hover {
-    background: #1a0e41;
-    color: white;
-  }
-}
-
 .cardContent {
   padding: 1.5rem;
   color: #47356f;
@@ -156,7 +132,7 @@
   padding: 0;
   color: #6a5a8a;
   text-transform: capitalize;
-  &:not(:nth-child(2)) {
+  &:not(:nth-child(1)) {
     &::before {
       content: "·";
       margin: 0 0.33rem;

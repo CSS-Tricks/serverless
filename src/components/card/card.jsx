@@ -2,7 +2,10 @@ import styles from "./card.module.scss";
 
 const Card = (props) => {
   return (
-    <div className={`${styles.root} ${props.extraClasses}`}>
+    <div
+      className={`${styles.root} ${props.extraClasses} card`}
+      data-tags={props.tags?.map((tag) => tag)}
+    >
       {props.logo && (
         <a href={props.link} className={styles.logoHeader}>
           <img
@@ -35,15 +38,16 @@ const Card = (props) => {
               <img src="/images/topic.svg" alt="" />
               Topics
             </span>
-            {props.tags.map((tag) => (
-              <button
-                className={styles.topic}
-                key={tag}
-                onClick={() => props.tagChanger(tag)}
-              >
-                {tag}
-              </button>
-            ))}
+            <div className="card-tags">
+              {props.tags.map((tag) => (
+                <button
+                  className={styles.topic}
+                  onClick={() => props.tagChanger(tag)}
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
           </div>
         )}
         {props.topics && (
@@ -52,11 +56,13 @@ const Card = (props) => {
               <img src="/images/focus.svg" alt="" />
               Focus Areas
             </span>
-            {props.topics.map((topic) => (
-              <span key={topic} className={styles.topic}>
-                {topic}
-              </span>
-            ))}
+            <div className="card-tags">
+              {props.topics.map((topic) => (
+                <span key={topic} className={styles.topic}>
+                  {topic}
+                </span>
+              ))}
+            </div>
           </div>
         )}
       </div>
