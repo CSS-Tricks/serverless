@@ -40,7 +40,7 @@ const tags = [...new Set(flatTags.map(JSON.stringify))].map(JSON.parse);
         author={resource.author}
         tags={resource.tags}
         html={resource.content.html}
-        url={resource.url}
+        link={resource.link}
         extraClasses="resource"
       />
     ))}
