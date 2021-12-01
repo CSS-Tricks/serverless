@@ -1,7 +1,7 @@
 ---
 path: "services/ecommerce/foxy"
 title: "Foxy"
-url: "https://www.foxy.io/"
+link: "https://www.foxy.io/"
 logo: "foxy.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/laravel-vapor"
 title: "Laravel Vapor"
-url: "https://vapor.laravel.com/"
+link: "https://vapor.laravel.com/"
 logo: "laravel-vapor.svg"
 ---
 

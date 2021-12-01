@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/jigsaw"
 title: "Jigsaw"
-url: "https://jigsaw.tighten.co/"
+link: "https://jigsaw.tighten.co/"
 logo: "jigsaw.svg"
 ---
 

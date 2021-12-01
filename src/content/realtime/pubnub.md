@@ -1,7 +1,7 @@
 ---
 path: "services/realtime/pubnub"
 title: "pubnub"
-url: "https://www.pubnub.com/"
+link: "https://www.pubnub.com/"
 logo: "pubnub.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/auth/hoodie"
 title: "Hoodie"
-url: "http://hood.ie/"
+link: "http://hood.ie/"
 logo: "hoodie.svg"
 ---
 

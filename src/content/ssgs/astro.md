@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/astro"
 title: "Astro"
-url: "https://astro.build"
+link: "https://astro.build"
 logo: "astro.svg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/monitoring/iopipe"
 title: "IOpipe"
-url: "https://www.iopipe.com/"
+link: "https://www.iopipe.com/"
 logo: "iopipe.png"
 ---
 

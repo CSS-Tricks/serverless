@@ -1,7 +1,7 @@
 ---
 path: "services/media/azure-blob"
 title: "Azure Blob Storage"
-url: "https://azure.microsoft.com/en-us/services/storage/blobs/"
+link: "https://azure.microsoft.com/en-us/services/storage/blobs/"
 logo: "microsoft-azure.png"
 ---
 

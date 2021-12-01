@@ -1,7 +1,7 @@
 ---
 path: services/cmss/flotiq
 title: Flotiq
-url: https://flotiq.com/
+link: https://flotiq.com/
 logo: flotiq.svg
 ---
 

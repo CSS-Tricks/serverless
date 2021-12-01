@@ -1,7 +1,7 @@
 ---
 path: "services/auth/amplify"
 title: "Amplify Framework"
-url: "https://aws-amplify.github.io/docs/js/authentication"
+link: "https://aws-amplify.github.io/docs/js/authentication"
 logo: "amplify.jpg"
 ---
 

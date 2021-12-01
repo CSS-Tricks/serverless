@@ -1,7 +1,7 @@
 ---
 path: "services/functions/netlify"
 title: "Netlify"
-url: "https://www.netlify.com/docs/functions/"
+link: "https://www.netlify.com/docs/functions/"
 logo: "netlify.png"
 ---
 

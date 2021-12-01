@@ -1,7 +1,7 @@
 ---
 path: "services/forms/pageclip"
 title: "Pageclip"
-url: "https://pageclip.co/"
+link: "https://pageclip.co/"
 logo: "pageclip.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/metalsmith"
 title: "Metalsmith"
-url: "https://metalsmith.io/"
+link: "https://metalsmith.io/"
 logo: "metalsmith.png"
 ---
 

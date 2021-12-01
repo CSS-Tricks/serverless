@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/harp"
 title: "Harp"
-url: "http://harpjs.com/"
+link: "http://harpjs.com/"
 logo: "harp.svg"
 ---
 

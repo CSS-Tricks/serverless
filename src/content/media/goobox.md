@@ -1,7 +1,7 @@
 ---
 path: "services/media/goobox"
 title: "Goobox"
-url: "https://s3.goobox.io/"
+link: "https://s3.goobox.io/"
 logo: "goobox.svg"
 ---
 

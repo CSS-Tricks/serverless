@@ -1,7 +1,7 @@
 ---
 path: "services/payments/recurly"
 title: "Recurly"
-url: "https://recurly.com/"
+link: "https://recurly.com/"
 logo: "recurly.svg"
 ---
 

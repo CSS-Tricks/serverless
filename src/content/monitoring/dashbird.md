@@ -1,7 +1,7 @@
 ---
 path: "services/monitoring/dashbird"
 title: "Dashbird"
-url: "https://dashbird.io/"
+link: "https://dashbird.io/"
 logo: "dashbird.png"
 ---
 

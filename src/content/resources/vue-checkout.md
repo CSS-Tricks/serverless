@@ -1,6 +1,6 @@
 ---
 title: "Creating a Vue.js Serverless Checkout Form: Setup and Testing"
-url: "https://css-tricks.com/creating-vue-js-serverless-checkout-part-one/"
+link: "https://css-tricks.com/creating-vue-js-serverless-checkout-part-one/"
 author: "Sarah Drasner"
 tags: ["how-to", "vue", "azure", "stripe"]
 ---

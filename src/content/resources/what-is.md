@@ -1,6 +1,6 @@
 ---
 title: "What Is Serverless?"
-url: "https://code.tutsplus.com/tutorials/what-is-serverless--cms-30077"
+link: "https://code.tutsplus.com/tutorials/what-is-serverless--cms-30077"
 author: "Markus Mühlberger"
 tags: ["explain"]
 ---

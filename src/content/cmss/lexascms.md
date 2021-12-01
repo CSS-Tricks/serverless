@@ -1,7 +1,7 @@
 ---
 path: services/cmss/lexascms
 title: LexasCMS
-url: https://www.lexascms.com/
+link: https://www.lexascms.com/
 logo: lexascms.svg
 ---
 

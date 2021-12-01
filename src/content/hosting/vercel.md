@@ -1,7 +1,7 @@
 ---
 path: services/hosting/vercel
 title: Vercel
-url: "https://vercel.com/"
+link: "https://vercel.com/"
 logo: vercel.svg
 ---
 

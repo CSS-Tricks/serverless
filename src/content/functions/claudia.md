@@ -1,7 +1,7 @@
 ---
 path: services/functions/claudia
 title: Claudia
-url: "https://claudiajs.com/"
+link: "https://claudiajs.com/"
 logo: claudiajs.png
 ---
 

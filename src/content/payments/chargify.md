@@ -1,7 +1,7 @@
 ---
 path: "services/payments/chargify"
 title: "Chargify"
-url: "https://chargify.com/"
+link: "https://chargify.com/"
 logo: "chargify.svg"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Build a "Serverless" SMS Hub in Under 7 Minutes with Node.js, StdLib, and MessageBird'
-url: "https://medium.com/stdlibhq/build-a-serverless-sms-hub-in-under-7-minutes-with-node-js-stdlib-and-messagebird-7d2d41ecaea6"
+link: "https://medium.com/stdlibhq/build-a-serverless-sms-hub-in-under-7-minutes-with-node-js-stdlib-and-messagebird-7d2d41ecaea6"
 author: "Jacob Lee"
 tags: ["notifications", "sms"]
 ---

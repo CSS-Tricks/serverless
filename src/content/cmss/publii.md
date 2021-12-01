@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/publii"
 title: "Publii"
-url: "https://getpublii.com/"
+link: "https://getpublii.com/"
 logo: "publii.svg"
 ---
 

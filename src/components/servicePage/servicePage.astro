@@ -20,7 +20,7 @@ const { data, pageTitle, pageHeader, pageSubHeader, intro } = Astro.props;
         title={post.title}
         key={post.title}
         html={post.content.html}
-        url={post.url}
+        link={post.link}
         extraClasses="service-card"
       />
     ))}
@@ -36,7 +36,7 @@ const { data, pageTitle, pageHeader, pageSubHeader, intro } = Astro.props;
     background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_800/v1558127391/satellite_wezm7k.png"),
       url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558127158/cloud3_v43wo8.png"),
       url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558127567/earth_zxu0ww.png"),
-      url("/img/stars.svg");
+      url("/images/stars.svg");
     background-size: 30%, 60%, 50%, 90%;
     background-position: top right 15%, top right -40px, top 85% right,
       top center;

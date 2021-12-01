@@ -1,7 +1,7 @@
 ---
 path: services/forms/arengu
 title: Arengu
-url: https://www.arengu.com/
+link: https://www.arengu.com/
 logo: arengu.svg
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/realtime/gcse"
 title: "Google Custom Search Engine"
-url: "https://cse.google.com/"
+link: "https://cse.google.com/"
 logo: "google.png"
 ---
 

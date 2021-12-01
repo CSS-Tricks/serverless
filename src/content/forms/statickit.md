@@ -1,7 +1,7 @@
 ---
 path: "services/forms/statickit"
 title: "Statickit"
-url: "https://statickit.com/"
+link: "https://statickit.com/"
 logo: "statickit.svg"
 ---
 

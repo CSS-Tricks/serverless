@@ -1,7 +1,7 @@
 ---
 path: services/data/hasura
 title: Hasura
-url: "https://hasura.io/"
+link: "https://hasura.io/"
 logo: hasura.png
 ---
 

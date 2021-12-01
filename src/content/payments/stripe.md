@@ -1,7 +1,7 @@
 ---
 path: "services/payments/stripe"
 title: "Stripe"
-url: "https://stripe.com/"
+link: "https://stripe.com/"
 logo: "stripe.png"
 ---
 

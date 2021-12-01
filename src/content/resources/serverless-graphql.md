@@ -1,6 +1,6 @@
 ---
 title: "Serverless GraphQL with Netlify Dev"
-url: "https://www.youtube.com/watch?v=rCYOpTQReD4"
+link: "https://www.youtube.com/watch?v=rCYOpTQReD4"
 author: "Shawn Wang"
 tags: ["video", "graphql", "netlify"]
 ---

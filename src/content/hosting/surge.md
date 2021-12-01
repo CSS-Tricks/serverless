@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/surge"
 title: "Surge"
-url: "https://surge.sh/"
+link: "https://surge.sh/"
 logo: "surge.png"
 ---
 

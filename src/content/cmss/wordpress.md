@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/wordpress"
 title: "WordPress (REST API)"
-url: "https://developer.wordpress.com/docs/api/"
+link: "https://developer.wordpress.com/docs/api/"
 logo: "wordpress.svg"
 ---
 

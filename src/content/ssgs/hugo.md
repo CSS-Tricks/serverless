@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/hugo"
 title: "Hugo"
-url: "https://gohugo.io/"
+link: "https://gohugo.io/"
 logo: "hugo.svg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: services/functions/vercel
 title: Vercel
-url: https://vercel.com/docs/v2/serverless-functions/introduction
+link: https://vercel.com/docs/v2/serverless-functions/introduction
 logo: vercel.png
 ---
 

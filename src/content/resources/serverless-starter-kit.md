@@ -1,6 +1,6 @@
 ---
 title: "Introducing Postlight’s Modern Serverless Starter Kit"
-url: "https://postlight.com/trackchanges/introducing-postlights-modern-serverless-starter-kit"
+link: "https://postlight.com/trackchanges/introducing-postlights-modern-serverless-starter-kit"
 author: "Adam Pash"
 tags: ["cloud-functions"]
 ---

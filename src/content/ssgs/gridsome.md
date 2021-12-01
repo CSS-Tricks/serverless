@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/gridsome"
 title: "Gridsome"
-url: "https://gridsome.org/"
+link: "https://gridsome.org/"
 logo: "gridsome.svg"
 ---
 

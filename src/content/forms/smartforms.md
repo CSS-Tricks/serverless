@@ -1,7 +1,7 @@
 ---
 path: "services/forms/smartforms"
 title: "SmartForms"
-url: "https://smartforms.dev/"
+link: "https://smartforms.dev/"
 logo: "smartforms.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/media/zerobit"
 title: "ZeroBit"
-url: "https://zero-bit.io/"
+link: "https://zero-bit.io/"
 logo: "zerobit.svg"
 ---
 

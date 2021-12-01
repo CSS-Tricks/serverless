@@ -1,7 +1,7 @@
 ---
 path: "services/media/uploadcare"
 title: "Uploadcare"
-url: "https://uploadcare.com/"
+link: "https://uploadcare.com/"
 logo: "uploadcare.png"
 ---
 

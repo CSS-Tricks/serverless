@@ -1,7 +1,7 @@
 ---
 path: "services/media/cloudinary"
 title: "Cloudinary"
-url: "https://cloudinary.com/"
+link: "https://cloudinary.com/"
 logo: "cloudinary.png"
 ---
 

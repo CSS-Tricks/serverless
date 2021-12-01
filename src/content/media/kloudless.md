@@ -1,7 +1,7 @@
 ---
 path: "services/media/kloudless"
 title: "Kloudless"
-url: "https://kloudless.com/"
+link: "https://kloudless.com/"
 logo: "kloudless.png"
 ---
 

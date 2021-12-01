@@ -1,6 +1,6 @@
 ---
 title: "Serverless Stack"
-url: "https://serverless-stack.com/"
+link: "https://serverless-stack.com/"
 author: "Anomaly Innovations"
 tags: ["architecture", "how-to", "react"]
 ---

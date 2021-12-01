@@ -1,6 +1,6 @@
 ---
 title: "Building a Serverless Comments System"
-url: "https://css-tricks.com/build-custom-cms-serverless-static-site-generator/"
+link: "https://css-tricks.com/build-custom-cms-serverless-static-site-generator/"
 author: "James Wren"
 tags: ["dynamodb", "appsync", "graphql"]
 ---

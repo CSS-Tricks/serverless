@@ -1,6 +1,6 @@
 ---
 title: "Web Push Notifications with Firebase"
-url: "https://bitsofco.de/web-push-notifications-with-firebase/"
+link: "https://bitsofco.de/web-push-notifications-with-firebase/"
 author: "Ire Aderinokun"
 tags: ["push-notifications", "firebase", "how-to", "video"]
 ---

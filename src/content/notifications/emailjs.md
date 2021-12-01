@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/emailjs"
 title: "EmailJS"
-url: "http://www.emailjs.com/"
+link: "http://www.emailjs.com/"
 logo: "emailjs.png"
 ---
 

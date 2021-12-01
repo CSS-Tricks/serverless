@@ -1,6 +1,6 @@
 ---
 title: "Serverless Cost Calculator"
-url: "http://serverlesscalc.com/"
+link: "http://serverlesscalc.com/"
 author: "Peter Sbarski"
 tags: ["calculator"]
 ---

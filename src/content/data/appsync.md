@@ -1,7 +1,7 @@
 ---
 path: "services/data/aws-appsync"
 title: "AWS AppSync"
-url: "https://aws.amazon.com/appsync/"
+link: "https://aws.amazon.com/appsync/"
 logo: "appsync.png"
 ---
 

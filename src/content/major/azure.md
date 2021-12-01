@@ -1,7 +1,7 @@
 ---
 path: "services/major/azure"
 title: "Microsoft Azure"
-url: "https://azure.microsoft.com/"
+link: "https://azure.microsoft.com/"
 logo: "microsoft-azure.png"
 ---
 

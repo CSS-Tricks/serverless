@@ -1,7 +1,7 @@
 ---
 path: "services/data/jsonbin"
 title: "JSONbin.io"
-url: "https://jsonbin.io/"
+link: "https://jsonbin.io/"
 logo: "jsonbin.svg"
 ---
 

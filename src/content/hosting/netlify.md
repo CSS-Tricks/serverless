@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/netlify"
 title: "Netlify"
-url: "https://www.netlify.com/"
+link: "https://www.netlify.com/"
 logo: "netlify.png"
 ---
 

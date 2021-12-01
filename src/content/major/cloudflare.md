@@ -1,7 +1,7 @@
 ---
 path: "services/major/cloudflare-workers"
 title: "Cloudflare"
-url: "https://workers.cloudflare.com"
+link: "https://workers.cloudflare.com"
 logo: "workers-logo.png"
 ---
 

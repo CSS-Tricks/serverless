@@ -1,7 +1,7 @@
 ---
 path: "services/forms/getform"
 title: "Getform"
-url: "https://getform.io/"
+link: "https://getform.io/"
 logo: "getform.png"
 ---
 

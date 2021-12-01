@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/buttercms"
 title: "ButterCMS"
-url: "https://buttercms.com/"
+link: "https://buttercms.com/"
 logo: "buttercms.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: services/auth/userfront
 title: Userfront
-url: https://userfront.com
+link: https://userfront.com
 logo: userfront.png
 ---
 

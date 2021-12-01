@@ -1,7 +1,7 @@
 ---
 path: "services/payments/moonclerk"
 title: "MoonClerk"
-url: "https://www.moonclerk.com/"
+link: "https://www.moonclerk.com/"
 logo: "moonclerk.png"
 ---
 

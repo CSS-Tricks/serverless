@@ -1,7 +1,7 @@
 ---
 path: services/forms/formtaxi
 title: Form.taxi
-url: https://form.taxi/
+link: https://form.taxi/
 logo: formtaxi_logo.svg
 ---
 

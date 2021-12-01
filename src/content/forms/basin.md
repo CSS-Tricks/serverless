@@ -1,7 +1,7 @@
 ---
 path: services/forms/basin
 title: Basin
-url: https://usebasin.com/
+link: https://usebasin.com/
 logo: basin_logo_v2.svg
 ---
 

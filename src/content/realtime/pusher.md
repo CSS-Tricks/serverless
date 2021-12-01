@@ -1,7 +1,7 @@
 ---
 path: "services/realtime/pusher"
 title: "Pusher"
-url: "https://pusher.com/"
+link: "https://pusher.com/"
 logo: "pusher.png"
 ---
 

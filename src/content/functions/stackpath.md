@@ -1,7 +1,7 @@
 ---
 path: "services/functions/stackpath"
 title: "StackPath"
-url: "https://www.stackpath.com/products/edgeengine/"
+link: "https://www.stackpath.com/products/edgeengine/"
 logo: "stackpath.png"
 ---
 

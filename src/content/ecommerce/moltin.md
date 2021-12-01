@@ -1,7 +1,7 @@
 ---
 path: "services/ecommerce/moltin"
 title: "Moltin"
-url: "https://www.moltin.com/"
+link: "https://www.moltin.com/"
 logo: "moltin.svg"
 ---
 

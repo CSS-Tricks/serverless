@@ -1,7 +1,7 @@
 ---
 path: "services/functions/architect"
 title: "Architect"
-url: "https://arc.codes/"
+link: "https://arc.codes/"
 logo: "architect.svg"
 ---
 

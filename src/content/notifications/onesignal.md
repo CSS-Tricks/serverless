@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/oneignal"
 title: "OneSignal"
-url: "https://onesignal.com/"
+link: "https://onesignal.com/"
 logo: "onesignal.png"
 ---
 

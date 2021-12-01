@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/datocms"
 title: "DatoCMS"
-url: "https://www.datocms.com/"
+link: "https://www.datocms.com/"
 logo: "datocms.png"
 ---
 

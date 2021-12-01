@@ -1,7 +1,7 @@
 ---
 path: "services/payments/paypal"
 title: "Braintree"
-url: "https://www.braintreepayments.com/"
+link: "https://www.braintreepayments.com/"
 logo: "braintree.png"
 ---
 

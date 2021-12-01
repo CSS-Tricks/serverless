@@ -1,7 +1,7 @@
 ---
 path: "services/functions/functional-fleet"
 title: "Functional Fleet"
-url: "https://ffleet.io/"
+link: "https://ffleet.io/"
 logo: "functional-fleet.png"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Serverless Showdown: AWS Lambda vs Firebase Google Cloud Functions"
-url: "https://medium.com/@ste.grider/serverless-showdown-aws-lambda-vs-firebase-google-cloud-functions-cc7529bcfa7d"
+link: "https://medium.com/@ste.grider/serverless-showdown-aws-lambda-vs-firebase-google-cloud-functions-cc7529bcfa7d"
 author: "Stephen Grider"
 tags: ["compare", "google-cloud", "firebase", "lambda"]
 ---

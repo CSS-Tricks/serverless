@@ -1,7 +1,7 @@
 ---
 path: "services/forms/netlify-forms"
 title: "Netlify Forms"
-url: "https://www.netlify.com/docs/form-handling/"
+link: "https://www.netlify.com/docs/form-handling/"
 logo: "netlify.png"
 ---
 

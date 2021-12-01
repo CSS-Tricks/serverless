@@ -1,7 +1,7 @@
 ---
 path: services/functions/lambda
 title: AWS Lambda
-url: "https://aws.amazon.com/lambda/"
+link: "https://aws.amazon.com/lambda/"
 logo: aws.png
 ---
 

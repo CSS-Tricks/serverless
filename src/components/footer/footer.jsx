@@ -14,7 +14,7 @@ const Footer = (props) => (
     )}
 
     <br />
-    <img src="/img/footer-sep.svg" alt="" className={styles.footerSep} />
+    <img src="/images/footer-sep.svg" alt="" className={styles.footerSep} />
     <p>
       I'm a serverless noob. Got a correction? Something to add?{" "}
       <a href="https://github.com/CSS-Tricks/serverless">

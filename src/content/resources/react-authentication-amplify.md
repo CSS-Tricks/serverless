@@ -1,6 +1,6 @@
 ---
 title: "The Step-by-step Guide to NextJS Authentication with AWS Amplify (React)"
-url: "https://creativedesignsguru.com/next-js-aws-amplify-cognito-oauth/"
+link: "https://creativedesignsguru.com/next-js-aws-amplify-cognito-oauth/"
 author: "Remi Weng"
 tags: ["amplify", "react", "how-to", "auth"]
 ---

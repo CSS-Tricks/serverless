@@ -1,7 +1,7 @@
 ---
 path: "services/forms/typeform"
 title: "Typeform"
-url: "https://www.typeform.com/"
+link: "https://www.typeform.com/"
 logo: "typeform.png"
 ---
 

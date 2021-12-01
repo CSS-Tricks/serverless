@@ -1,7 +1,7 @@
 ---
 path: services/functions/google-cloud-functions
 title: Google Cloud Functions
-url: "https://cloud.google.com/functions/"
+link: "https://cloud.google.com/functions/"
 logo: google-cloud-functions.png
 ---
 

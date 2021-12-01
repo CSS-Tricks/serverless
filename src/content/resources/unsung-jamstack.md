@@ -1,6 +1,6 @@
 ---
 title: "The Unsung Benefits of JAMStack Sites"
-url: "https://fettblog.eu/jamstack-the-unsung-benefits/"
+link: "https://fettblog.eu/jamstack-the-unsung-benefits/"
 author: "Stefan Baumgartner"
 tags: ["jamstack", "cms"]
 ---

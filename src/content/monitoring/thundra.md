@@ -1,7 +1,7 @@
 ---
 path: "services/monitoring/thundra"
 title: "Thundra"
-url: "https://www.thundra.io/"
+link: "https://www.thundra.io/"
 logo: "thundra.png"
 ---
 

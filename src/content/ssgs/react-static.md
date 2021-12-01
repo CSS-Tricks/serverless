@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/react-static"
 title: "React Static"
-url: "https://github.com/nozzle/react-static/tree/master/"
+link: "https://github.com/nozzle/react-static/tree/master/"
 logo: "react-static.png"
 ---
 

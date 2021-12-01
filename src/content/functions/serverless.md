@@ -1,7 +1,7 @@
 ---
 path: "services/major/serverless"
 title: "Serverless Framework"
-url: "https://serverless.com/"
+link: "https://serverless.com/"
 logo: "serverless.svg"
 ---
 

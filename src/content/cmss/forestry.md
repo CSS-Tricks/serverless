@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/forestry"
 title: "Forestry"
-url: "https://forestry.io/"
+link: "https://forestry.io/"
 logo: "forestry.svg"
 ---
 

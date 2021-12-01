@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/sapper"
 title: "Sapper"
-url: "https://sapper.svelte.dev/"
+link: "https://sapper.svelte.dev/"
 logo: "sapper.svg"
 ---
 

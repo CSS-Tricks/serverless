@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/amplify-console"
 title: "Amplify Console"
-url: "https://aws.amazon.com/amplify/console/"
+link: "https://aws.amazon.com/amplify/console/"
 logo: "amplify.jpg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/cloudcannon"
 title: "CloudCannon"
-url: "https://cloudcannon.com/"
+link: "https://cloudcannon.com/"
 logo: "cloudcannon.svg"
 ---
 

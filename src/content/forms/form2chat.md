@@ -1,7 +1,7 @@
 ---
 path: "services/forms/form2chat"
 title: "Form2chat"
-url: "https://form2chat.io/"
+link: "https://form2chat.io/"
 logo: "form2chat.png"
 ---
 

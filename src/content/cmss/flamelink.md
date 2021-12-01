@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/flamelink"
 title: "Flamelink"
-url: "https://flamelink.io/"
+link: "https://flamelink.io/"
 logo: "flamelink.png"
 ---
 

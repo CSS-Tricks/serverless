@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/contentful"
 title: "Contentful"
-url: "https://www.contentful.com/"
+link: "https://www.contentful.com/"
 logo: "contentful.png"
 ---
 

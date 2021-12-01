@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/jekyll"
 title: "Jekyll"
-url: "https://jekyllrb.com/"
+link: "https://jekyllrb.com/"
 logo: "jekyll.svg"
 ---
 

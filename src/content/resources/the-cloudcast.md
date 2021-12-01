@@ -1,6 +1,6 @@
 ---
 title: "The Cloudcast"
-url: "http://www.thecloudcast.net/"
+link: "http://www.thecloudcast.net/"
 author: "Aaron Delp & Brian Gracely"
 tags: ["podcast"]
 ---

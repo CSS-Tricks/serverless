@@ -1,7 +1,7 @@
 ---
 path: "services/search/cloudsh"
 title: "CloudSh Search"
-url: "https://cloudsh.com/"
+link: "https://cloudsh.com/"
 logo: "cloudsh.png"
 ---
 

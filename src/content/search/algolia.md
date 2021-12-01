@@ -1,7 +1,7 @@
 ---
 path: "services/realtime/algolia"
 title: "Algolia"
-url: "https://www.algolia.com/"
+link: "https://www.algolia.com/"
 logo: "algolia.png"
 ---
 

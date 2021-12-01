@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/gatsby"
 title: "Gatsby"
-url: "https://www.gatsbyjs.org/"
+link: "https://www.gatsbyjs.org/"
 logo: "gatsby.svg"
 ---
 

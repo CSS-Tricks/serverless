@@ -1,7 +1,7 @@
 ---
 path: "services/forms/jotform"
 title: "Jotform"
-url: "https://www.jotform.com/"
+link: "https://www.jotform.com/"
 logo: "jotform.png"
 ---
 

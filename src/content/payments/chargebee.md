@@ -1,7 +1,7 @@
 ---
 path: "services/payments/chargebee"
 title: "Chargebee"
-url: "https://chargebee.com/"
+link: "https://chargebee.com/"
 logo: "chargebee.svg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/github"
 title: "GitHub Pages"
-url: "https://pages.github.com/"
+link: "https://pages.github.com/"
 logo: "github.png"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Serverless vs Containers: Comparing your Application Deployment Options"
-url: "https://www.simform.com/serverless-architecture-guide/"
+link: "https://www.simform.com/serverless-architecture-guide/"
 author: "Jignesh Solanki"
 tags: ["architecture"]
 ---

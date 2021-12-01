@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/firebase-fcm"
 title: "Firebase Cloud Messaging"
-url: "https://firebase.google.com/products/cloud-messaging"
+link: "https://firebase.google.com/products/cloud-messaging"
 logo: "firebase.png"
 ---
 

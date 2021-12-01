@@ -1,7 +1,7 @@
 ---
 path: "services/functions/azure-functions"
 title: "Azure Functions"
-url: "https://azure.microsoft.com/en-us/services/functions/"
+link: "https://azure.microsoft.com/en-us/services/functions/"
 logo: "microsoft-azure.png"
 ---
 

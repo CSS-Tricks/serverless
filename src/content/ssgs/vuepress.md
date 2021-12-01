@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/vuepress"
 title: "VuePress"
-url: "https://vuepress.vuejs.org/"
+link: "https://vuepress.vuejs.org/"
 logo: "vuepress.png"
 ---
 

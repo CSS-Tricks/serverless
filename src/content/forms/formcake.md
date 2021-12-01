@@ -1,7 +1,7 @@
 ---
 path: "services/forms/formcake"
 title: "Formcake"
-url: "https://formcake.com/"
+link: "https://formcake.com/"
 logo: "formcake-cake.png"
 ---
 

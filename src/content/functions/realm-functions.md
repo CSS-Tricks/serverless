@@ -1,7 +1,7 @@
 ---
 path: "services/functions/realm-functions"
 title: "Realm Functions"
-url: "https://docs.realm.io/sync/#realm-functions"
+link: "https://docs.realm.io/sync/#realm-functions"
 logo: "realm.svg"
 ---
 

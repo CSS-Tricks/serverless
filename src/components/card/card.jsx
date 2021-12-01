@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <div className={`${styles.root} ${props.extraClasses}`}>
       {props.logo && (
-        <a href={props.url} className={styles.logoHeader}>
+        <a href={props.link} className={styles.logoHeader}>
           <img
             className={styles.logoImage}
             src={`/logos/${props.logo}`}
@@ -12,15 +12,13 @@ const Card = (props) => {
           />
         </a>
       )}
-
       {props.icon && (
         <img className={styles.icon} src={`/images/${props.icon}`} alt="" />
       )}
-
       <div className={styles.cardContent}>
         <h3 className={styles.homePageLink}>
-          {props.url && <a href={props.url}>{props.title}</a>}
-          {!props.url && <>{props.title}</>}
+          {props.link && <a href={props.link}>{props.title}</a>}
+          {!props.link && <>{props.title}</>}
         </h3>
         {props.author && (
           <p>

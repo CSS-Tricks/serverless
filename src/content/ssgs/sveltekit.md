@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/sveltekit"
 title: "SvelteKit"
-url: "https://kit.svelte.dev/"
+link: "https://kit.svelte.dev/"
 logo: "svelte.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/forms/formaholic"
 title: "Formaholic"
-url: "https://formaholic.com/"
+link: "https://formaholic.com/"
 logo: "formaholic.png"
 ---
 

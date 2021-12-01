@@ -1,7 +1,7 @@
 ---
 path: "services/auth/auth0"
 title: "Auth0"
-url: "https://auth0.com/"
+link: "https://auth0.com/"
 logo: "auth0.png"
 ---
 

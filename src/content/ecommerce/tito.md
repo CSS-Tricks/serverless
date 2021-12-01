@@ -1,7 +1,7 @@
 ---
 path: "services/ecommerce/tito"
 title: "Tito"
-url: "https://ti.to/home"
+link: "https://ti.to/home"
 logo: "tito.svg"
 ---
 

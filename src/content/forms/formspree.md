@@ -1,7 +1,7 @@
 ---
 path: "services/forms/formspree"
 title: "Formspree"
-url: "https://formspree.io/"
+link: "https://formspree.io/"
 logo: "formspree.png"
 ---
 

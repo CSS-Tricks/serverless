@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/webiny"
 title: "Webiny"
-url: "https://www.webiny.com/"
+link: "https://www.webiny.com/"
 logo: "webiny.svg"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Build a Custom CMS for a Serverless Static Site Generator"
-url: "https://css-tricks.com/build-custom-cms-serverless-static-site-generator/"
+link: "https://css-tricks.com/build-custom-cms-serverless-static-site-generator/"
 author: "John Polacek"
 tags: ["static-site-generator", "cms", "s3"]
 ---

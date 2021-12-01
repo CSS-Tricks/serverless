@@ -1,7 +1,7 @@
 ---
 path: "services/payments/paypal"
 title: "PayPal"
-url: "https://www.paypal.com/"
+link: "https://www.paypal.com/"
 logo: "paypal.png"
 ---
 

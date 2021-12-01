@@ -1,6 +1,6 @@
 ---
 title: "servers.lol"
-url: "https://servers.lol/"
+link: "https://servers.lol/"
 author: "IOpipe"
 tags: ["calculator", "explain"]
 ---

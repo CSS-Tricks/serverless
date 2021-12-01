@@ -1,7 +1,7 @@
 ---
 path: services/cmss/kenticokontent
 title: Kentico Kontent
-url: "https://www.kontent.ai/"
+link: "https://www.kontent.ai/"
 logo: kentio-kontent.svg
 ---
 

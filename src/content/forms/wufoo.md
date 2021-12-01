@@ -1,7 +1,7 @@
 ---
 path: "services/forms/wufoo"
 title: "Wufoo"
-url: "https://www.wufoo.com/"
+link: "https://www.wufoo.com/"
 logo: "wufoo.png"
 ---
 

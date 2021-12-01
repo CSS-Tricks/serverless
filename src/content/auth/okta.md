@@ -1,7 +1,7 @@
 ---
 path: "services/auth/okta"
 title: "Okta"
-url: "https://developer.okta.com/"
+link: "https://developer.okta.com/"
 logo: "okta.png"
 ---
 

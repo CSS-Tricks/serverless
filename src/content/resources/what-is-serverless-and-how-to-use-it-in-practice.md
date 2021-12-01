@@ -1,5 +1,5 @@
 ---
-url: "https://buttercms.com/blog/what-is-serverless-and-how-to-use-it-in-practice"
+link: "https://buttercms.com/blog/what-is-serverless-and-how-to-use-it-in-practice"
 title: "How to use Serverless in Practice"
 author: "Rafael Quintanilha"
 tags: ["explain"]

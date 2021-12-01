@@ -1,7 +1,7 @@
 ---
 path: "services/forms/fieldgoal"
 title: "FieldGoal"
-url: "https://fieldgoal.io/"
+link: "https://fieldgoal.io/"
 logo: "fieldgoal.svg"
 ---
 

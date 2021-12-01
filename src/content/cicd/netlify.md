@@ -1,7 +1,7 @@
 ---
 path: "services/major/netlify"
 title: "Netlify"
-url: "https://www.netlify.com/"
+link: "https://www.netlify.com/"
 logo: "netlify.png"
 tags: ["Cloud Functions", "Hosting", "Local Development"]
 ---

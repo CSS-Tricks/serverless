@@ -1,7 +1,7 @@
 ---
 path: "services/functions/hubspot-cms-hub"
 title: "HubSpot CMS Hub"
-url: "https://designers.hubspot.com/docs/features/serverless-functions"
+link: "https://designers.hubspot.com/docs/features/serverless-functions"
 logo: "hubspot-cms-hub.png"
 ---
 

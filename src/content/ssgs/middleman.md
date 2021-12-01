@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/middleman"
 title: "Middleman"
-url: "https://middlemanapp.com/"
+link: "https://middlemanapp.com/"
 logo: "middleman.svg"
 ---
 

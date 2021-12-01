@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/craftcms"
 title: "Craft CMS"
-url: "https://craftcms.com/"
+link: "https://craftcms.com/"
 logo: "craft_cms.svg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/forms/formsubmit"
 title: "FormSubmit"
-url: "https://formsubmit.co/"
+link: "https://formsubmit.co/"
 logo: "formsubmit.png"
 ---
 

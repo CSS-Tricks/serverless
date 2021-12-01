@@ -1,7 +1,7 @@
 ---
 path: "services/media/imgix"
 title: "imgix"
-url: "https://www.imgix.com/"
+link: "https://www.imgix.com/"
 logo: "imgix_logo.svg"
 ---
 

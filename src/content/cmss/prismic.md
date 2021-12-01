@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/prismic"
 title: "Prismic"
-url: "https://prismic.io/"
+link: "https://prismic.io/"
 logo: "prismic.png"
 ---
 

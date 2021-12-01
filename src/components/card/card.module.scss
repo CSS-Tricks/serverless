@@ -58,8 +58,9 @@
     &::after {
       top: 12px;
       right: 12px;
-      mask: url(/img/arrow-up-right.svg);
-      mask-size: cover;
+      -webkit-mask: url(/images/arrow-up-right.svg);
+      mask: url(/images/arrow-up-right.svg);
+      mask-size: 100px;
       background: black;
       width: 12px;
       height: 12px;
@@ -67,7 +68,6 @@
     &:hover,
     &:focus,
     [data-focus] {
-      outline: 2px solid blue;
       &::before {
         background: linear-gradient(to bottom left, #9253be, #f0954d);
       }
@@ -93,7 +93,7 @@
     width: 1rem;
     height: 1rem;
     background: #4caa9f;
-    mask: url(/img/netlify-cms.png);
+    mask: url(/images/netlify-cms.png);
     mask-size: cover;
     position: relative;
     top: 2px;

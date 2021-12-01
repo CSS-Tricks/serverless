@@ -1,7 +1,7 @@
 ---
 path: "services/media/twicpics"
 title: "TwicPics"
-url: "https://www.twicpics.com/"
+link: "https://www.twicpics.com/"
 logo: "twicpics.svg"
 ---
 

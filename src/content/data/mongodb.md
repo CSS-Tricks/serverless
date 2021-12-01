@@ -1,7 +1,7 @@
 ---
 path: "services/data/mongodb"
 title: "MongoDB"
-url: "https://www.mongodb.com/"
+link: "https://www.mongodb.com/"
 logo: "mongodb.png"
 ---
 

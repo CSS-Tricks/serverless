@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/nift"
 title: "Nift"
-url: "https://nift.dev/"
+link: "https://nift.dev/"
 logo: "nift-bunny.svg"
 ---
 

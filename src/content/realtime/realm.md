@@ -1,7 +1,7 @@
 ---
 path: "services/realtime/realm"
 title: "Realm Platform"
-url: "https://realm.io/products/realm-platform"
+link: "https://realm.io/products/realm-platform"
 logo: "realm.svg"
 ---
 

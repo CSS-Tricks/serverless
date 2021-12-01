@@ -1,7 +1,7 @@
 ---
 path: "services/forms/formx"
 title: "formX"
-url: "https://formx.stream"
+link: "https://formx.stream"
 logo: "formx.png"
 ---
 

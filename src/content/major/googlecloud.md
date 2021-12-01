@@ -1,7 +1,7 @@
 ---
 path: services/major/googlecloud
 title: Google Cloud Platform
-url: https://cloud.google.com/
+link: https://cloud.google.com/
 logo: google-cloud-platform.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/cloudflare-workers-sites"
 title: "Cloudflare Workers Sites"
-url: "https://workers.cloudflare.com/sites"
+link: "https://workers.cloudflare.com/sites"
 logo: "cloudflare-workers.png"
 ---
 

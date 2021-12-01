@@ -1,7 +1,7 @@
 ---
 path: "services/data/realm"
 title: "Realm Database"
-url: "https://realm.io/products/realm-database"
+link: "https://realm.io/products/realm-database"
 logo: "realm.svg"
 ---
 

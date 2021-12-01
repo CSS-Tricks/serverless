@@ -1,6 +1,6 @@
 ---
 title: "Creating an Image thumbnail generator using Vue, AWS, and Serverless"
-url: "https://medium.com/@rmmmsy/creating-an-image-thumbnail-generator-using-vue-aws-and-serverless-part-1-the-setup-5d187b0bb1e1"
+link: "https://medium.com/@rmmmsy/creating-an-image-thumbnail-generator-using-vue-aws-and-serverless-part-1-the-setup-5d187b0bb1e1"
 author: "Ramsay Lanier"
 tags: ["s3", "lambda", "cloud-functions"]
 ---

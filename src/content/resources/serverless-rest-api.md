@@ -1,6 +1,6 @@
 ---
 title: "A Serverless REST API in Minutes with the Serverless Framework"
-url: "https://blog.codeship.com/a-serverless-rest-api-in-minutes/"
+link: "https://blog.codeship.com/a-serverless-rest-api-in-minutes/"
 author: "Austen Collins"
 tags: ["rest", "api"]
 ---

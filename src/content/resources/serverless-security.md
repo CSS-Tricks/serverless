@@ -1,5 +1,5 @@
 ---
-url: "https://info.snyk.io/oreilly-serverless-security"
+link: "https://info.snyk.io/oreilly-serverless-security"
 title: "O'Reilly Serverless Security"
 author: "Guy Podjarny & Liran Tal"
 tags: ["architecture", "security"]

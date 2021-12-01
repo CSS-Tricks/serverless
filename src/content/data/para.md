@@ -1,7 +1,7 @@
 ---
 path: "services/data/para"
 title: "Para"
-url: "https://paraio.com/"
+link: "https://paraio.com/"
 logo: "para.svg"
 ---
 

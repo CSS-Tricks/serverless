@@ -1,7 +1,7 @@
 ---
 path: services/auth/Faunadb
 title: FaunaDB
-url: "https://fauna.com/"
+link: "https://fauna.com/"
 logo: fauna.png
 ---
 

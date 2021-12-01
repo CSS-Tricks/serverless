@@ -1,6 +1,6 @@
 ---
 title: "Exploring Data with Serverless and Vue: Automatically Update GitHub Files With Serverless Functions"
-url: "https://css-tricks.com/exploring-data-with-serverless-and-vue-part-i/"
+link: "https://css-tricks.com/exploring-data-with-serverless-and-vue-part-i/"
 author: "Sarah Drasner"
 tags: ["vue", "github", "cloud-functions"]
 ---

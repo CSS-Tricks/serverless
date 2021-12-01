@@ -1,7 +1,7 @@
 ---
 path: "services/data/airtable"
 title: "Airtable"
-url: "https://airtable.com/"
+link: "https://airtable.com/"
 logo: "airtable.svg"
 ---
 

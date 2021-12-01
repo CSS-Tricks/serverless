@@ -1,7 +1,7 @@
 ---
 path: services/monitoring/serverless
 title: Serverless Framework PRO
-url: "https://serverless.com/monitoring/"
+link: "https://serverless.com/monitoring/"
 logo: serverless.svg
 ---
 

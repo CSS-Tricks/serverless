@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/takeshape"
 title: "Take Shape"
-url: "https://www.takeshape.io/"
+link: "https://www.takeshape.io/"
 logo: "takeshape.png"
 ---
 

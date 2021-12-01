@@ -1,6 +1,6 @@
 ---
 title: "First Steps with Serverless"
-url: "https://css-tricks.com/video-screencasts/163-first-steps-with-serverless/"
+link: "https://css-tricks.com/video-screencasts/163-first-steps-with-serverless/"
 author: "David Wells"
 tags: ["explain", "video"]
 ---

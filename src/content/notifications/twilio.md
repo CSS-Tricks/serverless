@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/twilio"
 title: "Twilio"
-url: "https://www.twilio.com/"
+link: "https://www.twilio.com/"
 logo: "twilio.png"
 ---
 

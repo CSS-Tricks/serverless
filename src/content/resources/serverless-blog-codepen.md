@@ -1,6 +1,6 @@
 ---
 title: "How to Build a Serverless Blog on CodePen"
-url: "https://blog.codepen.io/2018/01/15/build-serverless-blog-codepen/"
+link: "https://blog.codepen.io/2018/01/15/build-serverless-blog-codepen/"
 author: "Kitt Hodsden"
 tags: ["firebase", "blog", "how-to", "cms"]
 ---

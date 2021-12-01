@@ -1,7 +1,7 @@
 ---
 path: "services/media/firebase-cloud-storage"
 title: "Firebase Cloud Storage"
-url: "https://firebase.google.com/products/storage"
+link: "https://firebase.google.com/products/storage"
 logo: "firebase.png"
 ---
 

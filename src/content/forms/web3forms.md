@@ -1,7 +1,7 @@
 ---
 path: services/forms/web3forms
 title: Web3Forms
-url: https://web3forms.com/
+link: https://web3forms.com/
 logo: web3forms.svg
 ---
 

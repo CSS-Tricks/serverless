@@ -1,7 +1,7 @@
 ---
 path: "services/ecommerce/snipcart"
 title: "Snipcart"
-url: "https://www.snipcart.com/"
+link: "https://www.snipcart.com/"
 logo: "snipcart.png"
 ---
 

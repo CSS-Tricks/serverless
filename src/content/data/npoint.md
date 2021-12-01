@@ -1,7 +1,7 @@
 ---
 path: "services/data/npoint"
 title: "n:point"
-url: "https://www.npoint.io/"
+link: "https://www.npoint.io/"
 logo: "npoint.png"
 ---
 

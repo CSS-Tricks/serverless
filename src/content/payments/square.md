@@ -1,7 +1,7 @@
 ---
 path: "services/payments/square"
 title: "Square"
-url: "https://squareup.com/us/en/online-checkout/"
+link: "https://squareup.com/us/en/online-checkout/"
 logo: "square.svg"
 ---
 

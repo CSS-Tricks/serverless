@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/scully"
 title: "Scully"
-url: "https://scully.io/"
+link: "https://scully.io/"
 logo: "scullyio.svg"
 ---
 

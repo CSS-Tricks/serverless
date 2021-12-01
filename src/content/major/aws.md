@@ -1,7 +1,7 @@
 ---
 path: "services/major/aws"
 title: "Amazon Web Services"
-url: "https://aws.amazon.com/"
+link: "https://aws.amazon.com/"
 logo: "aws.png"
 ---
 

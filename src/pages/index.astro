@@ -21,8 +21,6 @@ import BaseLayout from "../layouts/layout.astro";
 </BaseLayout>
 
 <style lang="scss">
-  // @import "../bits";
-
   .homepageWrap {
     min-height: 100vh;
     display: flex;
@@ -31,15 +29,15 @@ import BaseLayout from "../layouts/layout.astro";
     background-image: url(/images/mountain.png),
       url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558124521/cloud2_ozcydy.png"),
       url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1200/v1558124913/cloud1_gpju6f.png"),
-      url("/images/stars.svg"), url("/img/stars.svg");
+      url("/images/stars.svg"), url("/images/stars.svg");
     background-position: bottom left, bottom right, bottom 20% right 0,
       top center, top 15% left 38%;
     background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, repeat-x;
     background-size: 60%, 100%, 100%, 65%, 120%;
-    // @include breakpoint(baby-bear) {
-    //   background-position: bottom left, bottom right, bottom 5% right 0,
-    //     top center, top 20% left -20%;
-    // }
+    @media (max-width: 420px) {
+      background-position: bottom left, bottom right, bottom 5% right 0,
+        top center, top 20% left -20%;
+    }
   }
 
   .homepageTitle {

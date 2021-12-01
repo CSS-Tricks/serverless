@@ -1,7 +1,7 @@
 ---
 path: "services/functions/stdlib"
 title: "StdLib"
-url: "https://stdlib.com/"
+link: "https://stdlib.com/"
 logo: "stdlib.png"
 ---
 

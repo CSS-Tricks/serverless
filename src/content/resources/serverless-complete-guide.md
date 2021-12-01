@@ -1,6 +1,6 @@
 ---
 title: "Building Your Next Serverless Application: The Complete Guide"
-url: "https://medium.com/google-developer-experts/building-your-next-serverless-application-the-complete-guide-98e48f85bd3c"
+link: "https://medium.com/google-developer-experts/building-your-next-serverless-application-the-complete-guide-98e48f85bd3c"
 author: "Wassim Chegham"
 tags: ["cloud-functions", "architecture", "google-cloud", "twilio"]
 ---

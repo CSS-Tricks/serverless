@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/mailgun"
 title: "Mailgun"
-url: "https://www.mailgun.com/"
+link: "https://www.mailgun.com/"
 logo: "mailgun.png"
 ---
 

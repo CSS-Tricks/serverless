@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/sendgrid"
 title: "Sendgrid"
-url: "https://sendgrid.com/"
+link: "https://sendgrid.com/"
 logo: "sendgrid.png"
 ---
 

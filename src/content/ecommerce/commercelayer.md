@@ -1,7 +1,7 @@
 ---
 path: "services/ecommerce/commercelayer"
 title: "Commerce Layer"
-url: "https://commercelayer.io/"
+link: "https://commercelayer.io/"
 logo: "commercelayer.svg"
 ---
 

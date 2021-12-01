@@ -1,7 +1,7 @@
 ---
 path: "services/data/sheetsu"
 title: "Sheetsu"
-url: "https://sheetsu.com/"
+link: "https://sheetsu.com/"
 logo: "sheetsu.png"
 ---
 

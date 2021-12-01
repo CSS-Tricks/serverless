@@ -1,7 +1,7 @@
 ---
 path: "services/hosting/codepen"
 title: "CodePen Projects"
-url: "https://codepen.io/pro/projects/"
+link: "https://codepen.io/pro/projects/"
 logo: "codepen.png"
 ---
 

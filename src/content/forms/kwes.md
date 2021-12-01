@@ -1,7 +1,7 @@
 ---
 path: "services/forms/kwes"
 title: "Kwes"
-url: "https://kwes.io/"
+link: "https://kwes.io/"
 logo: "kwes.png"
 ---
 

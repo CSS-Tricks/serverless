@@ -1,7 +1,7 @@
 ---
 path: "services/media/filestack"
 title: "Filestack"
-url: "https://www.filestack.com/"
+link: "https://www.filestack.com/"
 logo: "filestack.png"
 ---
 

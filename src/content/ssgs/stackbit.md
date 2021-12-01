@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/stackbit"
 title: "Stackbit"
-url: "https://www.stackbit.com/"
+link: "https://www.stackbit.com/"
 logo: "stackbit.svg"
 ---
 

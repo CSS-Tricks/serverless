@@ -1,7 +1,7 @@
 ---
 path: "services/functions/ibm"
 title: "IBM Cloud Functions"
-url: "https://console.bluemix.net/openwhisk/"
+link: "https://console.bluemix.net/openwhisk/"
 logo: "ibm-cloud.png"
 ---
 

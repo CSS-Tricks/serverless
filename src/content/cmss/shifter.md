@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/shifter"
 title: "Shifter"
-url: "https://getshifter.io/"
+link: "https://getshifter.io/"
 logo: "shifter.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/agilitycms"
 title: "Agility CMS"
-url: "https://agilitycms.com/"
+link: "https://agilitycms.com/"
 logo: "agilitycms.svg"
 ---
 

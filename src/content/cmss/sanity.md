@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/sanity"
 title: "Sanity"
-url: "https://www.sanity.io/"
+link: "https://www.sanity.io/"
 logo: "sanity.png"
 ---
 

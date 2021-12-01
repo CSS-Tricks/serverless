@@ -1,7 +1,7 @@
 ---
 path: "services/data/8base"
 title: "8base"
-url: "https://www.8base.com/"
+link: "https://www.8base.com/"
 logo: "8base.svg"
 ---
 

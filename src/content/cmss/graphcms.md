@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/graphcms"
 title: "GraphCMS"
-url: "https://graphcms.com/"
+link: "https://graphcms.com/"
 logo: "GraphCMS.svg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: services/cmss/cosmicjs
 title: Cosmic
-url: https://www.cosmicjs.com
+link: https://www.cosmicjs.com
 logo: cosmicjs.svg
 ---
 

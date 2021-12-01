@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/next"
 title: "Next.js"
-url: "https://nextjs.org/"
+link: "https://nextjs.org/"
 logo: "next.svg"
 ---
 

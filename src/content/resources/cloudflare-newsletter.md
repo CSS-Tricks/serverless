@@ -1,6 +1,6 @@
 ---
 title: "Introducing The Serverlist: Cloudflare's New Serverless Newsletter"
-url: "https://blog.cloudflare.com/serverlist-1st-edition/"
+link: "https://blog.cloudflare.com/serverlist-1st-edition/"
 author: "Connor Peshek"
 tags: ["newsletter", "cloudflare"]
 ---

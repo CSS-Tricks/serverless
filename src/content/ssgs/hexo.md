@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/hexo"
 title: "Hexo"
-url: "https://hexo.io/"
+link: "https://hexo.io/"
 logo: "hexo.svg"
 ---
 

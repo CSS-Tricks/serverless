@@ -1,7 +1,7 @@
 ---
 path: "services/auth/firestore"
 title: "Firebase Cloud Firestore"
-url: "https://firebase.google.com/products/firestore"
+link: "https://firebase.google.com/products/firestore"
 logo: "firestore.png"
 ---
 

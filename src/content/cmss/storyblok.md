@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/storyblok"
 title: "Storyblok"
-url: "https://www.storyblok.com/"
+link: "https://www.storyblok.com/"
 logo: "storyblok.png"
 ---
 

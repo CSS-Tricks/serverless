@@ -1,7 +1,7 @@
 ---
 path: "services/ecommerce/apicart"
 title: "Apicart"
-url: "https://apicart.net/"
+link: "https://apicart.net/"
 logo: "apicart.svg"
 ---
 

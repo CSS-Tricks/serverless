@@ -1,7 +1,7 @@
 ---
 path: "services/media/filebase"
 title: "Filebase"
-url: "https://filebase.com/"
+link: "https://filebase.com/"
 logo: "filebase.png"
 ---
 

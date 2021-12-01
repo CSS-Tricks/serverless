@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/popcornnotify"
 title: "PopcornNotify"
-url: "https://popcornnotify.com/"
+link: "https://popcornnotify.com/"
 logo: "popcornnotify.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: "services/monitoring/epsagon"
 title: "Epsagon"
-url: "https://www.epsagon.com/"
+link: "https://www.epsagon.com/"
 logo: "epsagon.png"
 ---
 

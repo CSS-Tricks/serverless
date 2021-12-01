@@ -1,5 +1,5 @@
 ---
-url: "http://madewithserverless.com/"
+link: "http://madewithserverless.com/"
 title: "Made With Serverless"
 author: "Simform"
 tags: ["architecture"]

@@ -1,7 +1,7 @@
 ---
 path: "services/cmss/netlify"
 title: "Netlify CMS"
-url: "https://www.netlifycms.org/"
+link: "https://www.netlifycms.org/"
 logo: "netlify.png"
 ---
 

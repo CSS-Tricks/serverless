@@ -1,7 +1,7 @@
 ---
 path: "services/ssgs/nuxt"
 title: "Nuxt"
-url: "https://nuxtjs.org/"
+link: "https://nuxtjs.org/"
 logo: "nuxt.svg"
 ---
 

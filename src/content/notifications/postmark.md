@@ -1,7 +1,7 @@
 ---
 path: "services/notifications/postmark"
 title: "Postmark"
-url: "https://postmarkapp.com/"
+link: "https://postmarkapp.com/"
 logo: "postmark.png"
 ---
 

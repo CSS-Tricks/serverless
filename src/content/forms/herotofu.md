@@ -1,7 +1,7 @@
 ---
 path: "services/forms/herotofu"
 title: "HeroTofu"
-url: "https://herotofu.com/"
+link: "https://herotofu.com/"
 logo: "herotofu.svg"
 ---
 
