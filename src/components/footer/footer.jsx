@@ -24,8 +24,8 @@ const Footer = (props) => (
     </p>
     <p className={styles.builtWith}>
       Built with{" "}
-      <a className={styles.gatsby} href="https://www.gatsbyjs.org/">
-        Gatsby
+      <a className={styles.astro} href="https://astro.build/">
+        Astro
       </a>{" "}
       and hosted on{" "}
       <a className={styles.netlify} href="https://www.netlify.com/">
