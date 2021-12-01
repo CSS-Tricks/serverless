@@ -1,8 +1,8 @@
 ---
 path: "services/payments/stripe"
 title: "Stripe"
-url: "https://stripe.com/"
-logo: "/images/stripe.png"
+link: "https://stripe.com/"
+logo: "stripe.png"
 ---
 
 Probably the most beloved payment service out there, with good clean APIs for dealing with payments, customers, and subscriptions.

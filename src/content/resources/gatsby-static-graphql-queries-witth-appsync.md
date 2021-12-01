@@ -1,6 +1,6 @@
 ---
 title: "Gatsby Static GraphQL Queries with AWS Amplify & AWS AppSync"
-url: "https://www.youtube.com/watch?v=gmHlitxLoCU"
+link: "https://www.youtube.com/watch?v=gmHlitxLoCU"
 author: "Nader Dabit"
 tags: ["amplify", "graphql", "api", "gatsby", "video"]
 ---

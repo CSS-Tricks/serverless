@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/ssgs/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Static Site Generators"
+  pageHeader="Services"
+  pageSubHeader="Static Site Generators"
+  intro="Rather than having a database in production, these tools build the site into flat files."
+/>

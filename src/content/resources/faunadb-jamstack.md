@@ -1,6 +1,6 @@
 ---
 title: "FaunaDB & JAMStack with Chris Anderson"
-url: "https://devchat.tv/react-round-up/rru-051-faunadb-jamstack-with-chris-anderson/"
+link: "https://devchat.tv/react-round-up/rru-051-faunadb-jamstack-with-chris-anderson/"
 author: "Justin Bennett"
 tags: ["podcast", "jamstack", "faunadb"]
 ---

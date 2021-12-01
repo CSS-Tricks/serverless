@@ -1,8 +1,8 @@
 ---
 path: "services/major/begin"
 title: "Begin"
-url: "https://begin.com/"
-logo: "/images/begin-logo.png"
+link: "https://begin.com/"
+logo: "begin-logo.png"
 tags: ["Cloud Functions", "Hosting", "Local Development", "Open core"]
 ---
 

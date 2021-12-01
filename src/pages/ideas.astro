@@ -1,0 +1,69 @@
+---
+import BaseLayout from "../layouts/layout.astro";
+import ideas from "../content/ideas.json";
+import PageHeader from "../components/pageHeader/pageHeader.jsx";
+import Card from "../components/card/card.jsx";
+import Footer from "../components/footer/footer.jsx";
+---
+
+<BaseLayout title="Serverless - Ideas">
+  <PageHeader title="Ideas" className="pageHeader">
+    <h2>Want to play with serverless technology?</h2>
+    <p>That's a great way to learn. Here are some&nbsp;ideas.</p>
+  </PageHeader>
+
+  <div class="grid ideasCardGrid">
+    {ideas.map((idea) => (
+      <Card
+        icon={idea.icon}
+        title={idea.title}
+        key={idea.title}
+        topics={idea.topics}
+        html={idea.description}
+      />
+    ))}
+  </div>
+
+  <Footer />
+</BaseLayout>
+
+<style lang="scss">
+  .pageHeader {
+    background-image: url("https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_600/v1558188228/moon_vkpnau.png"),
+      url("https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto,w_1200/v1558188229/cloud5_je1yza.png"),
+      url("/images/stars.svg");
+    background-size: 13%, 55%, 90%;
+    background-repeat: no-repeat;
+    background-position: top 40% right 42%, top right 10%, top center;
+    @media (max-width: 420px) {
+      background-position: top 40% right 42%, top 34% right 10%, top center;
+    }
+  }
+
+  .ideasCardGrid {
+    > div:nth-child(even) {
+      background: #37236b;
+
+      > div {
+        color: #c4b2ec;
+        > h3 {
+          color: white;
+        }
+        > div:last-child {
+          border-top-color: #311f60;
+          background: #311f60;
+          > span:first-child {
+            color: white;
+          }
+          span {
+            color: #a794d0;
+          }
+        }
+        a {
+          color: #deabff;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+</style>

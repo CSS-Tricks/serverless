@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/realtime/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Realtime"
+  pageHeader="Services"
+  pageSubHeader="Realtime"
+  intro="These services help you with realtime connections between clients and between server and client."
+/>

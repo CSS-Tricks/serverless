@@ -1,5 +1,5 @@
 ---
-url: "https://read.acloud.guru/our-serverless-journey-part-2-908d76d03716"
+link: "https://read.acloud.guru/our-serverless-journey-part-2-908d76d03716"
 title: "How we migrated our startup to serverless"
 author: "Ivan Montiel"
 tags: ["architecture"]

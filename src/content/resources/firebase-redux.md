@@ -1,5 +1,5 @@
 ---
-url: "https://itnext.io/hooking-up-firebase-to-your-redux-store-a5e799cf84c4"
+link: "https://itnext.io/hooking-up-firebase-to-your-redux-store-a5e799cf84c4"
 title: "Hooking Up Firebase to Your Redux Store"
 author: "Josh Carlson"
 tags: ["firebase", "react", "how-to"]

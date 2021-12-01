@@ -1,0 +1,145 @@
+@import "bits";
+@import url("https://fonts.googleapis.com/css?family=Shrikhand|Nunito:400,700");
+@import url("https://hello.myfonts.net/count/394f01");
+
+@font-face {
+  font-family: "AlternateGothicPro-No1";
+  src: url("./webfonts/394F01_0_0.woff2") format("woff2");
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+}
+html {
+  --font-mono: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
+  --ff-rounded: "Nunito", sans-serif;
+  --ff-gothic: "AlternateGothicPro-No1", system-ui, sans-serif;
+
+  --color-light: #f3f4f6;
+
+  font-family: var(--ff-rounded);
+  line-height: 1.5;
+  font-size: 1rem;
+  --user-font-scale: 1rem - 16px;
+  font-size: clamp(
+    0.875rem,
+    0.4626rem + 1.0309vw + var(--user-font-scale),
+    1.125rem
+  );
+  background: #130931;
+  background: linear-gradient(180deg, #18083c 0%, #58359c 100%);
+  color: white;
+}
+@include breakpoint(baby-bear) {
+  html {
+    font-size: 11px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #f1a195, #b475dc);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #43346e;
+  box-shadow: inset 1px 0 10px rgba(black, 0.5);
+}
+
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {
+  height: auto;
+}
+@supports (--custom: property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+a {
+  color: #9058b5;
+}
+a:hover,
+a:focus {
+  text-decoration-color: #e1d6eb;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 1rem;
+  display: inline-block;
+  background: linear-gradient(to bottom, #4666d2, #182248);
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem 0.5rem 0;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  white-space: nowrap;
+}
+button[aria-current] {
+  background: #4666d2;
+}
+
+.grid {
+  padding: 0 2rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  @media (max-width: 810px) {
+    grid-template-columns: repeat(auto-fill, minmax(213px, 1fr));
+  }
+  @include breakpoint(baby-bear) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.screen-reader,
+.screen-reader-text {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.iframe-wrap {
+  position: relative;
+  height: 0;
+  padding-top: 56.25%;
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}

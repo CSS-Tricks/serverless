@@ -1,8 +1,8 @@
 ---
 path: "services/forms/formstack"
 title: "Formstack"
-url: "https://www.formstack.com/"
-logo: "/images/formstack.png"
+link: "https://www.formstack.com/"
+logo: "formstack.png"
 ---
 
 Payments. Integrations.

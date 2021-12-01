@@ -1,4 +1,4 @@
-@import "../bits";
+@import "../../styles/bits";
 
 .homeFooter {
   margin: 5rem 0 0 0;
@@ -50,17 +50,17 @@
     vertical-align: middle;
   }
 }
-.gatsby {
+.astro {
   display: inline-block;
-  background-image: url(/images/gatsby.svg);
+  background-image: url(/logos/astro.svg);
   width: 30px;
-  height: 30px;
+  height: 40px;
   text-indent: -9999px;
   background-size: cover;
 }
 .netlify {
   display: inline-block;
-  background-image: url(/images/netlify.png);
+  background-image: url(/logos/netlify.png);
   width: 30px;
   height: 30px;
   text-indent: -9999px;

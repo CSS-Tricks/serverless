@@ -1,5 +1,5 @@
 ---
-url: "http://www.oreilly.com/programming/free/developing-serverless-applications.csp"
+link: "http://www.oreilly.com/programming/free/developing-serverless-applications.csp"
 title: "Developing Serverless Applications: A Practical Introduction with Apache OpenWhisk"
 author: "Raymond Camden"
 tags: ["cloud-functions", "openwhisk"]

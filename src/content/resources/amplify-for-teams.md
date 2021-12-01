@@ -1,5 +1,5 @@
 ---
-url: "https://medium.com/@kurtiskemple/amplify-for-teams-part-1-centralized-workflows-1f0573d29283"
+link: "https://medium.com/@kurtiskemple/amplify-for-teams-part-1-centralized-workflows-1f0573d29283"
 title: "Amplify for Teams"
 author: "Kurt Kemple"
 tags: ["hosting", "amplify"]

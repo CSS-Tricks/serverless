@@ -1,6 +1,6 @@
 ---
 title: "Serverless Functions in Depth with AWS Amplify"
-url: "https://www.youtube.com/watch?v=y4Obz26GkCk"
+link: "https://www.youtube.com/watch?v=y4Obz26GkCk"
 author: "Nader Dabit"
 tags: ["amplify", "lambda", "api", "video"]
 ---

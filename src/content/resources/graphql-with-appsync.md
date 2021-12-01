@@ -1,6 +1,6 @@
 ---
 title: "Getting into GraphQL with AWS AppSync"
-url: "https://css-tricks.com/getting-into-graphql-with-aws-appsync/"
+link: "https://css-tricks.com/getting-into-graphql-with-aws-appsync/"
 author: "Nader Dabit"
 tags: ["graphql", "appsync"]
 ---

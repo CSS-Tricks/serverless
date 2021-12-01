@@ -1,8 +1,8 @@
 ---
 path: "services/data/sheetsu"
 title: "Sheetsu"
-url: "https://sheetsu.com/"
-logo: "/images/sheetsu.png"
+link: "https://sheetsu.com/"
+logo: "sheetsu.png"
 ---
 
 Sheetsu helps you connect Google Sheets to anything - Web, Mobile, IoT or any service's API.

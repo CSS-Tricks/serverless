@@ -1,6 +1,6 @@
 ---
 title: "Building A Serverless Contact Form For Your Static Site"
-url: "https://www.smashingmagazine.com/2018/05/building-serverless-contact-form-static-website/"
+link: "https://www.smashingmagazine.com/2018/05/building-serverless-contact-form-static-website/"
 author: "Brian Holt"
 tags: ["lambda", "email"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Serverless Podcast"
-url: "https://soundcloud.com/serverlesspodcast"
+link: "https://soundcloud.com/serverlesspodcast"
 author: "Various Hosts & Guests"
 tags: ["podcast"]
 ---

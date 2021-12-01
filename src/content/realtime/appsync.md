@@ -1,8 +1,8 @@
 ---
 path: "services/realtime/aws-appsync"
 title: "AWS AppSync"
-url: "https://aws.amazon.com/appsync/"
-logo: "/images/appsync.png"
+link: "https://aws.amazon.com/appsync/"
+logo: "appsync.png"
 ---
 
 A fully managed database agnostic GraphQL service for building modern applications with first class support for real-time and offline.

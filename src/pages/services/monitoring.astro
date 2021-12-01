@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/monitoring/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Monitoring"
+  pageHeader="Services"
+  pageSubHeader="Monitoring"
+  intro="Hello, Service? Are you still there and doing what you should be doing?"
+/>

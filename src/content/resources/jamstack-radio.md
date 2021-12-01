@@ -1,6 +1,6 @@
 ---
 title: "JAMstack Radio"
-url: "https://www.heavybit.com/library/podcasts/jamstack-radio/"
+link: "https://www.heavybit.com/library/podcasts/jamstack-radio/"
 author: "Various"
 tags: ["podcast"]
 ---

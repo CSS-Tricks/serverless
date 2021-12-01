@@ -1,6 +1,6 @@
 ---
 title: "AWS Lambda vs Azure Functions vs Google Cloud Functions: Comparing Serverless Providers"
-url: "https://www.simform.com/aws-lambda-vs-azure-functions-vs-google-functions/"
+link: "https://www.simform.com/aws-lambda-vs-azure-functions-vs-google-functions/"
 author: "Rohit Akiwatkar"
 tags: ["calculator", "compare", "cloud-functions"]
 ---

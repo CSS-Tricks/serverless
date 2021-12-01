@@ -1,6 +1,6 @@
 ---
 title: "Creating AWS AppSync GraphQL APIs with AWS Amplify"
-url: "https://www.youtube.com/watch?v=p7mwQaGo6P0"
+link: "https://www.youtube.com/watch?v=p7mwQaGo6P0"
 author: "Nader Dabit"
 tags: ["amplify", "graphql", "api", "video"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "InfoQ Podcasts on Serverless"
-url: "https://www.infoq.com/serverless/podcasts/"
+link: "https://www.infoq.com/serverless/podcasts/"
 author: "Various"
 tags: ["podcast"]
 ---

@@ -1,8 +1,8 @@
 ---
 path: "services/ecommerce/apicart"
 title: "Apicart"
-url: "https://apicart.net/"
-logo: "/images/apicart.svg"
+link: "https://apicart.net/"
+logo: "apicart.svg"
 ---
 
 Integrate a shopping cart, shopping process and microtransactions to your website, mobile and desktop app easily.

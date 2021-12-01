@@ -1,0 +1,43 @@
+---
+import Nav from "../components/nav/nav.jsx";
+const { title } = Astro.props;
+---
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <link rel="stylesheet" href={Astro.resolve("../styles/global.scss")} />
+  </head>
+  <body>
+    <div class="root">
+      <main><slot /></main>
+      <Nav />
+    </div>
+  </body>
+</html>
+
+<style lang="scss">
+  .root {
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    > nav {
+      grid-column: 2;
+    }
+    @media (max-width: 770px) {
+      grid-template-columns: 1fr;
+      padding-top: 40px;
+      > nav {
+        grid-column: 1;
+        grid-row: -1;
+      }
+    }
+  }
+  @media (max-width: 770px) {
+    body.homepage .root > nav {
+      margin-top: 0;
+      grid-row: 2;
+    }
+  }
+</style>

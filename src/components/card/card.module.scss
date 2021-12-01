@@ -1,4 +1,4 @@
-@import "../bits";
+@import "../../styles/bits";
 
 .root {
   border-radius: 5px;
@@ -11,6 +11,9 @@
 :global {
   .service-card {
     padding-bottom: 20px;
+  }
+  .hidden {
+    display: none;
   }
 }
 
@@ -58,8 +61,9 @@
     &::after {
       top: 12px;
       right: 12px;
-      mask: url(/img/arrow-up-right.svg);
-      mask-size: cover;
+      -webkit-mask: url(/images/arrow-up-right.svg);
+      mask: url(/images/arrow-up-right.svg);
+      mask-size: 100px;
       background: black;
       width: 12px;
       height: 12px;
@@ -67,7 +71,6 @@
     &:hover,
     &:focus,
     [data-focus] {
-      outline: 2px solid blue;
       &::before {
         background: linear-gradient(to bottom left, #9253be, #f0954d);
       }
@@ -75,33 +78,6 @@
         background: white;
       }
     }
-  }
-}
-
-.cmsLink {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-top-left-radius: 5px;
-  background: #ece9f7;
-  text-decoration: none;
-  font-size: 0.9rem;
-  padding: 0.33rem 1rem;
-  &::after {
-    content: "";
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    background: #4caa9f;
-    mask: url(/img/netlify-cms.png);
-    mask-size: cover;
-    position: relative;
-    top: 2px;
-    margin-left: 0.25rem;
-  }
-  &:hover {
-    background: #1a0e41;
-    color: white;
   }
 }
 
@@ -156,7 +132,7 @@
   padding: 0;
   color: #6a5a8a;
   text-transform: capitalize;
-  &:not(:nth-child(2)) {
+  &:not(:nth-child(1)) {
     &::before {
       content: "·";
       margin: 0 0.33rem;

@@ -1,6 +1,6 @@
 ---
 title: "Serverless Architectures"
-url: "https://martinfowler.com/articles/serverless.html"
+link: "https://martinfowler.com/articles/serverless.html"
 author: "Mike Roberts"
 tags: ["architecture", "compare", "explain"]
 ---

@@ -1,0 +1,13 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/major/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Major Providers"
+  pageTitle="Services | Cloud Providers"
+  pageHeader="Services"
+  pageSubHeader="The Cloud Providers"
+  intro="The services that have the actual infrastructure that all this Serverless stuff is built upon."
+/>

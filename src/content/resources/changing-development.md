@@ -1,6 +1,6 @@
 ---
 title: "Why Serverless Architecture is Changing Software Development"
-url: "https://www.youtube.com/watch?v=RkHFJrsx1QA"
+link: "https://www.youtube.com/watch?v=RkHFJrsx1QA"
 author: "David Wells"
 tags: ["video", "explain"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Need to store some data?"
-url: "https://blog.codepen.io/2018/06/07/need-to-store-some-data/"
+link: "https://blog.codepen.io/2018/06/07/need-to-store-some-data/"
 author: "Chris Coyier"
 tags: ["database"]
 ---

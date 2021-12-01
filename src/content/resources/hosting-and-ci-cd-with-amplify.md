@@ -1,6 +1,6 @@
 ---
 title: "Hosting & Continuous Deployment for Front Ends and Serverless Back Ends using AWS Amplify"
-url: "https://www.youtube.com/watch?v=SHBCim7IzG0"
+link: "https://www.youtube.com/watch?v=SHBCim7IzG0"
 author: "Nader Dabit"
 tags: ["amplify", "hosting", "video"]
 ---

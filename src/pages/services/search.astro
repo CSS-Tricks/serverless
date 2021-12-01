@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/search/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Search"
+  pageHeader="Services"
+  pageSubHeader="Search"
+  intro="You don't need your own server to have search functionality, as there are services that do it all through APIs."
+/>

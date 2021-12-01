@@ -1,6 +1,6 @@
 ---
 title: "Build Nodejs APIs using Serverless"
-url: "https://www.youtube.com/watch?v=837zPKooaaU"
+link: "https://www.youtube.com/watch?v=837zPKooaaU"
 author: "Simona Cotin"
 tags: ["video", "node", "api"]
 ---

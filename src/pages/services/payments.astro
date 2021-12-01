@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/payments/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Payments"
+  pageHeader="Services"
+  pageSubHeader="Payments"
+  intro="You'll need cloud functions to work with their APIs, but these services are perfectly well suited for that."
+/>

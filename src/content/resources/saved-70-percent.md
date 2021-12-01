@@ -1,6 +1,6 @@
 ---
 title: "How serverless reduced our costs by 70%"
-url: "https://read.acloud.guru/how-going-serverless-helped-us-reduce-costs-by-70-255adb87b093"
+link: "https://read.acloud.guru/how-going-serverless-helped-us-reduce-costs-by-70-255adb87b093"
 author: "Mohsiur Rahman"
 tags: ["lambda"]
 ---

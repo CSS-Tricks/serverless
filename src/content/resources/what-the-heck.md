@@ -1,6 +1,6 @@
 ---
 title: "What the Heck is Serverless?"
-url: "https://css-tricks.com/video-screencasts/162-what-the-heck-is-serverless/"
+link: "https://css-tricks.com/video-screencasts/162-what-the-heck-is-serverless/"
 author: "David Wells"
 tags: ["explain", "video"]
 ---

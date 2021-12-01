@@ -1,5 +1,5 @@
 ---
-url: "https://thewebivore.com/serverless-revolution-for-everyone/"
+link: "https://thewebivore.com/serverless-revolution-for-everyone/"
 title: "The Serverless Revolution for Everyone"
 author: "Pam Selle"
 tags: ["lambda", "stripe"]

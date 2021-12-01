@@ -1,6 +1,6 @@
 ---
 title: "The Complete Guide to User Authentication with the Amplify Framework"
-url: "https://dev.to/dabit3/the-complete-guide-to-user-authentication-with-the-amplify-framework-2inh"
+link: "https://dev.to/dabit3/the-complete-guide-to-user-authentication-with-the-amplify-framework-2inh"
 author: "Nader Dabit"
 tags: ["amplify", "auth", "react"]
 ---

@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/auth/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Auth"
+  pageHeader="Services"
+  pageSubHeader="Auth"
+  intro="Services that help you build authentication services (logging in and out with permissions)."
+/>

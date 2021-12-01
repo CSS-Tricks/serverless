@@ -1,6 +1,6 @@
 ---
 title: "What is Serverless"
-url: "https://www.youtube.com/watch?v=prgLxIL9yOk&list=PLUVZjQltoA3zXZ1ImqgO3ImQH4IFOYHcq"
+link: "https://www.youtube.com/watch?v=prgLxIL9yOk&list=PLUVZjQltoA3zXZ1ImqgO3ImQH4IFOYHcq"
 author: "Sadek Drobi & Guillermo Rauch"
 tags: ["explain", "video", "architecture", "lambda"]
 ---

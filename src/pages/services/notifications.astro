@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/notifications/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Notifications"
+  pageHeader="Services"
+  pageSubHeader="Notifications"
+  intro="The users need to know! Email, SMS, Push, etc."
+/>

@@ -1,11 +1,9 @@
 {
   "files.exclude": {
     "**/.cache": true,
-    "**/public": true,
     "**/node_modules": true
   },
   "search.exclude": {
     "**/.cache": true,
-    "**/public": true
   }
 }

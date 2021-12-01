@@ -1,0 +1,12 @@
+---
+import ServicePage from "../../components/servicePage/servicePage.astro";
+const data = Astro.fetchContent("../../content/hosting/*.md");
+---
+
+<ServicePage
+  {data}
+  pageTitle="Services | Hosting"
+  pageHeader="Services"
+  pageSubHeader="Hosting"
+  intro="Hosting that fits in with the Serverless world."
+/>

@@ -1,8 +1,8 @@
 ---
 path: "services/payments/moonclerk"
 title: "MoonClerk"
-url: "https://www.moonclerk.com/"
-logo: "/images/moonclerk.png"
+link: "https://www.moonclerk.com/"
+logo: "moonclerk.png"
 ---
 
 A no-code-required solution for accepting recurring payments for stuff like digital products, gym memberships, dog walkers, etc.

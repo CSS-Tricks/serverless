@@ -1,8 +1,5 @@
-### The Power of Serverless for Front-End Web Developers
+# The Power of Serverless for Front-End Web Developers
 
-This is a Gatsby site. Theoretically you could do this to spin it up:
+Feel free to contribute! The content is mostly Markdown files bopped into the appropriate folders.
 
-```
-npm install
-npm run develop
-```
+Site is built on [Astro](https://astro.build/). You should be able to pull it, `npm install`, and `npm run dev` and it'll come up.

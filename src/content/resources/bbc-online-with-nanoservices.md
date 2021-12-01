@@ -1,5 +1,5 @@
 ---
-url: "http://www.bbc.co.uk/blogs/internet/entries/5bdabd53-090e-4611-a5d5-4faea05aeb35"
+link: "http://www.bbc.co.uk/blogs/internet/entries/5bdabd53-090e-4611-a5d5-4faea05aeb35"
 title: "Powering BBC Online with nanoservices"
 author: "Matthew Clark"
 tags: ["rest", "architecture"]

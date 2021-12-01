@@ -1,6 +1,6 @@
 ---
 title: "Static Site with Hugo and Firebase"
-url: "https://ariya.io/2017/05/static-site-with-hugo-and-firebase"
+link: "https://ariya.io/2017/05/static-site-with-hugo-and-firebase"
 author: "Ariya Hidayat"
 tags: ["blog", "static-site-generator", "hugo", "firebase"]
 ---

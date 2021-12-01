@@ -1,5 +1,5 @@
 ---
-url: "https://yos.io/2017/06/22/serverless-stripe/"
+link: "https://yos.io/2017/06/22/serverless-stripe/"
 title: "Serverless Payments with Stripe and AWS Lambda"
 author: "Yos Riady"
 tags: ["lambda", "stripe"]

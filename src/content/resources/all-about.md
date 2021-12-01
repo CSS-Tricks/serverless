@@ -1,5 +1,5 @@
 ---
-url: "https://cheesecakelabs.com/blog/what-is-serverless-all-about/"
+link: "https://cheesecakelabs.com/blog/what-is-serverless-all-about/"
 title: "What is Serverless all about?"
 author: "Jonatas Baldin"
 tags: ["explain"]

@@ -1,5 +1,5 @@
 ---
-url: "https://www.smashingmagazine.com/2019/06/jamstack-fundamentals-what-what-how/"
+link: "https://www.smashingmagazine.com/2019/06/jamstack-fundamentals-what-what-how/"
 title: "https://www.smashingmagazine.com/2019/06/jamstack-fundamentals-what-what-how/"
 author: "Vitaly Friedman"
 tags: ["jamstack", "video"]

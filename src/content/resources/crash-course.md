@@ -1,6 +1,6 @@
 ---
 title: "A crash course on Serverless with Node.js"
-url: "https://hackernoon.com/a-crash-course-on-serverless-with-node-js-632b37d58b44"
+link: "https://hackernoon.com/a-crash-course-on-serverless-with-node-js-632b37d58b44"
 author: "Adnan Rahić"
 tags: ["cloud-functions", "api-gateway", "monitoring"]
 ---

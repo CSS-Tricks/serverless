@@ -1,4 +1,4 @@
-@import "../bits";
+@import "../../styles/bits";
 
 .root {
   padding: 2rem 2rem 0 2rem;
@@ -19,17 +19,17 @@
   }
   &[data-title="Services"] {
     h1 {
-      background-image: url(/img/services-title.svg);
+      background-image: url(/images/services-title.svg);
     }
   }
   &[data-title="Resources"] {
     h1 {
-      background-image: url(/img/resources-title.svg);
+      background-image: url(/images/resources-title.svg);
     }
   }
   &[data-title="Ideas"] {
     h1 {
-      background-image: url(/img/ideas-title.svg);
+      background-image: url(/images/ideas-title.svg);
     }
   }
   @include breakpoint(baby-bear) {
@@ -58,7 +58,7 @@
     padding: 0.5rem;
     z-index: 1500;
     background-color: #39256c;
-    background-image: url(/img/texture.png);
+    background-image: url(/images/texture.png);
     display: flex;
     align-items: center;
     &::after {
@@ -68,7 +68,7 @@
       bottom: -10px;
       width: 100%;
       height: 20px;
-      background: url(/img/horizontal-dividers.svg);
+      background: url(/images/horizontal-dividers.svg);
       background-position: top left;
       background-repeat: no-repeat;
       background-size: 100% 20px;

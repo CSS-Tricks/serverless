@@ -1,5 +1,5 @@
 ---
-url: "https://www.aerobatic.com/blog/a-serverless-cms-architecture/"
+link: "https://www.aerobatic.com/blog/a-serverless-cms-architecture/"
 title: "A Serverless CMS Architecture"
 author: "Aerobatic"
 tags: ["architecture"]
