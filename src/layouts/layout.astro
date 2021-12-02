@@ -18,6 +18,15 @@ const { title } = Astro.props;
   </body>
 </html>
 
+<script>
+  // Temporary because of Gatsby move. Leave in until... say February 2022?
+  navigator.serviceWorker.getRegistrations().then(function (registrations) {
+    for (let registration of registrations) {
+      registration.unregister();
+    }
+  });
+</script>
+
 <style lang="scss">
   .root {
     display: grid;
