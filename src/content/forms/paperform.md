@@ -2,7 +2,7 @@
 path: "services/forms/paperform"
 title: "Paperform"
 link: "https://paperform.co/"
-logo: "paperform.png"
+logo: "paperform.svg"
 ---
 
 Creating web forms with Paperform is just like writing a doc. For creating online forms, payment or product pages. 
