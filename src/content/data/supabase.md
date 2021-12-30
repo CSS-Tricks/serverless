@@ -1,6 +1,6 @@
 ---
 path: "services/data/supabase"
-title: "Supabase"
+title: "Supabase Database"
 link: "https://supabase.com/"
 logo: "supabase.svg"
 ---
