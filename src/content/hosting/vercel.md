@@ -5,4 +5,4 @@ link: "https://vercel.com/"
 logo: vercel.svg
 ---
 
-Vercel is a platform that enables users to develop, preview, and ship Jamstack sites.
+Vercel is a platform that enables users to develop, preview, and ship JAMstack sites.
