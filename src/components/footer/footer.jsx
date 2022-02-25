@@ -20,18 +20,7 @@ const Footer = (props) => (
       <a href="https://github.com/CSS-Tricks/serverless">
         There is a GitHub Repo
       </a>{" "}
-      where you can contribute or open an issue.
-    </p>
-    <p className={styles.builtWith}>
-      Built with{" "}
-      <a className={styles.astro} href="https://astro.build/">
-        Astro
-      </a>{" "}
-      and hosted on{" "}
-      <a className={styles.netlify} href="https://www.netlify.com/">
-        Netlify
-      </a>
-      .
+      where you can contribute or open an&nbsp;issue.
     </p>
   </footer>
 );
