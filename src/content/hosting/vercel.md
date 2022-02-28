@@ -5,4 +5,4 @@ link: "https://vercel.com/"
 logo: vercel.svg
 ---
 
-A command-line based deployment tool for any framework or language.
+Vercel is a platform that enables users to develop, preview, and ship JAMstack sites.

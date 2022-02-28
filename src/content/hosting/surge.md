@@ -2,7 +2,11 @@
 path: "services/hosting/surge"
 title: "Surge"
 link: "https://surge.sh/"
-logo: "surge.png"
+logo: "surge.svg"
 ---
 
-A command-line based deployment tool for any framework.
+
+Static web publishing for Front-End Developers.
+Simple, single-command web publishing. 
+
+Publish HTML, CSS, and JS for free, without leaving the command line.
