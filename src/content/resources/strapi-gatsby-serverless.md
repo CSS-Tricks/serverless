@@ -1,7 +1,7 @@
 ---
 title: "Building a Static Blog Using Gatsby and Strapi"
 link: "https://strapi.io/blog/building-a-static-website-using-gatsby-and-strapi"
-author: "David Kartuzinski"
+author: "Pierre Burgy"
 tags:
   [
     "strapi",
