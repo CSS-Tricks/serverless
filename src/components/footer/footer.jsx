@@ -16,11 +16,12 @@ const Footer = (props) => (
     <br />
     <img src="/images/footer-sep.svg" alt="" className={styles.footerSep} />
     <p>
-      I'm a serverless noob. Got a correction? Something to add?{" "}
+      Got a correction? Something to add?{" "}
       <a href="https://github.com/CSS-Tricks/serverless">
         There is a GitHub Repo
       </a>{" "}
-      where you can contribute or open an&nbsp;issue.
+      where you can contribute or open an&nbsp;issue.{" "}
+      <a href="https://www.digitalocean.com/legal/">Legal</a>
     </p>
   </footer>
 );
