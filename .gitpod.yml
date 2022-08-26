@@ -1,0 +1,11 @@
+# https://www.gitpod.io integration
+tasks:
+  - name: astro-build
+    before: npm install && npm run build
+    init: npm run dev
+    command: gp await-port 3000 && gp preview $(gp url 3000)
+
+ports:
+  - port: 3000
+    onOpen: open-browser
+    visibility: public
